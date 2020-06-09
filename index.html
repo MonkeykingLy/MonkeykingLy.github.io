@@ -884,7 +884,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2020-06-09T09:51:54+10:00">
+              <time title="更新于" itemprop="dateModified" datetime="2020-06-09T21:22:52+10:00">
                 2020-06-09
               </time>
             
@@ -912,7 +912,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  1.3k
+                  1.7k
                 </span>
               
 
@@ -928,7 +928,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  5
+                  7
                 </span>
               
             </div>
@@ -971,6 +971,12 @@
 <p><em>代码</em>:</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">public static Solution&#123;</span><br><span class="line">	public boolean duplicate(int [] numbers, int length, int duplication [])&#123;</span><br><span class="line">		if(numbers&#x3D;&#x3D;null || length&lt;&#x3D;0)&#123;</span><br><span class="line">			return false;</span><br><span class="line">		&#125;</span><br><span class="line">		for(int i&#x3D;0;i&lt;length;i++&gt;)&#123;</span><br><span class="line">			if(numbers[i]&lt;0 || numbers[i]&gt;length-1)&#123;</span><br><span class="line">				return false;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">		int [] hash&#x3D; new int[lenght];</span><br><span class="line">		for(int i&#x3D;0;i&lt;length;i++&gt;)&#123;</span><br><span class="line">			if(hash[numbers[i]]&#x3D;&#x3D;true)&#123;</span><br><span class="line">				duplication[0]&#x3D;i;</span><br><span class="line">				return true;</span><br><span class="line">			&#125;</span><br><span class="line">			hash[numebrs[i]]&#x3D;true</span><br><span class="line">		&#125;</span><br><span class="line">		return false;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p><em>思路</em>:<br>    前面先判断input的数据，其中重要的是numbers里的数字不能大于lenght，否则hash array会out of index！一定要注意。因为这个hash array是我们判断的重要依据。我在9101中写的思路是这样的，建hash的时候先找到array中的最大值，用最大值来建立array，这也就不会out of index了。而这个步骤的时间复杂度是 $O(n)$。<br>    接下来就是查找这个hash表了，一般我们都会默认为false，找到一次改为true，如果在遍历的过程中，访问到了true的变量，我们就得到了结果。根据代码，我们的key值也就是i，把i赋值给duplicaiton就可以了。查表过程的时间复杂度也是 $O(n)$。<br>    hash的好处就是时间复杂度一般都很理想，但是鱼与熊掌不可兼得，建表的空间复杂的就花费的多一些，还有一些更复杂的hash table，可以存更多更复杂的数据类型，但是空间占用就更大了。找到数组中不重复的第一个数字也是同理，不多赘述了。</p>
+<h2 id="归并排序-分治"><a href="#归并排序-分治" class="headerlink" title="归并排序-分治"></a>归并排序-分治</h2><p><em>前言</em>:<br>最近一直在接触归并排序的分治算法，于是抽时间好好看了看，顺便总结一下，分治归并的题也非常的多，一举两得啦。</p>
+<p><em>代码</em>:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br></pre></td><td class="code"><pre><span class="line">piblic class Merge-sort-algorithm&#123;</span><br><span class="line">	public static void Merge(int [] arr,int p,int q,int r)&#123;</span><br><span class="line">		&#x2F;&#x2F;声明一个临时数组，排序好的会装进去，最后再重写原数组</span><br><span class="line">		int [] copy&#x3D;new int[r-p+1];</span><br><span class="line">		int i&#x3D;p;</span><br><span class="line">		int j&#x3D;q+1;</span><br><span class="line">		int k&#x3D;0;</span><br><span class="line">		while(i&lt;&#x3D;q &amp;&amp; j&lt;&#x3D;r)&#123;</span><br><span class="line">			if(arr[i]&lt;&#x3D;arr[j])&#123;</span><br><span class="line">				&#x2F;&#x2F;大小比较，小的先放进去</span><br><span class="line">				copy[k++]&#x3D;arr[i++]</span><br><span class="line">			&#125;else&#123;</span><br><span class="line">				copy[k++]&#x3D;arr[j++]</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">		&#x2F;&#x2F;左边剩余的数全都放进去</span><br><span class="line">		while(i&lt;&#x3D;q)&#123;</span><br><span class="line">			copy[k++]&#x3D;arr[i++]</span><br><span class="line">		&#125;</span><br><span class="line">		&#x2F;&#x2F;右边剩余的数全都放进去</span><br><span class="line">		while(j&lt;&#x3D;r)&#123;</span><br><span class="line">			copy[k++]&#x3D;arr[j++]</span><br><span class="line">		&#125;</span><br><span class="line">		&#x2F;&#x2F;把原数组重写，注意覆盖原数组的坐标位置是根据起始位置开始的</span><br><span class="line">		for(int e&#x3D;0;e&lt;copy.length;e++)&#123;</span><br><span class="line">			arr[p+e]&#x3D;copy[e]</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line">	public static void Merge-sort(int [] arr, int p,int r)&#123;</span><br><span class="line">		int q&#x3D;(p+r)&#x2F;2;</span><br><span class="line">		if(p&lt;r)&#123;</span><br><span class="line">			&#x2F;&#x2F;递归调用</span><br><span class="line">			Merge-sort(arr,p,q);</span><br><span class="line">			Merge-sort(arr,q+1,r);</span><br><span class="line">			&#x2F;&#x2F;归并排序元素</span><br><span class="line">			Merge(arr,p,q,r);</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line">	public static void main(args[]String)&#123;</span><br><span class="line">		int [] arr&#x3D;&#123;5,2,4,7,1,3,2,6&#125;;</span><br><span class="line">		Merge-sort(arr,0,arr.length-1);</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
 
           
         
@@ -1469,7 +1475,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">2.9k</span>
+    <span title="Site words total count">3.3k</span>
   
 </div>
 

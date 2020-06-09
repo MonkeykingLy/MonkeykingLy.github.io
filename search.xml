@@ -1,21 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>06-08-清晨杂想</title>
-    <url>/2020/06/09/06-08-%E6%B8%85%E6%99%A8%E6%9D%82%E6%83%B3/</url>
-    <content><![CDATA[<h1 id="6月9日-来自清晨的回想"><a href="#6月9日-来自清晨的回想" class="headerlink" title="6月9日-来自清晨的回想"></a>6月9日-来自清晨的回想</h1><h2 id="心比天高，命比纸薄"><a href="#心比天高，命比纸薄" class="headerlink" title="心比天高，命比纸薄"></a>心比天高，命比纸薄</h2><p>昨晚又有些着相了，不知为何，可能是很多事情堆叠的压力吧，自己无意中没有hold住，这泄露的微毫的压力默默影响了我，还好今早起来回味过来了。我一旦感受到沉重的压力，不是直接颓废躺倒，就是反常的自负自大，眼高手低。希望通过每日写些什么，逐渐摆脱这种情况吧。</p>
-<h2 id="todo-list"><a href="#todo-list" class="headerlink" title="todo-list"></a>todo-list</h2><ul>
-<li><p>comp9101-ass1<br>昨天把question1-question3都写完了，question5写了第一小题，question4还没有好的思路，q5剩下俩就是数学问题了，可能够呛了。其中question1-b的改进算法使用了hash的思想，自己当时也未回想起来，知道晚上刷题，又刷到一个使用hash的题才才想起来，自己对于hash的认知太过于浅薄了。想了想，可能跟python有关吧，我一直把hash与dict绑定，这是非常不对的，片面的。</p>
-</li>
-<li><p>comp9900-ER图<br>昨晚讨论之后我们便分头行动了，作为后端写手，分配了ER图的任务。结束之后，去google了一下，毕竟全都忘掉了，不过还好，没有全忘掉。但是结合我们的任务要求来看，我的初版ER图有些简单啊，感觉得花时间好好看一下，当然了，也有可能真的不是很复杂：）～</p>
-</li>
-<li><p>刷题<br>其实这学期零散时间还是很多的，争取多刷题吧。昨晚刷了一道输出第一个重复数字的题，这其中用到了hash。题本身是不太难得，但这道题可以扩展很多。第一个重复数字，也可以改成第一个不重复的数字，甚至不是数字，字符也可以。但是字符的256位我没抬搞明白……剩下的就写在剑指那页吧。</p>
-</li>
-</ul>
-<h2 id="面朝大海，春暖花开～"><a href="#面朝大海，春暖花开～" class="headerlink" title="面朝大海，春暖花开～"></a>面朝大海，春暖花开～</h2>]]></content>
+    <title>hello-hexo</title>
+    <url>/2020/06/05/hello-hexo/</url>
+    <content><![CDATA[<h2 id="新的开始"><a href="#新的开始" class="headerlink" title="新的开始"></a>新的开始</h2><p>&emsp;重新用hexo搭建了一个个人blog，感觉就清爽很多!</p>
+<h3 id="by-the-way："><a href="#by-the-way：" class="headerlink" title="by the way："></a>by the way：</h3><p>把老的blog删掉的时候忘了备份了…………还好没写几天，后面把内容再补上吧</p>
+]]></content>
       <tags>
-        <tag>--杂记</tag>
+        <tag>--life</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/06/05/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
   </entry>
   <entry>
     <title>剑指offer</title>
@@ -40,19 +51,15 @@
 <p><em>代码</em>:</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public static Solution&#123;</span><br><span class="line">	public boolean duplicate(int [] numbers, int length, int duplication [])&#123;</span><br><span class="line">		if(numbers&#x3D;&#x3D;null || length&lt;&#x3D;0)&#123;</span><br><span class="line">			return false;</span><br><span class="line">		&#125;</span><br><span class="line">		for(int i&#x3D;0;i&lt;length;i++&gt;)&#123;</span><br><span class="line">			if(numbers[i]&lt;0 || numbers[i]&gt;length-1)&#123;</span><br><span class="line">				return false;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">		int [] hash&#x3D; new int[lenght];</span><br><span class="line">		for(int i&#x3D;0;i&lt;length;i++&gt;)&#123;</span><br><span class="line">			if(hash[numbers[i]]&#x3D;&#x3D;true)&#123;</span><br><span class="line">				duplication[0]&#x3D;i;</span><br><span class="line">				return true;</span><br><span class="line">			&#125;</span><br><span class="line">			hash[numebrs[i]]&#x3D;true</span><br><span class="line">		&#125;</span><br><span class="line">		return false;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p><em>思路</em>:<br>    前面先判断input的数据，其中重要的是numbers里的数字不能大于lenght，否则hash array会out of index！一定要注意。因为这个hash array是我们判断的重要依据。我在9101中写的思路是这样的，建hash的时候先找到array中的最大值，用最大值来建立array，这也就不会out of index了。而这个步骤的时间复杂度是 $O(n)$。<br>    接下来就是查找这个hash表了，一般我们都会默认为false，找到一次改为true，如果在遍历的过程中，访问到了true的变量，我们就得到了结果。根据代码，我们的key值也就是i，把i赋值给duplicaiton就可以了。查表过程的时间复杂度也是 $O(n)$。<br>    hash的好处就是时间复杂度一般都很理想，但是鱼与熊掌不可兼得，建表的空间复杂的就花费的多一些，还有一些更复杂的hash table，可以存更多更复杂的数据类型，但是空间占用就更大了。找到数组中不重复的第一个数字也是同理，不多赘述了。</p>
+<h2 id="归并排序-分治"><a href="#归并排序-分治" class="headerlink" title="归并排序-分治"></a>归并排序-分治</h2><p><em>前言</em>:<br>最近一直在接触归并排序的分治算法，于是抽时间好好看了看，顺便总结一下，分治归并的题也非常的多，一举两得啦。</p>
+<p><em>代码</em>:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">piblic class Merge-sort-algorithm&#123;</span><br><span class="line">	public static void Merge(int [] arr,int p,int q,int r)&#123;</span><br><span class="line">		&#x2F;&#x2F;声明一个临时数组，排序好的会装进去，最后再重写原数组</span><br><span class="line">		int [] copy&#x3D;new int[r-p+1];</span><br><span class="line">		int i&#x3D;p;</span><br><span class="line">		int j&#x3D;q+1;</span><br><span class="line">		int k&#x3D;0;</span><br><span class="line">		while(i&lt;&#x3D;q &amp;&amp; j&lt;&#x3D;r)&#123;</span><br><span class="line">			if(arr[i]&lt;&#x3D;arr[j])&#123;</span><br><span class="line">				&#x2F;&#x2F;大小比较，小的先放进去</span><br><span class="line">				copy[k++]&#x3D;arr[i++]</span><br><span class="line">			&#125;else&#123;</span><br><span class="line">				copy[k++]&#x3D;arr[j++]</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">		&#x2F;&#x2F;左边剩余的数全都放进去</span><br><span class="line">		while(i&lt;&#x3D;q)&#123;</span><br><span class="line">			copy[k++]&#x3D;arr[i++]</span><br><span class="line">		&#125;</span><br><span class="line">		&#x2F;&#x2F;右边剩余的数全都放进去</span><br><span class="line">		while(j&lt;&#x3D;r)&#123;</span><br><span class="line">			copy[k++]&#x3D;arr[j++]</span><br><span class="line">		&#125;</span><br><span class="line">		&#x2F;&#x2F;把原数组重写，注意覆盖原数组的坐标位置是根据起始位置开始的</span><br><span class="line">		for(int e&#x3D;0;e&lt;copy.length;e++)&#123;</span><br><span class="line">			arr[p+e]&#x3D;copy[e]</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line">	public static void Merge-sort(int [] arr, int p,int r)&#123;</span><br><span class="line">		int q&#x3D;(p+r)&#x2F;2;</span><br><span class="line">		if(p&lt;r)&#123;</span><br><span class="line">			&#x2F;&#x2F;递归调用</span><br><span class="line">			Merge-sort(arr,p,q);</span><br><span class="line">			Merge-sort(arr,q+1,r);</span><br><span class="line">			&#x2F;&#x2F;归并排序元素</span><br><span class="line">			Merge(arr,p,q,r);</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line">	public static void main(args[]String)&#123;</span><br><span class="line">		int [] arr&#x3D;&#123;5,2,4,7,1,3,2,6&#125;;</span><br><span class="line">		Merge-sort(arr,0,arr.length-1);</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
 ]]></content>
       <tags>
         <tag>--code</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hello-hexo</title>
-    <url>/2020/06/05/hello-hexo/</url>
-    <content><![CDATA[<h2 id="新的开始"><a href="#新的开始" class="headerlink" title="新的开始"></a>新的开始</h2><p>&emsp;重新用hexo搭建了一个个人blog，感觉就清爽很多!</p>
-<h3 id="by-the-way："><a href="#by-the-way：" class="headerlink" title="by the way："></a>by the way：</h3><p>把老的blog删掉的时候忘了备份了…………还好没写几天，后面把内容再补上吧</p>
-]]></content>
-      <tags>
-        <tag>--life</tag>
       </tags>
   </entry>
   <entry>
@@ -68,22 +75,21 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2020/06/05/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-]]></content>
+    <title>06-08-清晨杂想</title>
+    <url>/2020/06/09/06-08-%E6%B8%85%E6%99%A8%E6%9D%82%E6%83%B3/</url>
+    <content><![CDATA[<h1 id="6月9日-来自清晨的回想"><a href="#6月9日-来自清晨的回想" class="headerlink" title="6月9日-来自清晨的回想"></a>6月9日-来自清晨的回想</h1><h2 id="心比天高，命比纸薄"><a href="#心比天高，命比纸薄" class="headerlink" title="心比天高，命比纸薄"></a>心比天高，命比纸薄</h2><p>昨晚又有些着相了，不知为何，可能是很多事情堆叠的压力吧，自己无意中没有hold住，这泄露的微毫的压力默默影响了我，还好今早起来回味过来了。我一旦感受到沉重的压力，不是直接颓废躺倒，就是反常的自负自大，眼高手低。希望通过每日写些什么，逐渐摆脱这种情况吧。</p>
+<h2 id="todo-list"><a href="#todo-list" class="headerlink" title="todo-list"></a>todo-list</h2><ul>
+<li><p>comp9101-ass1<br>昨天把question1-question3都写完了，question5写了第一小题，question4还没有好的思路，q5剩下俩就是数学问题了，可能够呛了。其中question1-b的改进算法使用了hash的思想，自己当时也未回想起来，知道晚上刷题，又刷到一个使用hash的题才才想起来，自己对于hash的认知太过于浅薄了。想了想，可能跟python有关吧，我一直把hash与dict绑定，这是非常不对的，片面的。</p>
+</li>
+<li><p>comp9900-ER图<br>昨晚讨论之后我们便分头行动了，作为后端写手，分配了ER图的任务。结束之后，去google了一下，毕竟全都忘掉了，不过还好，没有全忘掉。但是结合我们的任务要求来看，我的初版ER图有些简单啊，感觉得花时间好好看一下，当然了，也有可能真的不是很复杂：）～</p>
+</li>
+<li><p>刷题<br>其实这学期零散时间还是很多的，争取多刷题吧。昨晚刷了一道输出第一个重复数字的题，这其中用到了hash。题本身是不太难得，但这道题可以扩展很多。第一个重复数字，也可以改成第一个不重复的数字，甚至不是数字，字符也可以。但是字符的256位我没抬搞明白……剩下的就写在剑指那页吧。</p>
+</li>
+</ul>
+<h2 id="面朝大海，春暖花开～"><a href="#面朝大海，春暖花开～" class="headerlink" title="面朝大海，春暖花开～"></a>面朝大海，春暖花开～</h2>]]></content>
+      <tags>
+        <tag>--杂记</tag>
+      </tags>
   </entry>
   <entry>
     <title>ER图</title>
