@@ -1,33 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Django之初见</title>
-    <url>/2020/06/09/Django%E4%B9%8B%E5%88%9D%E8%A7%81/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>06-08</title>
-    <url>/2020/06/08/06-08/</url>
-    <content><![CDATA[<h1 id="随随便便"><a href="#随随便便" class="headerlink" title="随随便便"></a>随随便便</h1><h3 id="comp9101-assignrmnt1"><a href="#comp9101-assignrmnt1" class="headerlink" title="comp9101-assignrmnt1"></a>comp9101-assignrmnt1</h3><p>&emsp; 又颓废了两天，今天正好也是周一，恢复正常吧<br>comp9101的assignemtn1有点小难啊，还有给了hints，再结合网上查阅的资料，总算完成了大部分。自我感觉算法这一块需要好好补一补缺漏了。这个assignemnt用到了多次排序算法的分析，还有分治的思路。最蛋疼的还是数学吧，求导换底之类的都忘的差不多了，不过本身水平也不咋地…………<br>&emsp; 然后就是latex，不得不说自从上学期多次使用之后已经爱上了这个东西，word，算个捷豹！latex写公式和伪代码是真的舒服，看起来也很舒爽。不过写blog用的是markdown，有时候容易记混了，导致自己觉得写出来了，但是渲染不出来…………</p>
-<h3 id="comp9900"><a href="#comp9900" class="headerlink" title="comp9900"></a>comp9900</h3><p>&emsp; 这周就得把proposal的核心内容搞出来，像system flow之类的，下周再扣扣细节就交了。之后就是代码实现了，希望自己的表现不要太糟糕。</p>
-<h3 id="leetcode"><a href="#leetcode" class="headerlink" title="leetcode"></a>leetcode</h3><p>&emsp; 以后关于算法题的内容我应该都会叫leetcode吧，简单直接。其实周末还是默默增增的看了俩题的，不过都是简单的题，接下来就得好好对待一下了，认真分析题目，尝试 free-bug…………就当在想peach吧，分析题目这个真的很重要，每次看待讨论区的大神们真的惊呼卧槽！尤其是上次那道贪心算法的题，大神分析过后就感觉简单的一匹！</p>
-<p><strong>着眼当下，踏实前进！</strong></p>
-]]></content>
-      <tags>
-        <tag>--杂记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hello-hexo</title>
-    <url>/2020/06/05/hello-hexo/</url>
-    <content><![CDATA[<h2 id="新的开始"><a href="#新的开始" class="headerlink" title="新的开始"></a>新的开始</h2><p>&emsp;重新用hexo搭建了一个个人blog，感觉就清爽很多!</p>
-<h3 id="by-the-way："><a href="#by-the-way：" class="headerlink" title="by the way："></a>by the way：</h3><p>把老的blog删掉的时候忘了备份了…………还好没写几天，后面把内容再补上吧</p>
-]]></content>
-      <tags>
-        <tag>--life</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>06-08-清晨杂想</title>
     <url>/2020/06/09/06-08-%E6%B8%85%E6%99%A8%E6%9D%82%E6%83%B3/</url>
     <content><![CDATA[<h1 id="6月9日-来自清晨的回想"><a href="#6月9日-来自清晨的回想" class="headerlink" title="6月9日-来自清晨的回想"></a>6月9日-来自清晨的回想</h1><h2 id="心比天高，命比纸薄"><a href="#心比天高，命比纸薄" class="headerlink" title="心比天高，命比纸薄"></a>心比天高，命比纸薄</h2><p>昨晚又有些着相了，不知为何，可能是很多事情堆叠的压力吧，自己无意中没有hold住，这泄露的微毫的压力默默影响了我，还好今早起来回味过来了。我一旦感受到沉重的压力，不是直接颓废躺倒，就是反常的自负自大，眼高手低。希望通过每日写些什么，逐渐摆脱这种情况吧。</p>
@@ -40,27 +13,28 @@
 </li>
 </ul>
 <h2 id="面朝大海，春暖花开～"><a href="#面朝大海，春暖花开～" class="headerlink" title="面朝大海，春暖花开～"></a>面朝大海，春暖花开～</h2>]]></content>
+      <categories>
+        <category>发骚</category>
+      </categories>
       <tags>
-        <tag>--杂记</tag>
+        <tag>杂记</tag>
+        <tag>todolist</tag>
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2020/06/05/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+    <title>06-08</title>
+    <url>/2020/06/08/06-08/</url>
+    <content><![CDATA[<h1 id="随随便便"><a href="#随随便便" class="headerlink" title="随随便便"></a>随随便便</h1><h3 id="comp9101-assignrmnt1"><a href="#comp9101-assignrmnt1" class="headerlink" title="comp9101-assignrmnt1"></a>comp9101-assignrmnt1</h3><p>&emsp; 又颓废了两天，今天正好也是周一，恢复正常吧<br>comp9101的assignemtn1有点小难啊，还有给了hints，再结合网上查阅的资料，总算完成了大部分。自我感觉算法这一块需要好好补一补缺漏了。这个assignemnt用到了多次排序算法的分析，还有分治的思路。最蛋疼的还是数学吧，求导换底之类的都忘的差不多了，不过本身水平也不咋地…………<br>&emsp; 然后就是latex，不得不说自从上学期多次使用之后已经爱上了这个东西，word，算个捷豹！latex写公式和伪代码是真的舒服，看起来也很舒爽。不过写blog用的是markdown，有时候容易记混了，导致自己觉得写出来了，但是渲染不出来…………</p>
+<h3 id="comp9900"><a href="#comp9900" class="headerlink" title="comp9900"></a>comp9900</h3><p>&emsp; 这周就得把proposal的核心内容搞出来，像system flow之类的，下周再扣扣细节就交了。之后就是代码实现了，希望自己的表现不要太糟糕。</p>
+<h3 id="leetcode"><a href="#leetcode" class="headerlink" title="leetcode"></a>leetcode</h3><p>&emsp; 以后关于算法题的内容我应该都会叫leetcode吧，简单直接。其实周末还是默默增增的看了俩题的，不过都是简单的题，接下来就得好好对待一下了，认真分析题目，尝试 free-bug…………就当在想peach吧，分析题目这个真的很重要，每次看待讨论区的大神们真的惊呼卧槽！尤其是上次那道贪心算法的题，大神分析过后就感觉简单的一匹！</p>
+<p><strong>着眼当下，踏实前进！</strong></p>
 ]]></content>
+      <categories>
+        <category>发骚</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
+      </tags>
   </entry>
   <entry>
     <title>ER图</title>
@@ -100,9 +74,43 @@
 <p>多对多关系是指实体集合A中的每一个实体与实体集合B中至少有M(M&gt;0)个实体有关系，并且实体集合B中的每一个实体与实体集合A中的至少N(N&gt;0)个实体有关系。</p>
 </blockquote>
 ]]></content>
+      <categories>
+        <category>数据库</category>
+      </categories>
       <tags>
-        <tag>--数据库</tag>
+        <tag>ER图</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>hello-hexo</title>
+    <url>/2020/06/05/hello-hexo/</url>
+    <content><![CDATA[<h2 id="新的开始"><a href="#新的开始" class="headerlink" title="新的开始"></a>新的开始</h2><p>&emsp;重新用hexo搭建了一个个人blog，感觉就清爽很多!</p>
+<h3 id="by-the-way："><a href="#by-the-way：" class="headerlink" title="by the way："></a>by the way：</h3><p>把老的blog删掉的时候忘了备份了…………还好没写几天，后面把内容再补上吧</p>
+]]></content>
+      <categories>
+        <category>初始</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/06/05/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
   </entry>
   <entry>
     <title>user_based推荐系统</title>
@@ -116,8 +124,12 @@
 <p>下面就是代码实现皮尔森系数了<br><em>code</em>:</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 ]]></content>
+      <categories>
+        <category>算法</category>
+      </categories>
       <tags>
-        <tag>--算法 --python</tag>
+        <tag>协同过滤</tag>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -164,8 +176,17 @@
 
 <p><em>感悟</em>:这个算法分为递归和非递归的，非递归的看起来清楚明晰一些吧。然后就是题目了，剑指offer里面就有很多的变种题。就例如找到一个有序数列中的重复的数字。</p>
 ]]></content>
+      <categories>
+        <category>算法</category>
+      </categories>
       <tags>
-        <tag>--code</tag>
+        <tag>code</tag>
+        <tag>刷题</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Django之初见</title>
+    <url>/2020/06/09/Django%E4%B9%8B%E5%88%9D%E8%A7%81/</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>
