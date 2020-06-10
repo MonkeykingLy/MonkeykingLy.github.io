@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Django之初见</title>
+    <url>/2020/06/09/Django%E4%B9%8B%E5%88%9D%E8%A7%81/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>06-08</title>
+    <url>/2020/06/08/06-08/</url>
+    <content><![CDATA[<h1 id="随随便便"><a href="#随随便便" class="headerlink" title="随随便便"></a>随随便便</h1><h3 id="comp9101-assignrmnt1"><a href="#comp9101-assignrmnt1" class="headerlink" title="comp9101-assignrmnt1"></a>comp9101-assignrmnt1</h3><p>&emsp; 又颓废了两天，今天正好也是周一，恢复正常吧<br>comp9101的assignemtn1有点小难啊，还有给了hints，再结合网上查阅的资料，总算完成了大部分。自我感觉算法这一块需要好好补一补缺漏了。这个assignemnt用到了多次排序算法的分析，还有分治的思路。最蛋疼的还是数学吧，求导换底之类的都忘的差不多了，不过本身水平也不咋地…………<br>&emsp; 然后就是latex，不得不说自从上学期多次使用之后已经爱上了这个东西，word，算个捷豹！latex写公式和伪代码是真的舒服，看起来也很舒爽。不过写blog用的是markdown，有时候容易记混了，导致自己觉得写出来了，但是渲染不出来…………</p>
+<h3 id="comp9900"><a href="#comp9900" class="headerlink" title="comp9900"></a>comp9900</h3><p>&emsp; 这周就得把proposal的核心内容搞出来，像system flow之类的，下周再扣扣细节就交了。之后就是代码实现了，希望自己的表现不要太糟糕。</p>
+<h3 id="leetcode"><a href="#leetcode" class="headerlink" title="leetcode"></a>leetcode</h3><p>&emsp; 以后关于算法题的内容我应该都会叫leetcode吧，简单直接。其实周末还是默默增增的看了俩题的，不过都是简单的题，接下来就得好好对待一下了，认真分析题目，尝试 free-bug…………就当在想peach吧，分析题目这个真的很重要，每次看待讨论区的大神们真的惊呼卧槽！尤其是上次那道贪心算法的题，大神分析过后就感觉简单的一匹！</p>
+<p><strong>着眼当下，踏实前进！</strong></p>
+]]></content>
+      <tags>
+        <tag>--杂记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hello-hexo</title>
     <url>/2020/06/05/hello-hexo/</url>
     <content><![CDATA[<h2 id="新的开始"><a href="#新的开始" class="headerlink" title="新的开始"></a>新的开始</h2><p>&emsp;重新用hexo搭建了一个个人blog，感觉就清爽很多!</p>
@@ -8,6 +25,23 @@
 ]]></content>
       <tags>
         <tag>--life</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>06-08-清晨杂想</title>
+    <url>/2020/06/09/06-08-%E6%B8%85%E6%99%A8%E6%9D%82%E6%83%B3/</url>
+    <content><![CDATA[<h1 id="6月9日-来自清晨的回想"><a href="#6月9日-来自清晨的回想" class="headerlink" title="6月9日-来自清晨的回想"></a>6月9日-来自清晨的回想</h1><h2 id="心比天高，命比纸薄"><a href="#心比天高，命比纸薄" class="headerlink" title="心比天高，命比纸薄"></a>心比天高，命比纸薄</h2><p>昨晚又有些着相了，不知为何，可能是很多事情堆叠的压力吧，自己无意中没有hold住，这泄露的微毫的压力默默影响了我，还好今早起来回味过来了。我一旦感受到沉重的压力，不是直接颓废躺倒，就是反常的自负自大，眼高手低。希望通过每日写些什么，逐渐摆脱这种情况吧。</p>
+<h2 id="todo-list"><a href="#todo-list" class="headerlink" title="todo-list"></a>todo-list</h2><ul>
+<li><p>comp9101-ass1<br>昨天把question1-question3都写完了，question5写了第一小题，question4还没有好的思路，q5剩下俩就是数学问题了，可能够呛了。其中question1-b的改进算法使用了hash的思想，自己当时也未回想起来，知道晚上刷题，又刷到一个使用hash的题才才想起来，自己对于hash的认知太过于浅薄了。想了想，可能跟python有关吧，我一直把hash与dict绑定，这是非常不对的，片面的。</p>
+</li>
+<li><p>comp9900-ER图<br>昨晚讨论之后我们便分头行动了，作为后端写手，分配了ER图的任务。结束之后，去google了一下，毕竟全都忘掉了，不过还好，没有全忘掉。但是结合我们的任务要求来看，我的初版ER图有些简单啊，感觉得花时间好好看一下，当然了，也有可能真的不是很复杂：）～</p>
+</li>
+<li><p>刷题<br>其实这学期零散时间还是很多的，争取多刷题吧。昨晚刷了一道输出第一个重复数字的题，这其中用到了hash。题本身是不太难得，但这道题可以扩展很多。第一个重复数字，也可以改成第一个不重复的数字，甚至不是数字，字符也可以。但是字符的256位我没抬搞明白……剩下的就写在剑指那页吧。</p>
+</li>
+</ul>
+<h2 id="面朝大海，春暖花开～"><a href="#面朝大海，春暖花开～" class="headerlink" title="面朝大海，春暖花开～"></a>面朝大海，春暖花开～</h2>]]></content>
+      <tags>
+        <tag>--杂记</tag>
       </tags>
   </entry>
   <entry>
@@ -27,69 +61,6 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>剑指offer</title>
-    <url>/2020/06/07/%E5%89%91%E6%8C%87offer/</url>
-    <content><![CDATA[<h1 id="剑指offer"><a href="#剑指offer" class="headerlink" title="剑指offer"></a>剑指offer</h1><p><em>前言</em></p>
-<blockquote>
-<p>&emsp; 之前零零碎碎做过一些题，但是没有系统的整理过，通过这个blog，系统的整理并且记录一下吧</p>
-</blockquote>
-<h2 id="二叉树镜像"><a href="#二叉树镜像" class="headerlink" title="二叉树镜像"></a>二叉树镜像</h2><ul>
-<li>难度：简单<br>描述 ：操作给定的二叉树，将其变换为源二叉树的镜像。<br>二叉树的镜像定义：<br>源二叉树：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">    8</span><br><span class="line">   &#x2F;  \</span><br><span class="line">  6   10</span><br><span class="line"> &#x2F; \  &#x2F; \</span><br><span class="line">5  7 9 11</span><br></pre></td></tr></table></figure>
-
-</li>
-</ul>
-<p>镜像二叉树：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">    8</span><br><span class="line">   &#x2F;  \</span><br><span class="line">  10   6</span><br><span class="line"> &#x2F; \  &#x2F; \</span><br><span class="line">11 9 7  5</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public class TreeNode &#123;</span><br><span class="line">    int val &#x3D; 0;</span><br><span class="line">    TreeNode left &#x3D; null;</span><br><span class="line">    TreeNode right &#x3D; null;</span><br><span class="line"></span><br><span class="line">    public TreeNode(int val) &#123;</span><br><span class="line">        this.val &#x3D; val;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">public class solution&#123;</span><br><span class="line">	public void Mirror(TreeNode root)&#123;</span><br><span class="line">		if(root!&#x3D;null)&#123;</span><br><span class="line">			return;</span><br><span class="line">		&#125;</span><br><span class="line">		if(root.left!&#x3D;null &amp;&amp; root.right!&#x3D;null)&#123;</span><br><span class="line">			return;</span><br><span class="line">		&#125;</span><br><span class="line">		TreeNode tempnode&#x3D;root.left;</span><br><span class="line">		root.left&#x3D;root.right;</span><br><span class="line">		root.right&#x3D;tempnode;</span><br><span class="line">		if(root.left!&#x3D;null)&#123;</span><br><span class="line">			Mirror(root.left);</span><br><span class="line">		&#125;</span><br><span class="line">		if(root.right!&#x3D;null)&#123;</span><br><span class="line">			Mirror(root.right);</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>思路：简单的一道题，首先判断一下root是否为空，root的左右子节点是否为空，为空就直接返回。接下来就是经典的值的交换，用一个tempnode来转接，之后在判断左右节点，如果有就递归，将左节点或右节点传入。</p>
-<h2 id="扑克牌顺子"><a href="#扑克牌顺子" class="headerlink" title="扑克牌顺子"></a>扑克牌顺子</h2><p>题目：LL今天心情特别好,因为他去买了一副扑克牌,发现里面居然有2个大王,2个小王(一副牌原本是54张^_^)…他随机从中抽出了5张牌,想测测自己的手气,看看能不能抽到顺子,如果抽到的话,他决定去买体育彩票,嘿嘿！！“红心A,黑桃3,小王,大王,方片5”,“Oh My God!”不是顺子…..LL不高兴了,他想了想,决定大\小 王可以看成任何数字,并且A看作1,J为11,Q为12,K为13。上面的5张牌就可以变成“1,2,3,4,5”(大小王分别看作2和4),“So Lucky!”。LL决定去买体育彩票啦。 现在,要求你使用这幅牌模拟上面的过程,然后告诉我们LL的运气如何， 如果牌能组成顺子就输出true，否则就输出false。为了方便起见,你可以认为大小王是0。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">import java.util.Arrays</span><br><span class="line"></span><br><span class="line">public class Solution&#123;</span><br><span class="line">	public boolean  isCountinues(int [] numbers)&#123;</span><br><span class="line">		int Cardzero&#x3D;0;</span><br><span class="line">		int Carddiff&#x3D;0;</span><br><span class="line">		int length&#x3D;numbers.lenght;</span><br><span class="line">		if(length&#x3D;&#x3D;0)&#123;</span><br><span class="line">			return false;</span><br><span class="line">		&#125;</span><br><span class="line">		for(int i&#x3D;0;i&lt;length-1;i++&gt;)&#123;</span><br><span class="line">			if(numbers[i]&#x3D;&#x3D;0)&#123;</span><br><span class="line">				Cardsero+&#x3D;1;</span><br><span class="line">				continue;</span><br><span class="line">			&#125;</span><br><span class="line">			if(numbers[i]&#x3D;&#x3D;numbers[i+1])&#123;</span><br><span class="line">				return false;</span><br><span class="line">			&#125;</span><br><span class="line">			Carddiff+&#x3D;numbers[i+1]-numbers[i]-1;</span><br><span class="line">		&#125;</span><br><span class="line">		if(Cardzero&gt;&#x3D;Cardiff)&#123;</span><br><span class="line">			return true;</span><br><span class="line">		&#125;</span><br><span class="line">		return false;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>思路分析： （1）首先就是排序，这里是调用的Arrays,可以直接用sort来排序<br>        （2）查看大小王数量，也即是0的数量<br>        （3）统计五张牌里有没有对子，一旦有重复的牌，就不可能是顺子里<br>        （4）统计五张牌得差值，顺子因该是五张连续的牌，最大值和最小值之间<br>            的差不能大于5. 这里关于差值的思路是这样的，连续的牌认为没有差值，因为大小王可以当作任何牌，所以非0的牌两张相隔的牌可以差大于1，因为0可以代替中间缺的那张。<br>            例如：{0,1,2,4,5},0可以代替3。</p>
-<h2 id="数组中重复的数字"><a href="#数组中重复的数字" class="headerlink" title="数组中重复的数字"></a>数组中重复的数字</h2><p><em>题目</em>:<br>&emsp;在一个长度为n的数组里的所有数字都在0到n-1的范围内。 数组中某些数字是重复的，但不知道有几个数字是重复的。也不知道每个数字重复几次。请找出数组中任意一个重复的数字。 例如，如果输入长度为7的数组{2,3,1,0,2,5,3}，那么对应的输出是第一个重复的数字2。</p>
-<p><em>代码</em>:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public static Solution&#123;</span><br><span class="line">	public boolean duplicate(int [] numbers, int length, int duplication [])&#123;</span><br><span class="line">		if(numbers&#x3D;&#x3D;null || length&lt;&#x3D;0)&#123;</span><br><span class="line">			return false;</span><br><span class="line">		&#125;</span><br><span class="line">		for(int i&#x3D;0;i&lt;length;i++&gt;)&#123;</span><br><span class="line">			if(numbers[i]&lt;0 || numbers[i]&gt;length-1)&#123;</span><br><span class="line">				return false;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">		int [] hash&#x3D; new int[lenght];</span><br><span class="line">		for(int i&#x3D;0;i&lt;length;i++&gt;)&#123;</span><br><span class="line">			if(hash[numbers[i]]&#x3D;&#x3D;true)&#123;</span><br><span class="line">				duplication[0]&#x3D;i;</span><br><span class="line">				return true;</span><br><span class="line">			&#125;</span><br><span class="line">			hash[numebrs[i]]&#x3D;true</span><br><span class="line">		&#125;</span><br><span class="line">		return false;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p><em>思路</em>:<br>    前面先判断input的数据，其中重要的是numbers里的数字不能大于lenght，否则hash array会out of index！一定要注意。因为这个hash array是我们判断的重要依据。我在9101中写的思路是这样的，建hash的时候先找到array中的最大值，用最大值来建立array，这也就不会out of index了。而这个步骤的时间复杂度是 $O(n)$。<br>    接下来就是查找这个hash表了，一般我们都会默认为false，找到一次改为true，如果在遍历的过程中，访问到了true的变量，我们就得到了结果。根据代码，我们的key值也就是i，把i赋值给duplicaiton就可以了。查表过程的时间复杂度也是 $O(n)$。<br>    hash的好处就是时间复杂度一般都很理想，但是鱼与熊掌不可兼得，建表的空间复杂的就花费的多一些，还有一些更复杂的hash table，可以存更多更复杂的数据类型，但是空间占用就更大了。找到数组中不重复的第一个数字也是同理，不多赘述了。</p>
-<h2 id="归并排序-分治"><a href="#归并排序-分治" class="headerlink" title="归并排序-分治"></a>归并排序-分治</h2><p><em>前言</em>:<br>最近一直在接触归并排序的分治算法，于是抽时间好好看了看，顺便总结一下，分治归并的题也非常的多，一举两得啦。</p>
-<p><em>代码</em>:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">piblic class Merge-sort-algorithm&#123;</span><br><span class="line">	public static void Merge(int [] arr,int p,int q,int r)&#123;</span><br><span class="line">		&#x2F;&#x2F;声明一个临时数组，排序好的会装进去，最后再重写原数组</span><br><span class="line">		int [] copy&#x3D;new int[r-p+1];</span><br><span class="line">		int i&#x3D;p;</span><br><span class="line">		int j&#x3D;q+1;</span><br><span class="line">		int k&#x3D;0;</span><br><span class="line">		while(i&lt;&#x3D;q &amp;&amp; j&lt;&#x3D;r)&#123;</span><br><span class="line">			if(arr[i]&lt;&#x3D;arr[j])&#123;</span><br><span class="line">				&#x2F;&#x2F;大小比较，小的先放进去</span><br><span class="line">				copy[k++]&#x3D;arr[i++]</span><br><span class="line">			&#125;else&#123;</span><br><span class="line">				copy[k++]&#x3D;arr[j++]</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">		&#x2F;&#x2F;左边剩余的数全都放进去</span><br><span class="line">		while(i&lt;&#x3D;q)&#123;</span><br><span class="line">			copy[k++]&#x3D;arr[i++]</span><br><span class="line">		&#125;</span><br><span class="line">		&#x2F;&#x2F;右边剩余的数全都放进去</span><br><span class="line">		while(j&lt;&#x3D;r)&#123;</span><br><span class="line">			copy[k++]&#x3D;arr[j++]</span><br><span class="line">		&#125;</span><br><span class="line">		&#x2F;&#x2F;把原数组重写，注意覆盖原数组的坐标位置是根据起始位置开始的</span><br><span class="line">		for(int e&#x3D;0;e&lt;copy.length;e++)&#123;</span><br><span class="line">			arr[p+e]&#x3D;copy[e]</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line">	public static void Merge-sort(int [] arr, int p,int r)&#123;</span><br><span class="line">		int q&#x3D;(p+r)&#x2F;2;</span><br><span class="line">		if(p&lt;r)&#123;</span><br><span class="line">			&#x2F;&#x2F;递归调用</span><br><span class="line">			Merge-sort(arr,p,q);</span><br><span class="line">			Merge-sort(arr,q+1,r);</span><br><span class="line">			&#x2F;&#x2F;归并排序元素</span><br><span class="line">			Merge(arr,p,q,r);</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line">	public static void main(args[]String)&#123;</span><br><span class="line">		int [] arr&#x3D;&#123;5,2,4,7,1,3,2,6&#125;;</span><br><span class="line">		Merge-sort(arr,0,arr.length-1);</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-]]></content>
-      <tags>
-        <tag>--code</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>06-08</title>
-    <url>/2020/06/08/06-08/</url>
-    <content><![CDATA[<h1 id="随随便便"><a href="#随随便便" class="headerlink" title="随随便便"></a>随随便便</h1><h3 id="comp9101-assignrmnt1"><a href="#comp9101-assignrmnt1" class="headerlink" title="comp9101-assignrmnt1"></a>comp9101-assignrmnt1</h3><p>&emsp; 又颓废了两天，今天正好也是周一，恢复正常吧<br>comp9101的assignemtn1有点小难啊，还有给了hints，再结合网上查阅的资料，总算完成了大部分。自我感觉算法这一块需要好好补一补缺漏了。这个assignemnt用到了多次排序算法的分析，还有分治的思路。最蛋疼的还是数学吧，求导换底之类的都忘的差不多了，不过本身水平也不咋地…………<br>&emsp; 然后就是latex，不得不说自从上学期多次使用之后已经爱上了这个东西，word，算个捷豹！latex写公式和伪代码是真的舒服，看起来也很舒爽。不过写blog用的是markdown，有时候容易记混了，导致自己觉得写出来了，但是渲染不出来…………</p>
-<h3 id="comp9900"><a href="#comp9900" class="headerlink" title="comp9900"></a>comp9900</h3><p>&emsp; 这周就得把proposal的核心内容搞出来，像system flow之类的，下周再扣扣细节就交了。之后就是代码实现了，希望自己的表现不要太糟糕。</p>
-<h3 id="leetcode"><a href="#leetcode" class="headerlink" title="leetcode"></a>leetcode</h3><p>&emsp; 以后关于算法题的内容我应该都会叫leetcode吧，简单直接。其实周末还是默默增增的看了俩题的，不过都是简单的题，接下来就得好好对待一下了，认真分析题目，尝试 free-bug…………就当在想peach吧，分析题目这个真的很重要，每次看待讨论区的大神们真的惊呼卧槽！尤其是上次那道贪心算法的题，大神分析过后就感觉简单的一匹！</p>
-<p><strong>着眼当下，踏实前进！</strong></p>
-]]></content>
-      <tags>
-        <tag>--杂记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>06-08-清晨杂想</title>
-    <url>/2020/06/09/06-08-%E6%B8%85%E6%99%A8%E6%9D%82%E6%83%B3/</url>
-    <content><![CDATA[<h1 id="6月9日-来自清晨的回想"><a href="#6月9日-来自清晨的回想" class="headerlink" title="6月9日-来自清晨的回想"></a>6月9日-来自清晨的回想</h1><h2 id="心比天高，命比纸薄"><a href="#心比天高，命比纸薄" class="headerlink" title="心比天高，命比纸薄"></a>心比天高，命比纸薄</h2><p>昨晚又有些着相了，不知为何，可能是很多事情堆叠的压力吧，自己无意中没有hold住，这泄露的微毫的压力默默影响了我，还好今早起来回味过来了。我一旦感受到沉重的压力，不是直接颓废躺倒，就是反常的自负自大，眼高手低。希望通过每日写些什么，逐渐摆脱这种情况吧。</p>
-<h2 id="todo-list"><a href="#todo-list" class="headerlink" title="todo-list"></a>todo-list</h2><ul>
-<li><p>comp9101-ass1<br>昨天把question1-question3都写完了，question5写了第一小题，question4还没有好的思路，q5剩下俩就是数学问题了，可能够呛了。其中question1-b的改进算法使用了hash的思想，自己当时也未回想起来，知道晚上刷题，又刷到一个使用hash的题才才想起来，自己对于hash的认知太过于浅薄了。想了想，可能跟python有关吧，我一直把hash与dict绑定，这是非常不对的，片面的。</p>
-</li>
-<li><p>comp9900-ER图<br>昨晚讨论之后我们便分头行动了，作为后端写手，分配了ER图的任务。结束之后，去google了一下，毕竟全都忘掉了，不过还好，没有全忘掉。但是结合我们的任务要求来看，我的初版ER图有些简单啊，感觉得花时间好好看一下，当然了，也有可能真的不是很复杂：）～</p>
-</li>
-<li><p>刷题<br>其实这学期零散时间还是很多的，争取多刷题吧。昨晚刷了一道输出第一个重复数字的题，这其中用到了hash。题本身是不太难得，但这道题可以扩展很多。第一个重复数字，也可以改成第一个不重复的数字，甚至不是数字，字符也可以。但是字符的256位我没抬搞明白……剩下的就写在剑指那页吧。</p>
-</li>
-</ul>
-<h2 id="面朝大海，春暖花开～"><a href="#面朝大海，春暖花开～" class="headerlink" title="面朝大海，春暖花开～"></a>面朝大海，春暖花开～</h2>]]></content>
-      <tags>
-        <tag>--杂记</tag>
-      </tags>
   </entry>
   <entry>
     <title>ER图</title>
@@ -131,6 +102,70 @@
 ]]></content>
       <tags>
         <tag>--数据库</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>user_based推荐系统</title>
+    <url>/2020/06/10/user-based%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/</url>
+    <content><![CDATA[<h1 id="User-based-协同过滤推荐系统。"><a href="#User-based-协同过滤推荐系统。" class="headerlink" title="User based 协同过滤推荐系统。"></a>User based 协同过滤推荐系统。</h1><p><em>前言</em>:project需要做一个图书推荐系统，刚开始没啥头绪吧，顺阳大佬给我推荐了user_based CF,google一下看了看，里面门道还是挺多的，非常值得抽时间研究一下，写个blog顺便总结归纳一下吧。</p>
+<p>基本参考了这位大佬的简书，链接如下：<a href="https://www.jianshu.com/p/cc9191418570" target="_blank" rel="noopener">https://www.jianshu.com/p/cc9191418570</a></p>
+<h2 id="协同过滤的大概思路"><a href="#协同过滤的大概思路" class="headerlink" title="协同过滤的大概思路"></a>协同过滤的大概思路</h2><p>其实有点像最邻近算法，当然了也是要根据用户本身的数据来进行推算的。就像读网文小说，最近特别喜欢修仙类的网文，那么你去问别人的时候也会问修仙类的小说有啥新作品嘛？<br>那么问题来了，你怎么知道你问的那个人舅喜欢修仙小说呢？<br>能不能将你认识的喜欢网文的人喜欢的类别统计出来呢？</p>
+<h2 id="协同过滤的主要步骤"><a href="#协同过滤的主要步骤" class="headerlink" title="协同过滤的主要步骤"></a>协同过滤的主要步骤</h2><p>1.收集用户的喜好<br>2.找到相似的用户<br>3.计算并推荐</p>
+<h2 id="协同过滤算法应用"><a href="#协同过滤算法应用" class="headerlink" title="协同过滤算法应用"></a>协同过滤算法应用</h2><p>实现流程分析：<br><strong>step1:计算用户相似度</strong><br>这里就有不同分支了，用余弦相似度或者皮尔森相关系数（Pearson correlation coefficient）。<br>皮尔森系数的公式：<br><img src="/images/Pearson.png" alt="alt"></p>
+<p>p的取值在[-1,1]之间，随着数字的变化相关性也随之改变。等于0则表示无线性相关，大于0则是正相关，小于0则是负相关。</p>
+<p>下面就是代码实现皮尔森系数了<br><em>code</em>:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>--算法 --python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>剑指offer</title>
+    <url>/2020/06/07/%E5%89%91%E6%8C%87offer/</url>
+    <content><![CDATA[<h1 id="剑指offer"><a href="#剑指offer" class="headerlink" title="剑指offer"></a>剑指offer</h1><p><em>前言</em></p>
+<blockquote>
+<p>&emsp; 之前零零碎碎做过一些题，但是没有系统的整理过，通过这个blog，系统的整理并且记录一下吧</p>
+</blockquote>
+<h2 id="二叉树镜像"><a href="#二叉树镜像" class="headerlink" title="二叉树镜像"></a>二叉树镜像</h2><ul>
+<li>难度：简单<br>描述 ：操作给定的二叉树，将其变换为源二叉树的镜像。<br>二叉树的镜像定义：<br>源二叉树：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">    8</span><br><span class="line">   &#x2F;  \</span><br><span class="line">  6   10</span><br><span class="line"> &#x2F; \  &#x2F; \</span><br><span class="line">5  7 9 11</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<p>镜像二叉树：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">    8</span><br><span class="line">   &#x2F;  \</span><br><span class="line">  10   6</span><br><span class="line"> &#x2F; \  &#x2F; \</span><br><span class="line">11 9 7  5</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public class TreeNode &#123;</span><br><span class="line">    int val &#x3D; 0;</span><br><span class="line">    TreeNode left &#x3D; null;</span><br><span class="line">    TreeNode right &#x3D; null;</span><br><span class="line"></span><br><span class="line">    public TreeNode(int val) &#123;</span><br><span class="line">        this.val &#x3D; val;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">public class solution&#123;</span><br><span class="line">	public void Mirror(TreeNode root)&#123;</span><br><span class="line">		if(root!&#x3D;null)&#123;</span><br><span class="line">			return;</span><br><span class="line">		&#125;</span><br><span class="line">		if(root.left!&#x3D;null &amp;&amp; root.right!&#x3D;null)&#123;</span><br><span class="line">			return;</span><br><span class="line">		&#125;</span><br><span class="line">		TreeNode tempnode&#x3D;root.left;</span><br><span class="line">		root.left&#x3D;root.right;</span><br><span class="line">		root.right&#x3D;tempnode;</span><br><span class="line">		if(root.left!&#x3D;null)&#123;</span><br><span class="line">			Mirror(root.left);</span><br><span class="line">		&#125;</span><br><span class="line">		if(root.right!&#x3D;null)&#123;</span><br><span class="line">			Mirror(root.right);</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>思路：简单的一道题，首先判断一下root是否为空，root的左右子节点是否为空，为空就直接返回。接下来就是经典的值的交换，用一个tempnode来转接，之后在判断左右节点，如果有就递归，将左节点或右节点传入。</p>
+<h2 id="扑克牌顺子"><a href="#扑克牌顺子" class="headerlink" title="扑克牌顺子"></a>扑克牌顺子</h2><p>题目：LL今天心情特别好,因为他去买了一副扑克牌,发现里面居然有2个大王,2个小王(一副牌原本是54张^_^)…他随机从中抽出了5张牌,想测测自己的手气,看看能不能抽到顺子,如果抽到的话,他决定去买体育彩票,嘿嘿！！“红心A,黑桃3,小王,大王,方片5”,“Oh My God!”不是顺子…..LL不高兴了,他想了想,决定大\小 王可以看成任何数字,并且A看作1,J为11,Q为12,K为13。上面的5张牌就可以变成“1,2,3,4,5”(大小王分别看作2和4),“So Lucky!”。LL决定去买体育彩票啦。 现在,要求你使用这幅牌模拟上面的过程,然后告诉我们LL的运气如何， 如果牌能组成顺子就输出true，否则就输出false。为了方便起见,你可以认为大小王是0。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">import java.util.Arrays</span><br><span class="line"></span><br><span class="line">public class Solution&#123;</span><br><span class="line">	public boolean  isCountinues(int [] numbers)&#123;</span><br><span class="line">		int Cardzero&#x3D;0;</span><br><span class="line">		int Carddiff&#x3D;0;</span><br><span class="line">		int length&#x3D;numbers.lenght;</span><br><span class="line">		if(length&#x3D;&#x3D;0)&#123;</span><br><span class="line">			return false;</span><br><span class="line">		&#125;</span><br><span class="line">		for(int i&#x3D;0;i&lt;length-1;i++&gt;)&#123;</span><br><span class="line">			if(numbers[i]&#x3D;&#x3D;0)&#123;</span><br><span class="line">				Cardsero+&#x3D;1;</span><br><span class="line">				continue;</span><br><span class="line">			&#125;</span><br><span class="line">			if(numbers[i]&#x3D;&#x3D;numbers[i+1])&#123;</span><br><span class="line">				return false;</span><br><span class="line">			&#125;</span><br><span class="line">			Carddiff+&#x3D;numbers[i+1]-numbers[i]-1;</span><br><span class="line">		&#125;</span><br><span class="line">		if(Cardzero&gt;&#x3D;Cardiff)&#123;</span><br><span class="line">			return true;</span><br><span class="line">		&#125;</span><br><span class="line">		return false;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>思路分析： （1）首先就是排序，这里是调用的Arrays,可以直接用sort来排序<br>        （2）查看大小王数量，也即是0的数量<br>        （3）统计五张牌里有没有对子，一旦有重复的牌，就不可能是顺子里<br>        （4）统计五张牌得差值，顺子因该是五张连续的牌，最大值和最小值之间<br>            的差不能大于5. 这里关于差值的思路是这样的，连续的牌认为没有差值，因为大小王可以当作任何牌，所以非0的牌两张相隔的牌可以差大于1，因为0可以代替中间缺的那张。<br>            例如：{0,1,2,4,5},0可以代替3。</p>
+<h2 id="数组中重复的数字"><a href="#数组中重复的数字" class="headerlink" title="数组中重复的数字"></a>数组中重复的数字</h2><p><em>题目</em>:<br>&emsp;在一个长度为n的数组里的所有数字都在0到n-1的范围内。 数组中某些数字是重复的，但不知道有几个数字是重复的。也不知道每个数字重复几次。请找出数组中任意一个重复的数字。 例如，如果输入长度为7的数组{2,3,1,0,2,5,3}，那么对应的输出是第一个重复的数字2。</p>
+<p><em>代码</em>:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public static Solution&#123;</span><br><span class="line">	public boolean duplicate(int [] numbers, int length, int duplication [])&#123;</span><br><span class="line">		if(numbers&#x3D;&#x3D;null || length&lt;&#x3D;0)&#123;</span><br><span class="line">			return false;</span><br><span class="line">		&#125;</span><br><span class="line">		for(int i&#x3D;0;i&lt;length;i++&gt;)&#123;</span><br><span class="line">			if(numbers[i]&lt;0 || numbers[i]&gt;length-1)&#123;</span><br><span class="line">				return false;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">		int [] hash&#x3D; new int[lenght];</span><br><span class="line">		for(int i&#x3D;0;i&lt;length;i++&gt;)&#123;</span><br><span class="line">			if(hash[numbers[i]]&#x3D;&#x3D;true)&#123;</span><br><span class="line">				duplication[0]&#x3D;i;</span><br><span class="line">				return true;</span><br><span class="line">			&#125;</span><br><span class="line">			hash[numebrs[i]]&#x3D;true</span><br><span class="line">		&#125;</span><br><span class="line">		return false;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><em>思路</em>:<br>    前面先判断input的数据，其中重要的是numbers里的数字不能大于lenght，否则hash array会out of index！一定要注意。因为这个hash array是我们判断的重要依据。我在9101中写的思路是这样的，建hash的时候先找到array中的最大值，用最大值来建立array，这也就不会out of index了。而这个步骤的时间复杂度是 $O(n)$。<br>    接下来就是查找这个hash表了，一般我们都会默认为false，找到一次改为true，如果在遍历的过程中，访问到了true的变量，我们就得到了结果。根据代码，我们的key值也就是i，把i赋值给duplicaiton就可以了。查表过程的时间复杂度也是 $O(n)$。<br>    hash的好处就是时间复杂度一般都很理想，但是鱼与熊掌不可兼得，建表的空间复杂的就花费的多一些，还有一些更复杂的hash table，可以存更多更复杂的数据类型，但是空间占用就更大了。找到数组中不重复的第一个数字也是同理，不多赘述了。</p>
+<h2 id="归并排序-分治"><a href="#归并排序-分治" class="headerlink" title="归并排序-分治"></a>归并排序-分治</h2><p><em>前言</em>:<br>最近一直在接触归并排序的分治算法，于是抽时间好好看了看，顺便总结一下，分治归并的题也非常的多，一举两得啦。</p>
+<p><em>代码</em>:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">piblic class Merge-sort-algorithm&#123;</span><br><span class="line">	public static void Merge(int [] arr,int p,int q,int r)&#123;</span><br><span class="line">		&#x2F;&#x2F;声明一个临时数组，排序好的会装进去，最后再重写原数组</span><br><span class="line">		int [] copy&#x3D;new int[r-p+1];</span><br><span class="line">		int i&#x3D;p;</span><br><span class="line">		int j&#x3D;q+1;</span><br><span class="line">		int k&#x3D;0;</span><br><span class="line">		while(i&lt;&#x3D;q &amp;&amp; j&lt;&#x3D;r)&#123;</span><br><span class="line">			if(arr[i]&lt;&#x3D;arr[j])&#123;</span><br><span class="line">				&#x2F;&#x2F;大小比较，小的先放进去</span><br><span class="line">				copy[k++]&#x3D;arr[i++]</span><br><span class="line">			&#125;else&#123;</span><br><span class="line">				copy[k++]&#x3D;arr[j++]</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">		&#x2F;&#x2F;左边剩余的数全都放进去</span><br><span class="line">		while(i&lt;&#x3D;q)&#123;</span><br><span class="line">			copy[k++]&#x3D;arr[i++]</span><br><span class="line">		&#125;</span><br><span class="line">		&#x2F;&#x2F;右边剩余的数全都放进去</span><br><span class="line">		while(j&lt;&#x3D;r)&#123;</span><br><span class="line">			copy[k++]&#x3D;arr[j++]</span><br><span class="line">		&#125;</span><br><span class="line">		&#x2F;&#x2F;把原数组重写，注意覆盖原数组的坐标位置是根据起始位置开始的</span><br><span class="line">		for(int e&#x3D;0;e&lt;copy.length;e++)&#123;</span><br><span class="line">			arr[p+e]&#x3D;copy[e]</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line">	public static void Merge-sort(int [] arr, int p,int r)&#123;</span><br><span class="line">		int q&#x3D;(p+r)&#x2F;2;</span><br><span class="line">		if(p&lt;r)&#123;</span><br><span class="line">			&#x2F;&#x2F;递归调用</span><br><span class="line">			Merge-sort(arr,p,q);</span><br><span class="line">			Merge-sort(arr,q+1,r);</span><br><span class="line">			&#x2F;&#x2F;归并排序元素</span><br><span class="line">			Merge(arr,p,q,r);</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line">	public static void main(args[]String)&#123;</span><br><span class="line">		int [] arr&#x3D;&#123;5,2,4,7,1,3,2,6&#125;;</span><br><span class="line">		Merge-sort(arr,0,arr.length-1);</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+<h2 id="二分搜索算法"><a href="#二分搜索算法" class="headerlink" title="二分搜索算法"></a>二分搜索算法</h2><p><em>思路</em>:</p>
+<blockquote>
+<p>二分搜索是一种高效的搜索匹配算法，尤其是针对有序数组，时间复杂度为$O(logn)$。算法的局限性也很明显，需要有序的数组。二分法在算法中是非常常见的，整个过程也都很固定。先根据数组长度，找到mid，然后用目标与mid比较大小，如果比mid大，那么将会搜索mid-array.length这部分的元素。反之，则搜索array[0]-mid的部分。之后重复上述步骤，进行递归。</p>
+</blockquote>
+<p><em>代码</em>:非递归</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public class algorithm&#123;</span><br><span class="line">	public static int Binary-search(int[] arr,int key)&#123;</span><br><span class="line">		int start&#x3D;0;</span><br><span class="line">		int end&#x3D;arr.length;</span><br><span class="line">		int mid;</span><br><span class="line">		while(start&lt;&#x3D;end)&#123;</span><br><span class="line">			mid&#x3D;(start+end)&#x2F;2</span><br><span class="line">			if(key&gt;mid)&#123;</span><br><span class="line">				start&#x3D;mid+1;</span><br><span class="line">			&#125;elif(key&lt;mid)&#123;</span><br><span class="line">				end&#x3D;mid-1;</span><br><span class="line">			&#125;else&#123;</span><br><span class="line">				return mid;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		return -1;</span><br><span class="line">	&#125;</span><br><span class="line">	public stactic void main(args [] String)&#123;</span><br><span class="line">		int [] arr&#x3D;&#123;1,2,3,4,5,6,7,8&#125;;</span><br><span class="line">		int key &#x3D; 7;</span><br><span class="line">		Binary_search(arr,key);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><em>代码</em>:递归</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public class algorithm&#123;</span><br><span class="line">	public static int Binary-search(int[] arr,int key,int start,int end)&#123;</span><br><span class="line">		int mid &#x3D; (start+end)&#x2F;2;</span><br><span class="line">		if(mid&#x3D;&#x3D;key)&#123;</span><br><span class="line">			return mid;</span><br><span class="line">		&#125;</span><br><span class="line">		if(start&gt;&#x3D;end)&#123;</span><br><span class="line">			return -1;</span><br><span class="line">		&#125;elif(mid&gt;key)&#123;</span><br><span class="line">			Binary-search(arr,key,mid+1,end);</span><br><span class="line">		&#125;elif(mid&lt;mid)&#123;</span><br><span class="line">			Binary-search(arr,key,start,mid-1);</span><br><span class="line">		&#125;</span><br><span class="line">		return -1;</span><br><span class="line">	&#125;</span><br><span class="line">	public stactic void main(args [] String)&#123;</span><br><span class="line">		int [] arr&#x3D;&#123;1,2,3,4,5,6,7,8&#125;;</span><br><span class="line">		int key &#x3D; 7;</span><br><span class="line">		int strat&#x3D;0;</span><br><span class="line">		int end&#x3D;arr.length;</span><br><span class="line">		Binary_search(arr,key,start,end);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><em>感悟</em>:这个算法分为递归和非递归的，非递归的看起来清楚明晰一些吧。然后就是题目了，剑指offer里面就有很多的变种题。就例如找到一个有序数列中的重复的数字。</p>
+]]></content>
+      <tags>
+        <tag>--code</tag>
       </tags>
   </entry>
 </search>
