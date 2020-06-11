@@ -16,6 +16,25 @@
       </tags>
   </entry>
   <entry>
+    <title>06-11杂记</title>
+    <url>/2020/06/11/06-11%E6%9D%82%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="6月11日–随便说点啥"><a href="#6月11日–随便说点啥" class="headerlink" title="6月11日–随便说点啥"></a>6月11日–随便说点啥</h1><p>今天又是颓废的一天，下午才打算做点什么，可能是前两天太累了，疯狂写东西。<br>然后就是把算法和算法题分开，把算法单独写一章，例如归并排序，二分算法等，<br>leetcode或者剑指上面一般都是算法的变种，在一些算法的细节上添加元素。</p>
+<p>然后就是顺阳大佬说的评论问题，我看了看好像也没啥，再研究一下吧。</p>
+<p>今天得把皮尔森算法搞完，毕竟推荐系统得靠这个…………</p>
+<p>刷题，9101，django……</p>
+<p>如果有时间，就先建个user的数据模型吧，算是9900的第一步吧。</p>
+<blockquote>
+<p><em>长风破浪会有时，直挂云帆济沧海</em></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>发骚</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hello-hexo</title>
     <url>/2020/06/05/hello-hexo/</url>
     <content><![CDATA[<h2 id="新的开始"><a href="#新的开始" class="headerlink" title="新的开始"></a>新的开始</h2><p>&emsp;重新用hexo搭建了一个个人blog，感觉就清爽很多!</p>
@@ -26,6 +45,84 @@
       </categories>
       <tags>
         <tag>杂记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/06/05/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>hexo menu配置的天坑</title>
+    <url>/2020/06/11/hexo-menu%E9%85%8D%E7%BD%AE%E7%9A%84%E5%A4%A9%E5%9D%91/</url>
+    <content><![CDATA[<h1 id="hexo-next的天坑"><a href="#hexo-next的天坑" class="headerlink" title="hexo next的天坑"></a>hexo next的天坑</h1><p>成功搭建了blog，其实很多细节并没有完善，想到一出就改一出，正好今天添加了一个 live2d小姐姐～～<br>然后我就试了试其他功能，突然发现主页、分类、标签之类的返回一个空白页。<br>这就很蛋疼了，之前因为文章少，也就没在意，这下问题可就得必须解决了。<br>先在本地试了试，运行hexo server之后，点击主页，会返回一个白页，并有一行文字</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Cannot GET &#x2F;archives&#x2F;%20&#x2F;</span><br></pre></td></tr></table></figure>
+<p>主页有，分类有，标签也有，menn栏所有的按钮点完之后都会这样。<br>遇事不决就google，谷歌之后发现似乎有很多答案啊，一个一个看进去，却卵用没有。<br>都是让人 hexo new page 的。但是现在hexo得搭建攻略这么完善，谁会忘记这个？<br>还有人说修改主题 _config.yml 里面menu的注释符号的…………全TM是复制粘贴的混子，卵用没有。<br>还好英文搜索总算有点用，下面就说一下这个问题。</p>
+<p>报错信息中的 /%20/ 是指的空格的意思，具体就是menu配置中“||”与前一个变量之间不能有空格，删掉就行了</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!-- 解决前 --&gt;</span><br><span class="line">menu:</span><br><span class="line">  home: &#x2F; || home</span><br><span class="line">  about: &#x2F;about&#x2F; || user</span><br><span class="line">  tags: &#x2F;tags&#x2F; || tags</span><br><span class="line">  categories: &#x2F;categories&#x2F; || th</span><br><span class="line"></span><br><span class="line">&lt;!-- 解决后 --&gt;</span><br><span class="line">menu:</span><br><span class="line">  home: &#x2F;|| home</span><br><span class="line">  about: &#x2F;about&#x2F;|| user</span><br><span class="line">  tags: &#x2F;tags&#x2F;|| tags</span><br><span class="line">  categories: &#x2F;categories&#x2F;|| th</span><br></pre></td></tr></table></figure>
+<p>就是删掉空格就行，中文搜索一堆废物垃圾结果…………</p>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>吐槽</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>user_based推荐系统</title>
+    <url>/2020/06/10/user-based%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/</url>
+    <content><![CDATA[<h1 id="User-based-协同过滤推荐系统。"><a href="#User-based-协同过滤推荐系统。" class="headerlink" title="User based 协同过滤推荐系统。"></a>User based 协同过滤推荐系统。</h1><p><em>前言</em>:project需要做一个图书推荐系统，刚开始没啥头绪吧，顺阳大佬给我推荐了user_based CF,google一下看了看，里面门道还是挺多的，非常值得抽时间研究一下，写个blog顺便总结归纳一下吧。</p>
+<p>基本参考了这位大佬的简书，链接如下：<a href="https://www.jianshu.com/p/cc9191418570" target="_blank" rel="noopener">https://www.jianshu.com/p/cc9191418570</a></p>
+<h2 id="协同过滤的大概思路"><a href="#协同过滤的大概思路" class="headerlink" title="协同过滤的大概思路"></a>协同过滤的大概思路</h2><p>其实有点像最邻近算法，当然了也是要根据用户本身的数据来进行推算的。就像读网文小说，最近特别喜欢修仙类的网文，那么你去问别人的时候也会问修仙类的小说有啥新作品嘛？<br>那么问题来了，你怎么知道你问的那个人舅喜欢修仙小说呢？<br>能不能将你认识的喜欢网文的人喜欢的类别统计出来呢？</p>
+<h2 id="协同过滤的主要步骤"><a href="#协同过滤的主要步骤" class="headerlink" title="协同过滤的主要步骤"></a>协同过滤的主要步骤</h2><p>1.收集用户的喜好<br>2.找到相似的用户<br>3.计算并推荐</p>
+<h2 id="协同过滤算法应用"><a href="#协同过滤算法应用" class="headerlink" title="协同过滤算法应用"></a>协同过滤算法应用</h2><p>实现流程分析：<br><strong>step1:计算用户相似度</strong><br>这里就有不同分支了，用余弦相似度或者皮尔森相关系数（Pearson correlation coefficient）。<br>皮尔森系数的公式：<br><img src="/images/Pearson.png" alt="alt"></p>
+<p>p的取值在[-1,1]之间，随着数字的变化相关性也随之改变。等于0则表示无线性相关，大于0则是正相关，小于0则是负相关。</p>
+<p>下面就是代码实现皮尔森系数了<br><em>code</em>:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sum_xy &#x3D; 0</span><br><span class="line">sum_x&#x3D;0</span><br><span class="line">sum_y&#x3D;0</span><br><span class="line">sum_xx&#x3D;0</span><br><span class="line">sum_yy&#x3D;0</span><br><span class="line">n&#x3D;0</span><br><span class="line">for (x,y) in some_condition:</span><br><span class="line">    n+&#x3D;1</span><br><span class="line">    sum_xy+&#x3D;x*y</span><br><span class="line">    sum_x+&#x3D;x</span><br><span class="line">    sum_y+&#x3D;y</span><br><span class="line">    sum_xx+&#x3D;pow(x,2)</span><br><span class="line">    sum_yy+&#x3D;pow(y,2)</span><br><span class="line">if(n&#x3D;&#x3D;0):</span><br><span class="line">    return 0</span><br><span class="line"></span><br><span class="line">&lt;!-- 皮尔森相关系数的公式 --&gt;</span><br><span class="line">denominator&#x3D;sqrt(sum_xx - pow(sum_x)&#x2F;n) * sqrt(sum_yy-pow(sum_y)&#x2F;n)</span><br><span class="line">if denominator &#x3D;&#x3D;0:</span><br><span class="line">    return 0</span><br><span class="line">else:</span><br><span class="line">    numerator&#x3D;sum_xy-(sum_x * sum_y)&#x2F;n</span><br><span class="line">    return numerator &#x2F; denominator</span><br></pre></td></tr></table></figure>
+
+<p>以下为实例的完整代码：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">import pdb</span><br><span class="line">import csv</span><br><span class="line">from math import sqrt</span><br><span class="line"></span><br><span class="line">rows &#x3D; []</span><br><span class="line">csvFile &#x3D; open(&#39;user_book.csv&#39;, &#39;r&#39;)</span><br><span class="line">reader &#x3D; csv.reader(csvFile)</span><br><span class="line">for row in reader:</span><br><span class="line">     rows.append(row)</span><br><span class="line">rows.remove(rows[0]) #remove 1st row</span><br><span class="line">print(&quot;rows:\n%s\n&quot; % rows)</span><br><span class="line">csvFile.close()</span><br><span class="line"></span><br><span class="line">users &#x3D; &#123;&#125;</span><br><span class="line">for row in rows:</span><br><span class="line">     if row[0] not in users:        </span><br><span class="line">          users[row[0]] &#x3D; &#123;&#125;</span><br><span class="line">     users[row[0]][row[2]] &#x3D; float(row[1])</span><br><span class="line">print(&quot;users:\n%s\n&quot; % users)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">class recommender:</span><br><span class="line">    #k：the nearest k neighbors</span><br><span class="line">    #cnt：recommend count</span><br><span class="line">    def __init__(self, dataset, k&#x3D;3, cnt&#x3D;2):</span><br><span class="line">        self.k &#x3D; k</span><br><span class="line">        self.cnt &#x3D; cnt</span><br><span class="line">        if type(dataset).__name__ &#x3D;&#x3D; &#39;dict&#39;:</span><br><span class="line">            self.dataset &#x3D; dataset</span><br><span class="line"></span><br><span class="line">    # pearson correlation coefficient</span><br><span class="line">    def pearson(self, touser, dataset):</span><br><span class="line">        sum_xy &#x3D; 0</span><br><span class="line">        sum_x &#x3D; 0</span><br><span class="line">        sum_y &#x3D; 0</span><br><span class="line">        sum_xx &#x3D; 0</span><br><span class="line">        sum_yy &#x3D; 0</span><br><span class="line">        n &#x3D; 0</span><br><span class="line">        for key in touser:</span><br><span class="line">            if key in dataset:</span><br><span class="line">                n +&#x3D; 1</span><br><span class="line">                x &#x3D; touser[key]</span><br><span class="line">                y &#x3D; dataset[key]</span><br><span class="line">                sum_x +&#x3D; x</span><br><span class="line">                sum_y +&#x3D; y</span><br><span class="line">                sum_xy +&#x3D; x * y</span><br><span class="line">                sum_xx +&#x3D; pow(x, 2)</span><br><span class="line">                sum_yy +&#x3D; pow(y, 2)</span><br><span class="line">        if n &#x3D;&#x3D; 0:</span><br><span class="line">            return 0</span><br><span class="line">        </span><br><span class="line">        denominator &#x3D; sqrt(sum_xx - pow(sum_x, 2) &#x2F; n)  * sqrt(sum_yy - pow(sum_y, 2) &#x2F; n)</span><br><span class="line">        if denominator &#x3D;&#x3D; 0:</span><br><span class="line">            return 0</span><br><span class="line">        else:</span><br><span class="line">            numerator &#x3D; sum_xy - (sum_x * sum_y) &#x2F; n</span><br><span class="line">            return numerator &#x2F; denominator</span><br><span class="line"></span><br><span class="line">    def neighbors(self, username):</span><br><span class="line">        distances &#x3D; []</span><br><span class="line">        for key in self.dataset:</span><br><span class="line">            if key !&#x3D; username:</span><br><span class="line">                distance &#x3D; self.pearson(self.dataset[username],self.dataset[key])</span><br><span class="line">                distances.append((key, distance))</span><br><span class="line"></span><br><span class="line">        distances.sort(key&#x3D;lambda artistTuple: artistTuple[1],reverse&#x3D;True)</span><br><span class="line">        return distances</span><br><span class="line">    def recommend_to_user(self, user):</span><br><span class="line">        # store recommended bookid and weight</span><br><span class="line">        recommendations &#x3D; &#123;&#125;</span><br><span class="line">        neighborlist &#x3D; self.neighbors(user)</span><br><span class="line">        user_dict &#x3D; self.dataset[user]</span><br><span class="line">        </span><br><span class="line">        totalDistance &#x3D; 0.0</span><br><span class="line">        </span><br><span class="line">        # total distance of the nearest k neighbors</span><br><span class="line">        for i in range(self.k):</span><br><span class="line">            totalDistance +&#x3D; neighborlist[i][1]</span><br><span class="line">        if totalDistance&#x3D;&#x3D;0.0:</span><br><span class="line">            totalDistance&#x3D;1.0</span><br><span class="line"> </span><br><span class="line">        #recommend books to to_user who never read</span><br><span class="line">        for i in range(self.k):</span><br><span class="line">            weight &#x3D; neighborlist[i][1] &#x2F; totalDistance</span><br><span class="line">            </span><br><span class="line">            neighbor_name &#x3D; neighborlist[i][0]</span><br><span class="line">            #book and score of user i</span><br><span class="line">            neighbor_books &#x3D; self.dataset[neighbor_name]</span><br><span class="line">            for bookid in neighbor_books:</span><br><span class="line">                if not bookid in user_dict:</span><br><span class="line">                    if bookid not in recommendations:</span><br><span class="line">                        recommendations[bookid] &#x3D; neighbor_books[bookid] * weight</span><br><span class="line">                    else:</span><br><span class="line">                        recommendations[bookid] +&#x3D; neighbor_books[bookid] * weight</span><br><span class="line">                        </span><br><span class="line">        # convert dict to list</span><br><span class="line">        print(&quot;recomend bookid and score weight:\n%s\n&quot; % recommendations)</span><br><span class="line">        recommendations &#x3D; list(recommendations.items())</span><br><span class="line">        </span><br><span class="line">        # sort descending</span><br><span class="line">        recommendations.sort(key&#x3D;lambda artistTuple: artistTuple[1], reverse &#x3D; True)</span><br><span class="line"></span><br><span class="line">        return recommendations[:self.cnt]</span><br><span class="line"></span><br><span class="line">def recommend_bookid_to_user(username):</span><br><span class="line">    bookid_list &#x3D; []</span><br><span class="line">    r &#x3D; recommender(users)</span><br><span class="line">    bookid_and_weight_list &#x3D; r.recommend_to_user(username)</span><br><span class="line">    print (&quot;Recommend bookid and weight:&quot;,bookid_and_weight_list)</span><br><span class="line">    for i in range(len(bookid_and_weight_list)):</span><br><span class="line">        bookid_list.append(bookid_and_weight_list[i][0])</span><br><span class="line">    print (&quot;Recommended bookid: &quot;, bookid_list)</span><br><span class="line">        </span><br><span class="line">if __name__ &#x3D;&#x3D; &#39;__main__&#39;:</span><br><span class="line">   recommend_bookid_to_user(&quot;Li Si&quot;)</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>算法</category>
+      </categories>
+      <tags>
+        <tag>协同过滤</tag>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>06-08-清晨杂想</title>
+    <url>/2020/06/09/06-08-%E6%B8%85%E6%99%A8%E6%9D%82%E6%83%B3/</url>
+    <content><![CDATA[<h1 id="6月9日-来自清晨的回想"><a href="#6月9日-来自清晨的回想" class="headerlink" title="6月9日-来自清晨的回想"></a>6月9日-来自清晨的回想</h1><h2 id="心比天高，命比纸薄"><a href="#心比天高，命比纸薄" class="headerlink" title="心比天高，命比纸薄"></a>心比天高，命比纸薄</h2><p>昨晚又有些着相了，不知为何，可能是很多事情堆叠的压力吧，自己无意中没有hold住，这泄露的微毫的压力默默影响了我，还好今早起来回味过来了。我一旦感受到沉重的压力，不是直接颓废躺倒，就是反常的自负自大，眼高手低。希望通过每日写些什么，逐渐摆脱这种情况吧。</p>
+<h2 id="todo-list"><a href="#todo-list" class="headerlink" title="todo-list"></a>todo-list</h2><ul>
+<li><p>comp9101-ass1<br>昨天把question1-question3都写完了，question5写了第一小题，question4还没有好的思路，q5剩下俩就是数学问题了，可能够呛了。其中question1-b的改进算法使用了hash的思想，自己当时也未回想起来，知道晚上刷题，又刷到一个使用hash的题才才想起来，自己对于hash的认知太过于浅薄了。想了想，可能跟python有关吧，我一直把hash与dict绑定，这是非常不对的，片面的。</p>
+</li>
+<li><p>comp9900-ER图<br>昨晚讨论之后我们便分头行动了，作为后端写手，分配了ER图的任务。结束之后，去google了一下，毕竟全都忘掉了，不过还好，没有全忘掉。但是结合我们的任务要求来看，我的初版ER图有些简单啊，感觉得花时间好好看一下，当然了，也有可能真的不是很复杂：）～</p>
+</li>
+<li><p>刷题<br>其实这学期零散时间还是很多的，争取多刷题吧。昨晚刷了一道输出第一个重复数字的题，这其中用到了hash。题本身是不太难得，但这道题可以扩展很多。第一个重复数字，也可以改成第一个不重复的数字，甚至不是数字，字符也可以。但是字符的256位我没抬搞明白……剩下的就写在剑指那页吧。</p>
+</li>
+</ul>
+<h2 id="面朝大海，春暖花开～"><a href="#面朝大海，春暖花开～" class="headerlink" title="面朝大海，春暖花开～"></a>面朝大海，春暖花开～</h2>]]></content>
+      <categories>
+        <category>发骚</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
+        <tag>todolist</tag>
       </tags>
   </entry>
   <entry>
@@ -89,44 +186,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2020/06/05/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>user_based推荐系统</title>
-    <url>/2020/06/10/user-based%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/</url>
-    <content><![CDATA[<h1 id="User-based-协同过滤推荐系统。"><a href="#User-based-协同过滤推荐系统。" class="headerlink" title="User based 协同过滤推荐系统。"></a>User based 协同过滤推荐系统。</h1><p><em>前言</em>:project需要做一个图书推荐系统，刚开始没啥头绪吧，顺阳大佬给我推荐了user_based CF,google一下看了看，里面门道还是挺多的，非常值得抽时间研究一下，写个blog顺便总结归纳一下吧。</p>
-<p>基本参考了这位大佬的简书，链接如下：<a href="https://www.jianshu.com/p/cc9191418570" target="_blank" rel="noopener">https://www.jianshu.com/p/cc9191418570</a></p>
-<h2 id="协同过滤的大概思路"><a href="#协同过滤的大概思路" class="headerlink" title="协同过滤的大概思路"></a>协同过滤的大概思路</h2><p>其实有点像最邻近算法，当然了也是要根据用户本身的数据来进行推算的。就像读网文小说，最近特别喜欢修仙类的网文，那么你去问别人的时候也会问修仙类的小说有啥新作品嘛？<br>那么问题来了，你怎么知道你问的那个人舅喜欢修仙小说呢？<br>能不能将你认识的喜欢网文的人喜欢的类别统计出来呢？</p>
-<h2 id="协同过滤的主要步骤"><a href="#协同过滤的主要步骤" class="headerlink" title="协同过滤的主要步骤"></a>协同过滤的主要步骤</h2><p>1.收集用户的喜好<br>2.找到相似的用户<br>3.计算并推荐</p>
-<h2 id="协同过滤算法应用"><a href="#协同过滤算法应用" class="headerlink" title="协同过滤算法应用"></a>协同过滤算法应用</h2><p>实现流程分析：<br><strong>step1:计算用户相似度</strong><br>这里就有不同分支了，用余弦相似度或者皮尔森相关系数（Pearson correlation coefficient）。<br>皮尔森系数的公式：<br><img src="/images/Pearson.png" alt="alt"></p>
-<p>p的取值在[-1,1]之间，随着数字的变化相关性也随之改变。等于0则表示无线性相关，大于0则是正相关，小于0则是负相关。</p>
-<p>下面就是代码实现皮尔森系数了<br><em>code</em>:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>算法</category>
-      </categories>
-      <tags>
-        <tag>协同过滤</tag>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>剑指offer</title>
     <url>/2020/06/07/%E5%89%91%E6%8C%87offer/</url>
     <content><![CDATA[<h1 id="剑指offer"><a href="#剑指offer" class="headerlink" title="剑指offer"></a>剑指offer</h1><p><em>前言</em></p>
@@ -149,15 +208,32 @@
 <p><em>代码</em>:</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public static Solution&#123;</span><br><span class="line">	public boolean duplicate(int [] numbers, int length, int duplication [])&#123;</span><br><span class="line">		if(numbers&#x3D;&#x3D;null || length&lt;&#x3D;0)&#123;</span><br><span class="line">			return false;</span><br><span class="line">		&#125;</span><br><span class="line">		for(int i&#x3D;0;i&lt;length;i++&gt;)&#123;</span><br><span class="line">			if(numbers[i]&lt;0 || numbers[i]&gt;length-1)&#123;</span><br><span class="line">				return false;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">		int [] hash&#x3D; new int[lenght];</span><br><span class="line">		for(int i&#x3D;0;i&lt;length;i++&gt;)&#123;</span><br><span class="line">			if(hash[numbers[i]]&#x3D;&#x3D;true)&#123;</span><br><span class="line">				duplication[0]&#x3D;i;</span><br><span class="line">				return true;</span><br><span class="line">			&#125;</span><br><span class="line">			hash[numebrs[i]]&#x3D;true</span><br><span class="line">		&#125;</span><br><span class="line">		return false;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p><em>思路</em>:<br>    前面先判断input的数据，其中重要的是numbers里的数字不能大于lenght，否则hash array会out of index！一定要注意。因为这个hash array是我们判断的重要依据。我在9101中写的思路是这样的，建hash的时候先找到array中的最大值，用最大值来建立array，这也就不会out of index了。而这个步骤的时间复杂度是 $O(n)$。<br>    接下来就是查找这个hash表了，一般我们都会默认为false，找到一次改为true，如果在遍历的过程中，访问到了true的变量，我们就得到了结果。根据代码，我们的key值也就是i，把i赋值给duplicaiton就可以了。查表过程的时间复杂度也是 $O(n)$。<br>    hash的好处就是时间复杂度一般都很理想，但是鱼与熊掌不可兼得，建表的空间复杂的就花费的多一些，还有一些更复杂的hash table，可以存更多更复杂的数据类型，但是空间占用就更大了。找到数组中不重复的第一个数字也是同理，不多赘述了。</p>
+<h2 id="数组中的逆序对"><a href="#数组中的逆序对" class="headerlink" title="数组中的逆序对"></a>数组中的逆序对</h2><p><em>题目</em>:<br>&emsp;在数组中的两个数字，如果前面一个数字大于后面的数字，则这两个数字组成一个逆序对。输入一个数组,求出这个数组中的逆序对的总数P。并将P对1000000007取模的结果输出。 即输出P%1000000007。</p>
+<p><em>代码</em>:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public class Solution&#123;</span><br><span class="line">	int count;</span><br><span class="line"></span><br><span class="line">	public static Merge(int [] arr, int p,int q,int r)&#123;</span><br><span class="line">		int [] copy&#x3D;new int[arr.length]</span><br><span class="line">		int i&#x3D;p;</span><br><span class="line">		int j&#x3D;q+1;</span><br><span class="line">		int k&#x3D;0;</span><br><span class="line">		while(i&lt;&#x3D;q &amp;&amp; j&lt;&#x3D;r)&#123;</span><br><span class="line">			if(arr[i]&gt;arr[j])&#123;</span><br><span class="line">				copy[k++]&#x3D;arr[j++]</span><br><span class="line">				count+&#x3D;q+1-i;</span><br><span class="line">			&#125;else&#123;</span><br><span class="line">				copy[k++]&#x3D;arr[i++]</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		while(i&lt;&#x3D;q)&#123;</span><br><span class="line">			copy[k++]&#x3D;arr[i++]</span><br><span class="line">		&#125;</span><br><span class="line">		while(j&lt;&#x3D;r)&#123;</span><br><span class="line">			copy[k++]&#x3D;arr[j++]</span><br><span class="line">		&#125;</span><br><span class="line">		for(int e&#x3D;0;e&lt;copy.length;e++)&#123;</span><br><span class="line">			arr[p+e]&#x3D;copy[e];</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	public static Merge-sort(int [] array,int p,int r)&#123;</span><br><span class="line">		q&#x3D;(p+r)&#x2F;2;</span><br><span class="line">		if(p&lt;r)&#123;</span><br><span class="line">			Merge-sort(array,p,q);</span><br><span class="line">			Merge-sort(array,q+1,r);</span><br><span class="line">			Merge(array,p,q,r);</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	public int InversePairs(int [] array) &#123;</span><br><span class="line">        int p&#x3D;0;</span><br><span class="line">		int r &#x3D; array.length;</span><br><span class="line">		count&#x3D;0;</span><br><span class="line">		Merge-sort(array,p,r);</span><br><span class="line">		return count;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>_分析_：从代码可以看出来，基本这就是个分治的归并排序算法，除了统计次数之外。没啥两样。这道题也是基于归并排序中的比较大小而来的。在数组重拍的时候，会比较连个数字的大小，并决定排列顺序。我们假设现在数组排序到最后一轮，总长为8，那么i从0-3，j从4-7，一次比较。如果 $arr[i]&lt;arr[j]$, 我们假设此时i=0，j=4,那么在arr[j]之前的所有数都大于arr[j],因为前半部分也是排序之后的，index 1-3 都会比0大。这样我们就有了4对逆序对。以此类推就可以求出全部的了。</p>
+<h1 id="数字在排序数组中出现的次数"><a href="#数字在排序数组中出现的次数" class="headerlink" title="数字在排序数组中出现的次数"></a>数字在排序数组中出现的次数</h1><p><em>题目</em>:<br>&emsp;统计一个数字在排序数组中出现的次数。关键词为<em>排序数字</em>。</p>
+<p><em>代码</em>:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public class Sulotion&#123;</span><br><span class="line"></span><br><span class="line">	public static GetFirstIndex(int [] arr,int k)&#123;</span><br><span class="line">		int s&#x3D;0;</span><br><span class="line">		int end&#x3D;arr.length-1;</span><br><span class="line">		int mid&#x3D;0;</span><br><span class="line">		while(s&lt;&#x3D;end)&#123;</span><br><span class="line">			mid&#x3D;(s+end)&#x2F;2</span><br><span class="line">			if(arr[mid]&#x3D;&#x3D;k)&#123;</span><br><span class="line">				if(mid&gt;2 &amp;&amp; arr[mid-1]!&#x3D;k || mid&#x3D;0)&#123;</span><br><span class="line">					return mid;</span><br><span class="line">				&#125;else&#123;</span><br><span class="line">					end&#x3D;mid-1;</span><br><span class="line">				&#125;</span><br><span class="line"></span><br><span class="line">			&#125;elif(arr[mid]&gt;k)&#123;</span><br><span class="line">				end&#x3D;mid-1;</span><br><span class="line">			&#125;else&#123;</span><br><span class="line">				s&#x3D;mid+1;</span><br><span class="line">			&#125;</span><br><span class="line"></span><br><span class="line">		&#125;</span><br><span class="line">		return -1;</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	public static GetLastIndex(int [] arr,int k)&#123;</span><br><span class="line">		int s&#x3D;0;</span><br><span class="line">		int end&#x3D;arr.length-1;</span><br><span class="line">		int mid&#x3D;0;</span><br><span class="line">		while(s&lt;&#x3D;end)&#123;</span><br><span class="line">			if(arr[mid]&#x3D;&#x3D;k)&#123;</span><br><span class="line">				if(mid&gt;0 &amp;&amp; arr[mid+1]!&#x3D;k || mid&#x3D;0)&#123;</span><br><span class="line">					return mid;</span><br><span class="line">				&#125;else&#123;</span><br><span class="line">					s&#x3D;mid+1;</span><br><span class="line">				&#125;</span><br><span class="line"></span><br><span class="line">			&#125;elif(arr[mid]&gt;k)&#123;</span><br><span class="line">				end&#x3D;mid-1;</span><br><span class="line">			&#125;else&#123;</span><br><span class="line">				s&#x3D;mid+1;</span><br><span class="line">			&#125;</span><br><span class="line"></span><br><span class="line">		&#125;</span><br><span class="line">		return -1;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	public int GetNumberOfK(int [] array , int k) &#123;</span><br><span class="line">		int first&#x3D; GetFirstIndex(array,k);</span><br><span class="line">		int last&#x3D; GetLastIndex(array,k);</span><br><span class="line">		return last-first+1;</span><br><span class="line">       </span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><em>思路</em>:用二分搜索分别向左向右搜索，找到第一次出现的index和最后一次出现的index，难点主要在arr[mid]=k的判断上，因为该数组可能有多个k值，这个次等于的可能只是中间的k值，mid-1和mid+1也有可能是k，所以在判断是要看看，mid-1和mid+1的值是否是k。</p>
+]]></content>
+      <categories>
+        <category>算法</category>
+      </categories>
+      <tags>
+        <tag>code</tag>
+        <tag>刷题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>算法合集</title>
+    <url>/2020/06/11/%E7%AE%97%E6%B3%95%E5%90%88%E9%9B%86/</url>
+    <content><![CDATA[<h1 id="算法归纳"><a href="#算法归纳" class="headerlink" title="算法归纳"></a>算法归纳</h1><blockquote>
+<p>刷题的时候除了一些字符串或者智力题，大部分都是算法的变种，打算把原生算法和算法题分开，在这单独写一章。</p>
+</blockquote>
 <h2 id="归并排序-分治"><a href="#归并排序-分治" class="headerlink" title="归并排序-分治"></a>归并排序-分治</h2><p><em>前言</em>:<br>最近一直在接触归并排序的分治算法，于是抽时间好好看了看，顺便总结一下，分治归并的题也非常的多，一举两得啦。</p>
 <p><em>代码</em>:</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">piblic class Merge-sort-algorithm&#123;</span><br><span class="line">	public static void Merge(int [] arr,int p,int q,int r)&#123;</span><br><span class="line">		&#x2F;&#x2F;声明一个临时数组，排序好的会装进去，最后再重写原数组</span><br><span class="line">		int [] copy&#x3D;new int[r-p+1];</span><br><span class="line">		int i&#x3D;p;</span><br><span class="line">		int j&#x3D;q+1;</span><br><span class="line">		int k&#x3D;0;</span><br><span class="line">		while(i&lt;&#x3D;q &amp;&amp; j&lt;&#x3D;r)&#123;</span><br><span class="line">			if(arr[i]&lt;&#x3D;arr[j])&#123;</span><br><span class="line">				&#x2F;&#x2F;大小比较，小的先放进去</span><br><span class="line">				copy[k++]&#x3D;arr[i++]</span><br><span class="line">			&#125;else&#123;</span><br><span class="line">				copy[k++]&#x3D;arr[j++]</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">		&#x2F;&#x2F;左边剩余的数全都放进去</span><br><span class="line">		while(i&lt;&#x3D;q)&#123;</span><br><span class="line">			copy[k++]&#x3D;arr[i++]</span><br><span class="line">		&#125;</span><br><span class="line">		&#x2F;&#x2F;右边剩余的数全都放进去</span><br><span class="line">		while(j&lt;&#x3D;r)&#123;</span><br><span class="line">			copy[k++]&#x3D;arr[j++]</span><br><span class="line">		&#125;</span><br><span class="line">		&#x2F;&#x2F;把原数组重写，注意覆盖原数组的坐标位置是根据起始位置开始的</span><br><span class="line">		for(int e&#x3D;0;e&lt;copy.length;e++)&#123;</span><br><span class="line">			arr[p+e]&#x3D;copy[e]</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line">	public static void Merge-sort(int [] arr, int p,int r)&#123;</span><br><span class="line">		int q&#x3D;(p+r)&#x2F;2;</span><br><span class="line">		if(p&lt;r)&#123;</span><br><span class="line">			&#x2F;&#x2F;递归调用</span><br><span class="line">			Merge-sort(arr,p,q);</span><br><span class="line">			Merge-sort(arr,q+1,r);</span><br><span class="line">			&#x2F;&#x2F;归并排序元素</span><br><span class="line">			Merge(arr,p,q,r);</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line">	public static void main(args[]String)&#123;</span><br><span class="line">		int [] arr&#x3D;&#123;5,2,4,7,1,3,2,6&#125;;</span><br><span class="line">		Merge-sort(arr,0,arr.length-1);</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-
 
 <h2 id="二分搜索算法"><a href="#二分搜索算法" class="headerlink" title="二分搜索算法"></a>二分搜索算法</h2><p><em>思路</em>:</p>
 <blockquote>
@@ -174,46 +250,7 @@
         <category>算法</category>
       </categories>
       <tags>
-        <tag>code</tag>
-        <tag>刷题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>06-08-清晨杂想</title>
-    <url>/2020/06/09/06-08-%E6%B8%85%E6%99%A8%E6%9D%82%E6%83%B3/</url>
-    <content><![CDATA[<h1 id="6月9日-来自清晨的回想"><a href="#6月9日-来自清晨的回想" class="headerlink" title="6月9日-来自清晨的回想"></a>6月9日-来自清晨的回想</h1><h2 id="心比天高，命比纸薄"><a href="#心比天高，命比纸薄" class="headerlink" title="心比天高，命比纸薄"></a>心比天高，命比纸薄</h2><p>昨晚又有些着相了，不知为何，可能是很多事情堆叠的压力吧，自己无意中没有hold住，这泄露的微毫的压力默默影响了我，还好今早起来回味过来了。我一旦感受到沉重的压力，不是直接颓废躺倒，就是反常的自负自大，眼高手低。希望通过每日写些什么，逐渐摆脱这种情况吧。</p>
-<h2 id="todo-list"><a href="#todo-list" class="headerlink" title="todo-list"></a>todo-list</h2><ul>
-<li><p>comp9101-ass1<br>昨天把question1-question3都写完了，question5写了第一小题，question4还没有好的思路，q5剩下俩就是数学问题了，可能够呛了。其中question1-b的改进算法使用了hash的思想，自己当时也未回想起来，知道晚上刷题，又刷到一个使用hash的题才才想起来，自己对于hash的认知太过于浅薄了。想了想，可能跟python有关吧，我一直把hash与dict绑定，这是非常不对的，片面的。</p>
-</li>
-<li><p>comp9900-ER图<br>昨晚讨论之后我们便分头行动了，作为后端写手，分配了ER图的任务。结束之后，去google了一下，毕竟全都忘掉了，不过还好，没有全忘掉。但是结合我们的任务要求来看，我的初版ER图有些简单啊，感觉得花时间好好看一下，当然了，也有可能真的不是很复杂：）～</p>
-</li>
-<li><p>刷题<br>其实这学期零散时间还是很多的，争取多刷题吧。昨晚刷了一道输出第一个重复数字的题，这其中用到了hash。题本身是不太难得，但这道题可以扩展很多。第一个重复数字，也可以改成第一个不重复的数字，甚至不是数字，字符也可以。但是字符的256位我没抬搞明白……剩下的就写在剑指那页吧。</p>
-</li>
-</ul>
-<h2 id="面朝大海，春暖花开～"><a href="#面朝大海，春暖花开～" class="headerlink" title="面朝大海，春暖花开～"></a>面朝大海，春暖花开～</h2>]]></content>
-      <categories>
-        <category>发骚</category>
-      </categories>
-      <tags>
-        <tag>杂记</tag>
-        <tag>todolist</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo menu配置的天坑</title>
-    <url>/2020/06/11/hexo-menu%E9%85%8D%E7%BD%AE%E7%9A%84%E5%A4%A9%E5%9D%91/</url>
-    <content><![CDATA[<h1 id="hexo-next的天坑"><a href="#hexo-next的天坑" class="headerlink" title="hexo next的天坑"></a>hexo next的天坑</h1><p>成功搭建了blog，其实很多细节并没有完善，想到一出就改一出，正好今天添加了一个 live2d小姐姐～～<br>然后我就试了试其他功能，突然发现主页、分类、标签之类的返回一个空白页。<br>这就很蛋疼了，之前因为文章少，也就没在意，这下问题可就得必须解决了。<br>先在本地试了试，运行hexo server之后，点击主页，会返回一个白页，并有一行文字</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Cannot GET &#x2F;archives&#x2F;%20&#x2F;</span><br></pre></td></tr></table></figure>
-<p>主页有，分类有，标签也有，menn栏所有的按钮点完之后都会这样。<br>遇事不决就google，谷歌之后发现似乎有很多答案啊，一个一个看进去，却卵用没有。<br>都是让人 hexo new page 的。但是现在hexo得搭建攻略这么完善，谁会忘记这个？<br>还有人说修改主题 _config.yml 里面menu的注释符号的…………全TM是复制粘贴的混子，卵用没有。<br>还好英文搜索总算有点用，下面就说一下这个问题。</p>
-<p>报错信息中的 /%20/ 是指的空格的意思，具体就是menu配置中“||”与前一个变量之间不能有空格，删掉就行了</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!-- 解决前 --&gt;</span><br><span class="line">menu:</span><br><span class="line">  home: &#x2F; || home</span><br><span class="line">  about: &#x2F;about&#x2F; || user</span><br><span class="line">  tags: &#x2F;tags&#x2F; || tags</span><br><span class="line">  categories: &#x2F;categories&#x2F; || th</span><br><span class="line"></span><br><span class="line">&lt;!-- 解决后 --&gt;</span><br><span class="line">menu:</span><br><span class="line">  home: &#x2F;|| home</span><br><span class="line">  about: &#x2F;about&#x2F;|| user</span><br><span class="line">  tags: &#x2F;tags&#x2F;|| tags</span><br><span class="line">  categories: &#x2F;categories&#x2F;|| th</span><br></pre></td></tr></table></figure>
-<p>就是删掉空格就行，中文搜索一堆废物垃圾结果…………</p>
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>吐槽</tag>
+        <tag>算法</tag>
       </tags>
   </entry>
 </search>
