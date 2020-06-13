@@ -16,6 +16,25 @@
       </tags>
   </entry>
   <entry>
+    <title>06-11杂记</title>
+    <url>/2020/06/11/06-11%E6%9D%82%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="6月11日–随便说点啥"><a href="#6月11日–随便说点啥" class="headerlink" title="6月11日–随便说点啥"></a>6月11日–随便说点啥</h1><p>今天又是颓废的一天，下午才打算做点什么，可能是前两天太累了，疯狂写东西。<br>然后就是把算法和算法题分开，把算法单独写一章，例如归并排序，二分算法等，<br>leetcode或者剑指上面一般都是算法的变种，在一些算法的细节上添加元素。</p>
+<p>然后就是顺阳大佬说的评论问题，我看了看好像也没啥，再研究一下吧。</p>
+<p>今天得把皮尔森算法搞完，毕竟推荐系统得靠这个…………</p>
+<p>刷题，9101，django……</p>
+<p>如果有时间，就先建个user的数据模型吧，算是9900的第一步吧。</p>
+<blockquote>
+<p><em>长风破浪会有时，直挂云帆济沧海</em></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>发骚</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>06-08-清晨杂想</title>
     <url>/2020/06/09/06-08-%E6%B8%85%E6%99%A8%E6%9D%82%E6%83%B3/</url>
     <content><![CDATA[<h1 id="6月9日-来自清晨的回想"><a href="#6月9日-来自清晨的回想" class="headerlink" title="6月9日-来自清晨的回想"></a>6月9日-来自清晨的回想</h1><h2 id="心比天高，命比纸薄"><a href="#心比天高，命比纸薄" class="headerlink" title="心比天高，命比纸薄"></a>心比天高，命比纸薄</h2><p>昨晚又有些着相了，不知为何，可能是很多事情堆叠的压力吧，自己无意中没有hold住，这泄露的微毫的压力默默影响了我，还好今早起来回味过来了。我一旦感受到沉重的压力，不是直接颓废躺倒，就是反常的自负自大，眼高手低。希望通过每日写些什么，逐渐摆脱这种情况吧。</p>
@@ -50,60 +69,35 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2020/06/05/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>hexo menu配置的天坑</title>
-    <url>/2020/06/11/hexo-menu%E9%85%8D%E7%BD%AE%E7%9A%84%E5%A4%A9%E5%9D%91/</url>
-    <content><![CDATA[<h1 id="hexo-next的天坑"><a href="#hexo-next的天坑" class="headerlink" title="hexo next的天坑"></a>hexo next的天坑</h1><p>成功搭建了blog，其实很多细节并没有完善，想到一出就改一出，正好今天添加了一个 live2d小姐姐～～<br>然后我就试了试其他功能，突然发现主页、分类、标签之类的返回一个空白页。<br>这就很蛋疼了，之前因为文章少，也就没在意，这下问题可就得必须解决了。<br>先在本地试了试，运行hexo server之后，点击主页，会返回一个白页，并有一行文字</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Cannot GET &#x2F;archives&#x2F;%20&#x2F;</span><br></pre></td></tr></table></figure>
-<p>主页有，分类有，标签也有，menn栏所有的按钮点完之后都会这样。<br>遇事不决就google，谷歌之后发现似乎有很多答案啊，一个一个看进去，却卵用没有。<br>都是让人 hexo new page 的。但是现在hexo得搭建攻略这么完善，谁会忘记这个？<br>还有人说修改主题 _config.yml 里面menu的注释符号的…………全TM是复制粘贴的混子，卵用没有。<br>还好英文搜索总算有点用，下面就说一下这个问题。</p>
-<p>报错信息中的 /%20/ 是指的空格的意思，具体就是menu配置中“||”与前一个变量之间不能有空格，删掉就行了</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!-- 解决前 --&gt;</span><br><span class="line">menu:</span><br><span class="line">  home: &#x2F; || home</span><br><span class="line">  about: &#x2F;about&#x2F; || user</span><br><span class="line">  tags: &#x2F;tags&#x2F; || tags</span><br><span class="line">  categories: &#x2F;categories&#x2F; || th</span><br><span class="line"></span><br><span class="line">&lt;!-- 解决后 --&gt;</span><br><span class="line">menu:</span><br><span class="line">  home: &#x2F;|| home</span><br><span class="line">  about: &#x2F;about&#x2F;|| user</span><br><span class="line">  tags: &#x2F;tags&#x2F;|| tags</span><br><span class="line">  categories: &#x2F;categories&#x2F;|| th</span><br></pre></td></tr></table></figure>
-<p>就是删掉空格就行，中文搜索一堆废物垃圾结果…………</p>
+    <title>Django之初见</title>
+    <url>/2020/06/09/Django%E4%B9%8B%E5%88%9D%E8%A7%81/</url>
+    <content><![CDATA[<h1 id="Django"><a href="#Django" class="headerlink" title="Django"></a>Django</h1><p>花了一天半把django官网的实例做了一遍，不得不说有些地方的确比flask舒服，如果真的是萌新，尤其是对任务框架不熟悉的却想做一个完整的web server，很推荐Django。flask的灵活也是相对的，有时候萌新真的无处下手，官网的教程跟Django的比起来差的太远了。但是熟悉了开发流程并有了一些经验后，不喜欢Django束缚的人，flask真的是非常好的框架了。<br>总之，各有千秋吧。</p>
+<blockquote>
+<p><strong>君子性非异也，善假于物也！</strong></p>
+</blockquote>
 ]]></content>
       <categories>
-        <category>hexo</category>
+        <category>framework</category>
       </categories>
       <tags>
-        <tag>吐槽</tag>
+        <tag>Django</tag>
       </tags>
   </entry>
   <entry>
-    <title>user_based推荐系统</title>
-    <url>/2020/06/10/user-based%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/</url>
-    <content><![CDATA[<h1 id="User-based-协同过滤推荐系统。"><a href="#User-based-协同过滤推荐系统。" class="headerlink" title="User based 协同过滤推荐系统。"></a>User based 协同过滤推荐系统。</h1><p><em>前言</em>:project需要做一个图书推荐系统，刚开始没啥头绪吧，顺阳大佬给我推荐了user_based CF,google一下看了看，里面门道还是挺多的，非常值得抽时间研究一下，写个blog顺便总结归纳一下吧。</p>
-<p>基本参考了这位大佬的简书，链接如下：<a href="https://www.jianshu.com/p/cc9191418570" target="_blank" rel="noopener">https://www.jianshu.com/p/cc9191418570</a></p>
-<h2 id="协同过滤的大概思路"><a href="#协同过滤的大概思路" class="headerlink" title="协同过滤的大概思路"></a>协同过滤的大概思路</h2><p>其实有点像最邻近算法，当然了也是要根据用户本身的数据来进行推算的。就像读网文小说，最近特别喜欢修仙类的网文，那么你去问别人的时候也会问修仙类的小说有啥新作品嘛？<br>那么问题来了，你怎么知道你问的那个人舅喜欢修仙小说呢？<br>能不能将你认识的喜欢网文的人喜欢的类别统计出来呢？</p>
-<h2 id="协同过滤的主要步骤"><a href="#协同过滤的主要步骤" class="headerlink" title="协同过滤的主要步骤"></a>协同过滤的主要步骤</h2><p>1.收集用户的喜好<br>2.找到相似的用户<br>3.计算并推荐</p>
-<h2 id="协同过滤算法应用"><a href="#协同过滤算法应用" class="headerlink" title="协同过滤算法应用"></a>协同过滤算法应用</h2><p>实现流程分析：<br><strong>step1:计算用户相似度</strong><br>这里就有不同分支了，用余弦相似度或者皮尔森相关系数（Pearson correlation coefficient）。<br>皮尔森系数的公式：<br><img src="/images/Pearson.png" alt="alt"></p>
-<p>p的取值在[-1,1]之间，随着数字的变化相关性也随之改变。等于0则表示无线性相关，大于0则是正相关，小于0则是负相关。</p>
-<p>下面就是代码实现皮尔森系数了<br><em>code</em>:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sum_xy &#x3D; 0</span><br><span class="line">sum_x&#x3D;0</span><br><span class="line">sum_y&#x3D;0</span><br><span class="line">sum_xx&#x3D;0</span><br><span class="line">sum_yy&#x3D;0</span><br><span class="line">n&#x3D;0</span><br><span class="line">for (x,y) in some_condition:</span><br><span class="line">    n+&#x3D;1</span><br><span class="line">    sum_xy+&#x3D;x*y</span><br><span class="line">    sum_x+&#x3D;x</span><br><span class="line">    sum_y+&#x3D;y</span><br><span class="line">    sum_xx+&#x3D;pow(x,2)</span><br><span class="line">    sum_yy+&#x3D;pow(y,2)</span><br><span class="line">if(n&#x3D;&#x3D;0):</span><br><span class="line">    return 0</span><br><span class="line"></span><br><span class="line">&lt;!-- 皮尔森相关系数的公式 --&gt;</span><br><span class="line">denominator&#x3D;sqrt(sum_xx - pow(sum_x)&#x2F;n) * sqrt(sum_yy-pow(sum_y)&#x2F;n)</span><br><span class="line">if denominator &#x3D;&#x3D;0:</span><br><span class="line">    return 0</span><br><span class="line">else:</span><br><span class="line">    numerator&#x3D;sum_xy-(sum_x * sum_y)&#x2F;n</span><br><span class="line">    return numerator &#x2F; denominator</span><br></pre></td></tr></table></figure>
-
-<p>以下为实例的完整代码：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">import pdb</span><br><span class="line">import csv</span><br><span class="line">from math import sqrt</span><br><span class="line"></span><br><span class="line">rows &#x3D; []</span><br><span class="line">csvFile &#x3D; open(&#39;user_book.csv&#39;, &#39;r&#39;)</span><br><span class="line">reader &#x3D; csv.reader(csvFile)</span><br><span class="line">for row in reader:</span><br><span class="line">     rows.append(row)</span><br><span class="line">rows.remove(rows[0]) #remove 1st row</span><br><span class="line">print(&quot;rows:\n%s\n&quot; % rows)</span><br><span class="line">csvFile.close()</span><br><span class="line"></span><br><span class="line">users &#x3D; &#123;&#125;</span><br><span class="line">for row in rows:</span><br><span class="line">     if row[0] not in users:        </span><br><span class="line">          users[row[0]] &#x3D; &#123;&#125;</span><br><span class="line">     users[row[0]][row[2]] &#x3D; float(row[1])</span><br><span class="line">print(&quot;users:\n%s\n&quot; % users)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">class recommender:</span><br><span class="line">    #k：the nearest k neighbors</span><br><span class="line">    #cnt：recommend count</span><br><span class="line">    def __init__(self, dataset, k&#x3D;3, cnt&#x3D;2):</span><br><span class="line">        self.k &#x3D; k</span><br><span class="line">        self.cnt &#x3D; cnt</span><br><span class="line">        if type(dataset).__name__ &#x3D;&#x3D; &#39;dict&#39;:</span><br><span class="line">            self.dataset &#x3D; dataset</span><br><span class="line"></span><br><span class="line">    # pearson correlation coefficient</span><br><span class="line">    def pearson(self, touser, dataset):</span><br><span class="line">        sum_xy &#x3D; 0</span><br><span class="line">        sum_x &#x3D; 0</span><br><span class="line">        sum_y &#x3D; 0</span><br><span class="line">        sum_xx &#x3D; 0</span><br><span class="line">        sum_yy &#x3D; 0</span><br><span class="line">        n &#x3D; 0</span><br><span class="line">        for key in touser:</span><br><span class="line">            if key in dataset:</span><br><span class="line">                n +&#x3D; 1</span><br><span class="line">                x &#x3D; touser[key]</span><br><span class="line">                y &#x3D; dataset[key]</span><br><span class="line">                sum_x +&#x3D; x</span><br><span class="line">                sum_y +&#x3D; y</span><br><span class="line">                sum_xy +&#x3D; x * y</span><br><span class="line">                sum_xx +&#x3D; pow(x, 2)</span><br><span class="line">                sum_yy +&#x3D; pow(y, 2)</span><br><span class="line">        if n &#x3D;&#x3D; 0:</span><br><span class="line">            return 0</span><br><span class="line">        </span><br><span class="line">        denominator &#x3D; sqrt(sum_xx - pow(sum_x, 2) &#x2F; n)  * sqrt(sum_yy - pow(sum_y, 2) &#x2F; n)</span><br><span class="line">        if denominator &#x3D;&#x3D; 0:</span><br><span class="line">            return 0</span><br><span class="line">        else:</span><br><span class="line">            numerator &#x3D; sum_xy - (sum_x * sum_y) &#x2F; n</span><br><span class="line">            return numerator &#x2F; denominator</span><br><span class="line"></span><br><span class="line">    def neighbors(self, username):</span><br><span class="line">        distances &#x3D; []</span><br><span class="line">        for key in self.dataset:</span><br><span class="line">            if key !&#x3D; username:</span><br><span class="line">                distance &#x3D; self.pearson(self.dataset[username],self.dataset[key])</span><br><span class="line">                distances.append((key, distance))</span><br><span class="line"></span><br><span class="line">        distances.sort(key&#x3D;lambda artistTuple: artistTuple[1],reverse&#x3D;True)</span><br><span class="line">        return distances</span><br><span class="line">    def recommend_to_user(self, user):</span><br><span class="line">        # store recommended bookid and weight</span><br><span class="line">        recommendations &#x3D; &#123;&#125;</span><br><span class="line">        neighborlist &#x3D; self.neighbors(user)</span><br><span class="line">        user_dict &#x3D; self.dataset[user]</span><br><span class="line">        </span><br><span class="line">        totalDistance &#x3D; 0.0</span><br><span class="line">        </span><br><span class="line">        # total distance of the nearest k neighbors</span><br><span class="line">        for i in range(self.k):</span><br><span class="line">            totalDistance +&#x3D; neighborlist[i][1]</span><br><span class="line">        if totalDistance&#x3D;&#x3D;0.0:</span><br><span class="line">            totalDistance&#x3D;1.0</span><br><span class="line"> </span><br><span class="line">        #recommend books to to_user who never read</span><br><span class="line">        for i in range(self.k):</span><br><span class="line">            weight &#x3D; neighborlist[i][1] &#x2F; totalDistance</span><br><span class="line">            </span><br><span class="line">            neighbor_name &#x3D; neighborlist[i][0]</span><br><span class="line">            #book and score of user i</span><br><span class="line">            neighbor_books &#x3D; self.dataset[neighbor_name]</span><br><span class="line">            for bookid in neighbor_books:</span><br><span class="line">                if not bookid in user_dict:</span><br><span class="line">                    if bookid not in recommendations:</span><br><span class="line">                        recommendations[bookid] &#x3D; neighbor_books[bookid] * weight</span><br><span class="line">                    else:</span><br><span class="line">                        recommendations[bookid] +&#x3D; neighbor_books[bookid] * weight</span><br><span class="line">                        </span><br><span class="line">        # convert dict to list</span><br><span class="line">        print(&quot;recomend bookid and score weight:\n%s\n&quot; % recommendations)</span><br><span class="line">        recommendations &#x3D; list(recommendations.items())</span><br><span class="line">        </span><br><span class="line">        # sort descending</span><br><span class="line">        recommendations.sort(key&#x3D;lambda artistTuple: artistTuple[1], reverse &#x3D; True)</span><br><span class="line"></span><br><span class="line">        return recommendations[:self.cnt]</span><br><span class="line"></span><br><span class="line">def recommend_bookid_to_user(username):</span><br><span class="line">    bookid_list &#x3D; []</span><br><span class="line">    r &#x3D; recommender(users)</span><br><span class="line">    bookid_and_weight_list &#x3D; r.recommend_to_user(username)</span><br><span class="line">    print (&quot;Recommend bookid and weight:&quot;,bookid_and_weight_list)</span><br><span class="line">    for i in range(len(bookid_and_weight_list)):</span><br><span class="line">        bookid_list.append(bookid_and_weight_list[i][0])</span><br><span class="line">    print (&quot;Recommended bookid: &quot;, bookid_list)</span><br><span class="line">        </span><br><span class="line">if __name__ &#x3D;&#x3D; &#39;__main__&#39;:</span><br><span class="line">   recommend_bookid_to_user(&quot;Li Si&quot;)rec</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>算法</category>
-      </categories>
+    <title>06-13</title>
+    <url>/2020/06/13/06-13/</url>
+    <content><![CDATA[<h1 id="6月13日-宁做太平犬，不做乱世人"><a href="#6月13日-宁做太平犬，不做乱世人" class="headerlink" title="6月13日-宁做太平犬，不做乱世人"></a>6月13日-宁做太平犬，不做乱世人</h1><p>本来就颓废了周四一日，结果周五一觉起来，头疼的厉害，不得不又划了一天，不过还是把proposal的任务分配完了。顺便也看了看相似度算法的大概，不看不知道，一看吓一跳，里面的门道确实颇多啊。</p>
+<p>本来今日打算好好啃一啃相似算法，再把9101彻底弄完交了，结果早上醒来，新发地突发疫情，搞的自己是心神不宁，毕竟父母与好友都在北京，父母年岁也越发的大了，倘若真的染上了，也不知扛得住扛不住。人啊，毕竟还是自私的动物，尤其是涉及到自己家庭的时候。</p>
+<p>当然了，这个时候还是要听从组织指挥，这个不是嘲讽，而是事实，个体在巨大灾祸面前风险的承担能力几乎为0，但是群体就不一样了。希望赶紧追本溯源，找到源头，控制住。</p>
+<p>不得不说，在这次疫情当中，大数据与物联网发挥了极大的作用，定位与追查，这也是未来的趋势。有些方面的实施交给计算机来做，可以一定程度的避免人为的错误，其实我之前也对计算机与人的操作的认知有些不全面，后来跟赫爷一起去泰国的时候聊过这个问题，就是飞机的飞控与人哪个更能防止操作失误，后来我也意识到了，这些失误不就是人弄出来的吗，只要我们在写飞控的时候考虑全面，的确比人更能减少失误。</p>
+<p>其实政府的政务也是如此，填表填表填表……填表本身没有问题，这就是个信息的简单集中处理，但是这个过程重复性替代性太高了，而且人为失误也比较多。明明可以出一个办公系统，自动过滤填写内容，后台系统自动计数统计。这都会比人为处理要更快更准确，其中的可操作性也就更低了。</p>
+<p>说的有些杂七杂八的，主要还是心乱了，随便写点东西让心静一静吧。</p>
+<blockquote>
+<p><em>二十一世纪是<s>生物</s>信息的世纪！！</em></p>
+</blockquote>
+]]></content>
       <tags>
-        <tag>协同过滤</tag>
-        <tag>python</tag>
+        <tag>杂记</tag>
       </tags>
   </entry>
   <entry>
@@ -152,37 +146,62 @@
       </tags>
   </entry>
   <entry>
-    <title>Django之初见</title>
-    <url>/2020/06/09/Django%E4%B9%8B%E5%88%9D%E8%A7%81/</url>
-    <content><![CDATA[<h1 id="Django"><a href="#Django" class="headerlink" title="Django"></a>Django</h1><p>花了一天半把django官网的实例做了一遍，不得不说有些地方的确比flask舒服，如果真的是萌新，尤其是对任务框架不熟悉的却想做一个完整的web server，很推荐Django。flask的灵活也是相对的，有时候萌新真的无处下手，官网的教程跟Django的比起来差的太远了。但是熟悉了开发流程并有了一些经验后，不喜欢Django束缚的人，flask真的是非常好的框架了。<br>总之，各有千秋吧。</p>
-<blockquote>
-<p><strong>君子性非异也，善假于物也！</strong></p>
-</blockquote>
+    <title>Hello World</title>
+    <url>/2020/06/05/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>hexo menu配置的天坑</title>
+    <url>/2020/06/11/hexo-menu%E9%85%8D%E7%BD%AE%E7%9A%84%E5%A4%A9%E5%9D%91/</url>
+    <content><![CDATA[<h1 id="hexo-next的天坑"><a href="#hexo-next的天坑" class="headerlink" title="hexo next的天坑"></a>hexo next的天坑</h1><p>成功搭建了blog，其实很多细节并没有完善，想到一出就改一出，正好今天添加了一个 live2d小姐姐～～<br>然后我就试了试其他功能，突然发现主页、分类、标签之类的返回一个空白页。<br>这就很蛋疼了，之前因为文章少，也就没在意，这下问题可就得必须解决了。<br>先在本地试了试，运行hexo server之后，点击主页，会返回一个白页，并有一行文字</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Cannot GET &#x2F;archives&#x2F;%20&#x2F;</span><br></pre></td></tr></table></figure>
+<p>主页有，分类有，标签也有，menn栏所有的按钮点完之后都会这样。<br>遇事不决就google，谷歌之后发现似乎有很多答案啊，一个一个看进去，却卵用没有。<br>都是让人 hexo new page 的。但是现在hexo得搭建攻略这么完善，谁会忘记这个？<br>还有人说修改主题 _config.yml 里面menu的注释符号的…………全TM是复制粘贴的混子，卵用没有。<br>还好英文搜索总算有点用，下面就说一下这个问题。</p>
+<p>报错信息中的 /%20/ 是指的空格的意思，具体就是menu配置中“||”与前一个变量之间不能有空格，删掉就行了</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!-- 解决前 --&gt;</span><br><span class="line">menu:</span><br><span class="line">  home: &#x2F; || home</span><br><span class="line">  about: &#x2F;about&#x2F; || user</span><br><span class="line">  tags: &#x2F;tags&#x2F; || tags</span><br><span class="line">  categories: &#x2F;categories&#x2F; || th</span><br><span class="line"></span><br><span class="line">&lt;!-- 解决后 --&gt;</span><br><span class="line">menu:</span><br><span class="line">  home: &#x2F;|| home</span><br><span class="line">  about: &#x2F;about&#x2F;|| user</span><br><span class="line">  tags: &#x2F;tags&#x2F;|| tags</span><br><span class="line">  categories: &#x2F;categories&#x2F;|| th</span><br></pre></td></tr></table></figure>
+<p>就是删掉空格就行，中文搜索一堆废物垃圾结果…………</p>
 ]]></content>
       <categories>
-        <category>framework</category>
+        <category>hexo</category>
       </categories>
       <tags>
-        <tag>Django</tag>
+        <tag>吐槽</tag>
       </tags>
   </entry>
   <entry>
-    <title>06-11杂记</title>
-    <url>/2020/06/11/06-11%E6%9D%82%E8%AE%B0/</url>
-    <content><![CDATA[<h1 id="6月11日–随便说点啥"><a href="#6月11日–随便说点啥" class="headerlink" title="6月11日–随便说点啥"></a>6月11日–随便说点啥</h1><p>今天又是颓废的一天，下午才打算做点什么，可能是前两天太累了，疯狂写东西。<br>然后就是把算法和算法题分开，把算法单独写一章，例如归并排序，二分算法等，<br>leetcode或者剑指上面一般都是算法的变种，在一些算法的细节上添加元素。</p>
-<p>然后就是顺阳大佬说的评论问题，我看了看好像也没啥，再研究一下吧。</p>
-<p>今天得把皮尔森算法搞完，毕竟推荐系统得靠这个…………</p>
-<p>刷题，9101，django……</p>
-<p>如果有时间，就先建个user的数据模型吧，算是9900的第一步吧。</p>
-<blockquote>
-<p><em>长风破浪会有时，直挂云帆济沧海</em></p>
+    <title>相似度算法</title>
+    <url>/2020/06/13/%E7%9B%B8%E4%BC%BC%E5%BA%A6%E7%AE%97%E6%B3%95/</url>
+    <content><![CDATA[<h1 id="相似度算法（similarity-algorithm）"><a href="#相似度算法（similarity-algorithm）" class="headerlink" title="相似度算法（similarity algorithm）"></a>相似度算法（similarity algorithm）</h1><blockquote>
+<p>前言：前两日为了9900特意搜了搜推荐系统，着重看的是user-base-cf，当时不是很理解，就随便了看了，什么余弦，什么皮尔森。后来又仔细看了看，因为想选个简单的，当时以为，余弦和皮尔森是不同的两种相似度方法，当然了，这话也没错，只不过现在看来不太准确。</p>
 </blockquote>
+<h2 id="余弦算法"><a href="#余弦算法" class="headerlink" title="余弦算法"></a>余弦算法</h2><p>cosine，这玩意从初中开始就伴随着我们，鉴于当时的理解，也就是非常片面的理解为一个夹角而已，高中好像根据cosine教了些别的，不过都忘了……</p>
+<p>余弦算法，其实理解起来也很简单。就是直观上的看两个向量的余弦夹角来判断他们的相似性。</p>
+<p><img src="/images/consine_p.jpg" alt="alt"></p>
+<p>公式如下：<br><img src="/images/consine_formula.jpg" alt="alt"></p>
+<p>但是问题来就来了，两个向量或许consine夹角比较小，他们的向量长度却差的很多，余弦相似度却无法判断这种情况。例如，有两个用户，A与B，有两本书，A与B对两本书的评分分别是（1，2），（4，5）。可以看出，他俩都对两本书有过评分，但是评分的差距却很大，这种情况下，余弦相似度是无法将这种信息准确的表达出来的。而且，余弦相似无法在维度缺失的情况下进行计算，必须要求两个向量维度相同，如果A(1,2,4,B(4,5,NULL), 这种情况下余弦是没有办法进行计算的。</p>
+<h2 id="皮尔森相关系数（Pearson-Correlation-Coefficient）"><a href="#皮尔森相关系数（Pearson-Correlation-Coefficient）" class="headerlink" title="皮尔森相关系数（Pearson Correlation Coefficient）"></a>皮尔森相关系数（Pearson Correlation Coefficient）</h2><p>皮尔森相关系数就是余弦相似度在维度缺失的情况下的一种改进。</p>
+<p>公式在推荐系统那张。</p>
+<p>简而言之，皮尔森系数会在计算前进行中心化计算。就是在计算前，把null都填充成0，然后让所有其他的维度减去这个向量各维度的平均值。但是也没有摆脱计算余弦夹角的范畴。</p>
+<p>今天就先扯到这吧，其实理解上还是有些偏差的，等后面理解深了再来做修正补充吧。</p>
 ]]></content>
       <categories>
-        <category>发骚</category>
+        <category>算法</category>
+        <category>推荐系统</category>
       </categories>
       <tags>
-        <tag>杂记</tag>
+        <tag>相似度</tag>
       </tags>
   </entry>
   <entry>
@@ -211,6 +230,28 @@
       </categories>
       <tags>
         <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>user_based推荐系统</title>
+    <url>/2020/06/10/user-based%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/</url>
+    <content><![CDATA[<h1 id="User-based-协同过滤推荐系统。"><a href="#User-based-协同过滤推荐系统。" class="headerlink" title="User based 协同过滤推荐系统。"></a>User based 协同过滤推荐系统。</h1><p><em>前言</em>:project需要做一个图书推荐系统，刚开始没啥头绪吧，顺阳大佬给我推荐了user_based CF,google一下看了看，里面门道还是挺多的，非常值得抽时间研究一下，写个blog顺便总结归纳一下吧。</p>
+<p>基本参考了这位大佬的简书，链接如下：<a href="https://www.jianshu.com/p/cc9191418570" target="_blank" rel="noopener">https://www.jianshu.com/p/cc9191418570</a></p>
+<h2 id="协同过滤的大概思路"><a href="#协同过滤的大概思路" class="headerlink" title="协同过滤的大概思路"></a>协同过滤的大概思路</h2><p>其实有点像最邻近算法，当然了也是要根据用户本身的数据来进行推算的。就像读网文小说，最近特别喜欢修仙类的网文，那么你去问别人的时候也会问修仙类的小说有啥新作品嘛？<br>那么问题来了，你怎么知道你问的那个人舅喜欢修仙小说呢？<br>能不能将你认识的喜欢网文的人喜欢的类别统计出来呢？</p>
+<h2 id="协同过滤的主要步骤"><a href="#协同过滤的主要步骤" class="headerlink" title="协同过滤的主要步骤"></a>协同过滤的主要步骤</h2><p>1.收集用户的喜好<br>2.找到相似的用户<br>3.计算并推荐</p>
+<h2 id="协同过滤算法应用"><a href="#协同过滤算法应用" class="headerlink" title="协同过滤算法应用"></a>协同过滤算法应用</h2><p>实现流程分析：<br><strong>step1:计算用户相似度</strong><br>这里就有不同分支了，用余弦相似度或者皮尔森相关系数（Pearson correlation coefficient）。<br>皮尔森系数的公式：<br><img src="/images/Pearson.png" alt="alt"></p>
+<p>p的取值在[-1,1]之间，随着数字的变化相关性也随之改变。等于0则表示无线性相关，大于0则是正相关，小于0则是负相关。</p>
+<p>下面就是代码实现皮尔森系数了<br><em>code</em>:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sum_xy &#x3D; 0</span><br><span class="line">sum_x&#x3D;0</span><br><span class="line">sum_y&#x3D;0</span><br><span class="line">sum_xx&#x3D;0</span><br><span class="line">sum_yy&#x3D;0</span><br><span class="line">n&#x3D;0</span><br><span class="line">for (x,y) in some_condition:</span><br><span class="line">    n+&#x3D;1</span><br><span class="line">    sum_xy+&#x3D;x*y</span><br><span class="line">    sum_x+&#x3D;x</span><br><span class="line">    sum_y+&#x3D;y</span><br><span class="line">    sum_xx+&#x3D;pow(x,2)</span><br><span class="line">    sum_yy+&#x3D;pow(y,2)</span><br><span class="line">if(n&#x3D;&#x3D;0):</span><br><span class="line">    return 0</span><br><span class="line"></span><br><span class="line">&lt;!-- 皮尔森相关系数的公式 --&gt;</span><br><span class="line">denominator&#x3D;sqrt(sum_xx - pow(sum_x)&#x2F;n) * sqrt(sum_yy-pow(sum_y)&#x2F;n)</span><br><span class="line">if denominator &#x3D;&#x3D;0:</span><br><span class="line">    return 0</span><br><span class="line">else:</span><br><span class="line">    numerator&#x3D;sum_xy-(sum_x * sum_y)&#x2F;n</span><br><span class="line">    return numerator &#x2F; denominator</span><br></pre></td></tr></table></figure>
+
+<p>以下为实例的完整代码：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">import pdb</span><br><span class="line">import csv</span><br><span class="line">from math import sqrt</span><br><span class="line"></span><br><span class="line">rows &#x3D; []</span><br><span class="line">csvFile &#x3D; open(&#39;user_book.csv&#39;, &#39;r&#39;)</span><br><span class="line">reader &#x3D; csv.reader(csvFile)</span><br><span class="line">for row in reader:</span><br><span class="line">     rows.append(row)</span><br><span class="line">rows.remove(rows[0]) #remove 1st row</span><br><span class="line">print(&quot;rows:\n%s\n&quot; % rows)</span><br><span class="line">csvFile.close()</span><br><span class="line"></span><br><span class="line">users &#x3D; &#123;&#125;</span><br><span class="line">for row in rows:</span><br><span class="line">     if row[0] not in users:        </span><br><span class="line">          users[row[0]] &#x3D; &#123;&#125;</span><br><span class="line">     users[row[0]][row[2]] &#x3D; float(row[1])</span><br><span class="line">print(&quot;users:\n%s\n&quot; % users)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">class recommender:</span><br><span class="line">    #k：the nearest k neighbors</span><br><span class="line">    #cnt：recommend count</span><br><span class="line">    def __init__(self, dataset, k&#x3D;3, cnt&#x3D;2):</span><br><span class="line">        self.k &#x3D; k</span><br><span class="line">        self.cnt &#x3D; cnt</span><br><span class="line">        if type(dataset).__name__ &#x3D;&#x3D; &#39;dict&#39;:</span><br><span class="line">            self.dataset &#x3D; dataset</span><br><span class="line"></span><br><span class="line">    # pearson correlation coefficient</span><br><span class="line">    def pearson(self, touser, dataset):</span><br><span class="line">        sum_xy &#x3D; 0</span><br><span class="line">        sum_x &#x3D; 0</span><br><span class="line">        sum_y &#x3D; 0</span><br><span class="line">        sum_xx &#x3D; 0</span><br><span class="line">        sum_yy &#x3D; 0</span><br><span class="line">        n &#x3D; 0</span><br><span class="line">        for key in touser:</span><br><span class="line">            if key in dataset:</span><br><span class="line">                n +&#x3D; 1</span><br><span class="line">                x &#x3D; touser[key]</span><br><span class="line">                y &#x3D; dataset[key]</span><br><span class="line">                sum_x +&#x3D; x</span><br><span class="line">                sum_y +&#x3D; y</span><br><span class="line">                sum_xy +&#x3D; x * y</span><br><span class="line">                sum_xx +&#x3D; pow(x, 2)</span><br><span class="line">                sum_yy +&#x3D; pow(y, 2)</span><br><span class="line">        if n &#x3D;&#x3D; 0:</span><br><span class="line">            return 0</span><br><span class="line">        </span><br><span class="line">        denominator &#x3D; sqrt(sum_xx - pow(sum_x, 2) &#x2F; n)  * sqrt(sum_yy - pow(sum_y, 2) &#x2F; n)</span><br><span class="line">        if denominator &#x3D;&#x3D; 0:</span><br><span class="line">            return 0</span><br><span class="line">        else:</span><br><span class="line">            numerator &#x3D; sum_xy - (sum_x * sum_y) &#x2F; n</span><br><span class="line">            return numerator &#x2F; denominator</span><br><span class="line"></span><br><span class="line">    def neighbors(self, username):</span><br><span class="line">        distances &#x3D; []</span><br><span class="line">        for key in self.dataset:</span><br><span class="line">            if key !&#x3D; username:</span><br><span class="line">                distance &#x3D; self.pearson(self.dataset[username],self.dataset[key])</span><br><span class="line">                distances.append((key, distance))</span><br><span class="line"></span><br><span class="line">        distances.sort(key&#x3D;lambda artistTuple: artistTuple[1],reverse&#x3D;True)</span><br><span class="line">        return distances</span><br><span class="line">    def recommend_to_user(self, user):</span><br><span class="line">        # store recommended bookid and weight</span><br><span class="line">        recommendations &#x3D; &#123;&#125;</span><br><span class="line">        neighborlist &#x3D; self.neighbors(user)</span><br><span class="line">        user_dict &#x3D; self.dataset[user]</span><br><span class="line">        </span><br><span class="line">        totalDistance &#x3D; 0.0</span><br><span class="line">        </span><br><span class="line">        # total distance of the nearest k neighbors</span><br><span class="line">        for i in range(self.k):</span><br><span class="line">            totalDistance +&#x3D; neighborlist[i][1]</span><br><span class="line">        if totalDistance&#x3D;&#x3D;0.0:</span><br><span class="line">            totalDistance&#x3D;1.0</span><br><span class="line"> </span><br><span class="line">        #recommend books to to_user who never read</span><br><span class="line">        for i in range(self.k):</span><br><span class="line">            weight &#x3D; neighborlist[i][1] &#x2F; totalDistance</span><br><span class="line">            </span><br><span class="line">            neighbor_name &#x3D; neighborlist[i][0]</span><br><span class="line">            #book and score of user i</span><br><span class="line">            neighbor_books &#x3D; self.dataset[neighbor_name]</span><br><span class="line">            for bookid in neighbor_books:</span><br><span class="line">                if not bookid in user_dict:</span><br><span class="line">                    if bookid not in recommendations:</span><br><span class="line">                        recommendations[bookid] &#x3D; neighbor_books[bookid] * weight</span><br><span class="line">                    else:</span><br><span class="line">                        recommendations[bookid] +&#x3D; neighbor_books[bookid] * weight</span><br><span class="line">                        </span><br><span class="line">        # convert dict to list</span><br><span class="line">        print(&quot;recomend bookid and score weight:\n%s\n&quot; % recommendations)</span><br><span class="line">        recommendations &#x3D; list(recommendations.items())</span><br><span class="line">        </span><br><span class="line">        # sort descending</span><br><span class="line">        recommendations.sort(key&#x3D;lambda artistTuple: artistTuple[1], reverse &#x3D; True)</span><br><span class="line"></span><br><span class="line">        return recommendations[:self.cnt]</span><br><span class="line"></span><br><span class="line">def recommend_bookid_to_user(username):</span><br><span class="line">    bookid_list &#x3D; []</span><br><span class="line">    r &#x3D; recommender(users)</span><br><span class="line">    bookid_and_weight_list &#x3D; r.recommend_to_user(username)</span><br><span class="line">    print (&quot;Recommend bookid and weight:&quot;,bookid_and_weight_list)</span><br><span class="line">    for i in range(len(bookid_and_weight_list)):</span><br><span class="line">        bookid_list.append(bookid_and_weight_list[i][0])</span><br><span class="line">    print (&quot;Recommended bookid: &quot;, bookid_list)</span><br><span class="line">        </span><br><span class="line">if __name__ &#x3D;&#x3D; &#39;__main__&#39;:</span><br><span class="line">   recommend_bookid_to_user(&quot;Li Si&quot;)rec</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>算法</category>
+      </categories>
+      <tags>
+        <tag>协同过滤</tag>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
