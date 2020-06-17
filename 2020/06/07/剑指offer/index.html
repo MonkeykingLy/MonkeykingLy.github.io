@@ -86,7 +86,7 @@
 <meta property="og:site_name" content="胡言乱语">
 <meta property="og:description" content="剑指offer前言  &amp;emsp; 之前零零碎碎做过一些题，但是没有系统的整理过，通过这个blog，系统的整理并且记录一下吧  二叉树镜像 难度：简单描述 ：操作给定的二叉树，将其变换为源二叉树的镜像。二叉树的镜像定义：源二叉树：123456    8   &#x2F;  \  6   10 &#x2F; \  &#x2F; \5  7 9 11    镜像二叉树： 12345    8   &amp;#">
 <meta property="article:published_time" content="2020-06-07T08:44:29.000Z">
-<meta property="article:modified_time" content="2020-06-13T13:26:55.458Z">
+<meta property="article:modified_time" content="2020-06-17T14:16:10.109Z">
 <meta property="article:author" content="哈喽啦木子君">
 <meta property="article:tag" content="code">
 <meta property="article:tag" content="刷题">
@@ -342,8 +342,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2020-06-13T23:26:55+10:00">
-                2020-06-13
+              <time title="更新于" itemprop="dateModified" datetime="2020-06-18T00:16:10+10:00">
+                2020-06-18
               </time>
             
           </span>
@@ -392,7 +392,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  2.5k
+                  3.1k
                 </span>
               
 
@@ -408,7 +408,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  11
+                  13
                 </span>
               
             </div>
@@ -460,6 +460,12 @@
 <h2 id="把二叉树打印成多行"><a href="#把二叉树打印成多行" class="headerlink" title="把二叉树打印成多行"></a>把二叉树打印成多行</h2><p><em>题目</em>:从上到下按层打印二叉树，同一层结点从左至右输出。每一层输出一行。<br><em>代码</em>:</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br></pre></td><td class="code"><pre><span class="line">import java.util.ArrayList;</span><br><span class="line">import java.util.LinkedList;</span><br><span class="line">import java.util.Queue;</span><br><span class="line"></span><br><span class="line">&#x2F;*</span><br><span class="line">public class TreeNode &#123;</span><br><span class="line">    int val &#x3D; 0;</span><br><span class="line">    TreeNode left &#x3D; null;</span><br><span class="line">    TreeNode right &#x3D; null;</span><br><span class="line"></span><br><span class="line">    public TreeNode(int val) &#123;</span><br><span class="line">        this.val &#x3D; val;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line">*&#x2F;</span><br><span class="line">public class Solution &#123;</span><br><span class="line">    ArrayList&lt;ArrayList&lt;Integer&gt; &gt; Print(TreeNode pRoot) &#123;</span><br><span class="line">		&lt;!-- 保存所有的层数 --&gt;</span><br><span class="line">		ArrayList arraylists &#x3D; new ArrayList();</span><br><span class="line">		if(pRoot&#x3D;&#x3D;null)&#123;</span><br><span class="line">			return null;</span><br><span class="line">		&#125;</span><br><span class="line">		&lt;!-- 保存每一层的节点 --&gt;</span><br><span class="line">		ArrayList arraylist &#x3D; new ArrayList();</span><br><span class="line">		&lt;!-- 利用start和end来控制每层的循环次数，end为下一层的数量，start每层结束后会清0 --&gt;</span><br><span class="line">		int start&#x3D;0;</span><br><span class="line">		int end &#x3D; 1;</span><br><span class="line">		Queue quueue &#x3D; new Linkedlist();</span><br><span class="line">		queue.add(pRoot);</span><br><span class="line">		while(!queue.isEmpty())&#123;</span><br><span class="line">			TreeNode temp&#x3D;queue.remove();</span><br><span class="line">			arraylist.append(temp.val);</span><br><span class="line">			start++;</span><br><span class="line">			if(temp.left!&#x3D;null)&#123;</span><br><span class="line">				queue.add(temp.left)</span><br><span class="line">			&#125;</span><br><span class="line">			if(temp.right!&#x3D;null)&#123;</span><br><span class="line">				queue.add(temp.right)</span><br><span class="line">			&#125;</span><br><span class="line">			if(start&#x3D;&#x3D;end)&#123;</span><br><span class="line">				end&#x3D;queue.size();</span><br><span class="line">				start&#x3D;0;</span><br><span class="line">				arraylists.append(arraylist);</span><br><span class="line">				arraylist&#x3D;new ArrayList();</span><br><span class="line"></span><br><span class="line">			&#125;</span><br><span class="line"></span><br><span class="line">		&#125;</span><br><span class="line">		return arraylists;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p><em>思路</em>:这道题相对简单一些吧，不过还是调用了两个结构来辅助。主要就是两个点吧，把这一层的节点都放在一起，并且把这一层节点的下一层按照左右顺序放入ueue中，因为queue是先进先出，所以也会是正确的左右顺序，以此类推就可以了。大的arraylist存的是每一层的，每一层都放在一个小的arraylist里面，遍历输出就可以了。对树结构的理解以及各个语言存储容器的理解吧。</p>
+<h1 id="二叉树的下一个结点"><a href="#二叉树的下一个结点" class="headerlink" title="二叉树的下一个结点"></a>二叉树的下一个结点</h1><p><em>题目</em>:给定一个二叉树和其中的一个结点，请找出中序遍历顺序的下一个结点并且返回。注意，树中的结点不仅包含左右子结点，同时包含指向父结点的指针。</p>
+<p><em>代码</em>:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line">public class TreeLinkNode &#123;</span><br><span class="line">    int val;</span><br><span class="line">    TreeLinkNode left &#x3D; null;</span><br><span class="line">    TreeLinkNode right &#x3D; null;</span><br><span class="line">    TreeLinkNode next &#x3D; null;</span><br><span class="line"></span><br><span class="line">    TreeLinkNode(int val) &#123;</span><br><span class="line">        this.val &#x3D; val;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">public class Solution &#123;</span><br><span class="line">    public TreeLinkNode GetNext(TreeLinkNode pNode)</span><br><span class="line">    &#123;</span><br><span class="line">		if(pNode&#x3D;&#x3D;null)&#123;</span><br><span class="line">			return null;</span><br><span class="line">		&#125;</span><br><span class="line">		if(pNode.right!&#x3D;null)&#123;</span><br><span class="line">			pNode&#x3D;pNode.right;</span><br><span class="line">			while(pNode.left!&#x3D;null)&#123;</span><br><span class="line">				pNode&#x3D;pNode.left;</span><br><span class="line">			&#125;</span><br><span class="line">			return pNode;</span><br><span class="line">		&#125;</span><br><span class="line">		while(pNode.next!&#x3D;null)&#123;</span><br><span class="line">			if(pNode.next.left&#x3D;&#x3D;pNode)&#123;</span><br><span class="line">				return pNode.next;</span><br><span class="line">			&#125;</span><br><span class="line">			pNode&#x3D;pNode.next;</span><br><span class="line">		&#125;</span><br><span class="line">		return null;</span><br><span class="line">        </span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><em>思路</em>:这道题还真把我难住了，中序遍历很简单，左中右，但是如何判断下一个节点还真让我无处下手。又看了看中序遍历以及后面的讨论，总算是有些头绪了。中序遍历的规则就是优先找左节点，用这个规则反推就差不多了。下面举个栗子！</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"> 	    A</span><br><span class="line"> 	   &#x2F;  \</span><br><span class="line"> 	  B    E</span><br><span class="line"> 	   \    \</span><br><span class="line"> 	   C    F</span><br><span class="line"> &#x2F;    &#x2F;</span><br><span class="line">D    G</span><br><span class="line">    &#x2F; \</span><br><span class="line">H   K</span><br></pre></td></tr></table></figure>
+<p>就像这个图，中序遍历的结果是：BDC A EHGKF. 我们可以发现，如果当前节点有右子节点，那么它的下一个节点就是它右节点的左节点（如果有的话，没有就是右子节点）。例如：B,它的下一个节点就是D,还有E,它的下一个子节点就是H.那么另外一种情况就是没有右子节点，例如C,F.F是最后一个节点有点特殊，我们就用C来举例。C的下一个节点是A，那么就是找到第一个节点并且这个节点是父节点的左子节点。例如：C节点的下一个节点是A，父节点是B，B的父节点是A并且B是A的左子节点，A已经是root了，所以就是A了。<br>代码不长，很短，但是很考验对于树结构的认知以及遍历的顺序关系，我认为考的很细。</p>
 
       
     </div>
@@ -605,7 +611,7 @@
               
                 <a href="/archives/%7C%7C%20archive">
               
-                  <span class="site-state-item-count">15</span>
+                  <span class="site-state-item-count">16</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -670,7 +676,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#剑指offer"><span class="nav-number">1.</span> <span class="nav-text">剑指offer</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#二叉树镜像"><span class="nav-number">1.1.</span> <span class="nav-text">二叉树镜像</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#扑克牌顺子"><span class="nav-number">1.2.</span> <span class="nav-text">扑克牌顺子</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#数组中重复的数字"><span class="nav-number">1.3.</span> <span class="nav-text">数组中重复的数字</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#数组中的逆序对"><span class="nav-number">1.4.</span> <span class="nav-text">数组中的逆序对</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#数字在排序数组中出现的次数"><span class="nav-number">2.</span> <span class="nav-text">数字在排序数组中出现的次数</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#把二叉树打印成多行"><span class="nav-number">2.1.</span> <span class="nav-text">把二叉树打印成多行</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#剑指offer"><span class="nav-number">1.</span> <span class="nav-text">剑指offer</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#二叉树镜像"><span class="nav-number">1.1.</span> <span class="nav-text">二叉树镜像</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#扑克牌顺子"><span class="nav-number">1.2.</span> <span class="nav-text">扑克牌顺子</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#数组中重复的数字"><span class="nav-number">1.3.</span> <span class="nav-text">数组中重复的数字</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#数组中的逆序对"><span class="nav-number">1.4.</span> <span class="nav-text">数组中的逆序对</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#数字在排序数组中出现的次数"><span class="nav-number">2.</span> <span class="nav-text">数字在排序数组中出现的次数</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#把二叉树打印成多行"><span class="nav-number">2.1.</span> <span class="nav-text">把二叉树打印成多行</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#二叉树的下一个结点"><span class="nav-number">3.</span> <span class="nav-text">二叉树的下一个结点</span></a></li></ol></div>
             
 
           </div>
@@ -704,7 +710,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">9.2k</span>
+    <span title="Site words total count">10k</span>
   
 </div>
 
