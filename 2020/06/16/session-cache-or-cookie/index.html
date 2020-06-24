@@ -86,7 +86,7 @@
 <meta property="og:site_name" content="胡言乱语">
 <meta property="og:description" content="用户登录的浅显初识 题目已经点破了今天的主题，在于用户登录信息的存储。我们在登录一些网站的时候，会遇见这样的情况，明明已经关闭了，一会儿再打开的以后发现已经不需要登录了，自动显示你之前的登录信息。这就是今天要说的情况。  让用户频繁的登录不是一个让人舒服的设定，尤其是用户关掉browser之后突然想起还有件事忘了，再打开却发现登录失效了，这是一个非常没有必要的事情，尤其是一些购物网站，用户会频繁的">
 <meta property="article:published_time" content="2020-06-16T01:31:13.000Z">
-<meta property="article:modified_time" content="2020-06-16T02:18:04.340Z">
+<meta property="article:modified_time" content="2020-06-24T13:48:34.097Z">
 <meta property="article:author" content="哈喽啦木子君">
 <meta property="article:tag" content="web">
 <meta name="twitter:card" content="summary">
@@ -341,8 +341,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2020-06-16T12:18:04+10:00">
-                2020-06-16
+              <time title="更新于" itemprop="dateModified" datetime="2020-06-24T23:48:34+10:00">
+                2020-06-24
               </time>
             
           </span>
@@ -391,7 +391,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  890
+                  1.1k
                 </span>
               
 
@@ -439,6 +439,7 @@
 <h2 id="cookie"><a href="#cookie" class="headerlink" title="cookie"></a>cookie</h2><p>这个词应该算是这仨中比较有名的了，你的浏览器的历史信息之类的都跟cookie有关系，而一些游客，未登录的访客信息等都是通过cookie在存储的。一般你第一次访问一些网站，例如amazon，它会自动给你生成一个cookie，你下次再访问的时候就会使用这个cookie_id。cookie中一般存储一些不太敏感的信息，声=生命周期也是可以修改的，一般是浏览器关闭，cookie结束。cookie会以明文的形式存储在客户端。</p>
 <h2 id="session"><a href="#session" class="headerlink" title="session"></a>session</h2><p>session，会话。虽然我觉得这个翻译怪怪的，不是很信达雅，非常暴力的直接翻译。就当作专业名词吧。session被使用的频率应该是最高的了，session的信息会被存储在服务器的内存中，与整个会话周期有关，嗯，就理解为访问过程吧。信息不会被主动丢弃，哪怕存储空间超过了设定，也不会主动丢弃数据。也不会被序列化。</p>
 <p>先说到这吧，后续会补充的……</p>
+<h2 id="token"><a href="#token" class="headerlink" title="token"></a>token</h2><p>6.24的补充–<br>其实早就该写了，拖到现在……<br>token这个东西现在用的非常多，主要就是这个玩意不怎么占地方，就是一串字符，每次后端接受信息的时候，就会作出验证，又没这个字符串，是不是这个用户的，有那就返回想要的数据。token的存在时间理论上也是一个会话的时间，会话结束就自动销毁，再加上一般把token放在header里，也挺安全的。那么长的无序字符串，数字加字母的组合还是停靠谱的。token的大力推行还是离不开移动端的大力发展。目前也就这么多了解了，以后再补上吧。</p>
 
       
     </div>
@@ -582,7 +583,7 @@
               
                 <a href="/archives/%7C%7C%20archive">
               
-                  <span class="site-state-item-count">16</span>
+                  <span class="site-state-item-count">17</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -604,7 +605,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">12</span>
+                  <span class="site-state-item-count">13</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -647,7 +648,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#用户登录的浅显初识"><span class="nav-number">1.</span> <span class="nav-text">用户登录的浅显初识</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#cache"><span class="nav-number">1.1.</span> <span class="nav-text">cache</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#cookie"><span class="nav-number">1.2.</span> <span class="nav-text">cookie</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#session"><span class="nav-number">1.3.</span> <span class="nav-text">session</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#用户登录的浅显初识"><span class="nav-number">1.</span> <span class="nav-text">用户登录的浅显初识</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#cache"><span class="nav-number">1.1.</span> <span class="nav-text">cache</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#cookie"><span class="nav-number">1.2.</span> <span class="nav-text">cookie</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#session"><span class="nav-number">1.3.</span> <span class="nav-text">session</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#token"><span class="nav-number">1.4.</span> <span class="nav-text">token</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -681,7 +682,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">10k</span>
+    <span title="Site words total count">11.3k</span>
   
 </div>
 
