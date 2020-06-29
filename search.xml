@@ -444,4 +444,35 @@
         <tag>相似度</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Python虚拟环境与环境依赖</title>
+    <url>/2020/06/29/Python%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83%E4%B8%8E%E7%8E%AF%E5%A2%83%E4%BE%9D%E8%B5%96/</url>
+    <content><![CDATA[<h1 id="随迟但到，简单的python虚拟环境已经依赖包打包"><a href="#随迟但到，简单的python虚拟环境已经依赖包打包" class="headerlink" title="随迟但到，简单的python虚拟环境已经依赖包打包"></a>随迟但到，简单的python虚拟环境已经依赖包打包</h1><blockquote>
+<p>其实这个东西应该一开始就写下来，但是一直觉得没啥用，知道昨天队友跟我要后端文件进行测试，结果有个module就是安装不了，一直报错，我就推荐队友安装虚拟环境，并且直接安装我的requirement.txt.</p>
+</blockquote>
+<p>1.安装虚拟环境：<br>强烈推荐直接按装python3，如果有特殊需求再安装python2</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudp python3 install virtualenv</span><br></pre></td></tr></table></figure>
+
+<p>2.创见虚拟环境：<br>这个具体位置见仁见智，一般会和你的工程在一个目录下</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">virtualenv venv</span><br></pre></td></tr></table></figure>
+<p>venv是虚拟环境的名字，你可以自己定义。运行之后，会在你的当前目录创建一个名为venv的文件夹</p>
+<p>3.启动虚拟环境</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">source venv&#x2F;bin&#x2F;activate</span><br></pre></td></tr></table></figure>
+<p>启动之后，你的终端命令行前面会有个“(venv)”</p>
+<p>4.关闭虚拟环境</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">venv deactivate</span><br></pre></td></tr></table></figure>
+
+<p>打包依赖：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">pip freeze &gt; requirements.txt</span><br></pre></td></tr></table></figure>
+<p>之后会生成当前python环境左右的依赖包。</p>
+<p>安装依赖环境</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">pip install -r requirements.txt</span><br></pre></td></tr></table></figure>
+
+<p>还有一个结构树，我们一般会看见readme里会有整个工程的主要结构：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">brew install tree</span><br><span class="line">$tree -L 1</span><br></pre></td></tr></table></figure>
+<p>-L 1只显示以及目录，具体可以用</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">tree help</span><br></pre></td></tr></table></figure>
+
+]]></content>
+  </entry>
 </search>
