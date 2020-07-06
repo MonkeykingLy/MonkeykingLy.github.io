@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>06-08</title>
-    <url>/2020/06/08/06-08/</url>
-    <content><![CDATA[<h1 id="随随便便"><a href="#随随便便" class="headerlink" title="随随便便"></a>随随便便</h1><h3 id="comp9101-assignrmnt1"><a href="#comp9101-assignrmnt1" class="headerlink" title="comp9101-assignrmnt1"></a>comp9101-assignrmnt1</h3><p>&emsp; 又颓废了两天，今天正好也是周一，恢复正常吧<br>comp9101的assignemtn1有点小难啊，还有给了hints，再结合网上查阅的资料，总算完成了大部分。自我感觉算法这一块需要好好补一补缺漏了。这个assignemnt用到了多次排序算法的分析，还有分治的思路。最蛋疼的还是数学吧，求导换底之类的都忘的差不多了，不过本身水平也不咋地…………<br>&emsp; 然后就是latex，不得不说自从上学期多次使用之后已经爱上了这个东西，word，算个捷豹！latex写公式和伪代码是真的舒服，看起来也很舒爽。不过写blog用的是markdown，有时候容易记混了，导致自己觉得写出来了，但是渲染不出来…………</p>
-<h3 id="comp9900"><a href="#comp9900" class="headerlink" title="comp9900"></a>comp9900</h3><p>&emsp; 这周就得把proposal的核心内容搞出来，像system flow之类的，下周再扣扣细节就交了。之后就是代码实现了，希望自己的表现不要太糟糕。</p>
-<h3 id="leetcode"><a href="#leetcode" class="headerlink" title="leetcode"></a>leetcode</h3><p>&emsp; 以后关于算法题的内容我应该都会叫leetcode吧，简单直接。其实周末还是默默增增的看了俩题的，不过都是简单的题，接下来就得好好对待一下了，认真分析题目，尝试 free-bug…………就当在想peach吧，分析题目这个真的很重要，每次看待讨论区的大神们真的惊呼卧槽！尤其是上次那道贪心算法的题，大神分析过后就感觉简单的一匹！</p>
-<p><strong>着眼当下，踏实前进！</strong></p>
-]]></content>
-      <categories>
-        <category>发骚</category>
-      </categories>
-      <tags>
-        <tag>杂记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>06-08-清晨杂想</title>
     <url>/2020/06/09/06-08-%E6%B8%85%E6%99%A8%E6%9D%82%E6%83%B3/</url>
     <content><![CDATA[<h1 id="6月9日-来自清晨的回想"><a href="#6月9日-来自清晨的回想" class="headerlink" title="6月9日-来自清晨的回想"></a>6月9日-来自清晨的回想</h1><h2 id="心比天高，命比纸薄"><a href="#心比天高，命比纸薄" class="headerlink" title="心比天高，命比纸薄"></a>心比天高，命比纸薄</h2><p>昨晚又有些着相了，不知为何，可能是很多事情堆叠的压力吧，自己无意中没有hold住，这泄露的微毫的压力默默影响了我，还好今早起来回味过来了。我一旦感受到沉重的压力，不是直接颓废躺倒，就是反常的自负自大，眼高手低。希望通过每日写些什么，逐渐摆脱这种情况吧。</p>
@@ -37,33 +22,12 @@
       </tags>
   </entry>
   <entry>
-    <title>06-13</title>
-    <url>/2020/06/13/06-13/</url>
-    <content><![CDATA[<h1 id="6月13日-宁做太平犬，不做乱世人"><a href="#6月13日-宁做太平犬，不做乱世人" class="headerlink" title="6月13日-宁做太平犬，不做乱世人"></a>6月13日-宁做太平犬，不做乱世人</h1><p>本来就颓废了周四一日，结果周五一觉起来，头疼的厉害，不得不又划了一天，不过还是把proposal的任务分配完了。顺便也看了看相似度算法的大概，不看不知道，一看吓一跳，里面的门道确实颇多啊。</p>
-<p>本来今日打算好好啃一啃相似算法，再把9101彻底弄完交了，结果早上醒来，新发地突发疫情，搞的自己是心神不宁，毕竟父母与好友都在北京，父母年岁也越发的大了，倘若真的染上了，也不知扛得住扛不住。人啊，毕竟还是自私的动物，尤其是涉及到自己家庭的时候。</p>
-<p>当然了，这个时候还是要听从组织指挥，这个不是嘲讽，而是事实，个体在巨大灾祸面前风险的承担能力几乎为0，但是群体就不一样了。希望赶紧追本溯源，找到源头，控制住。</p>
-<p>不得不说，在这次疫情当中，大数据与物联网发挥了极大的作用，定位与追查，这也是未来的趋势。有些方面的实施交给计算机来做，可以一定程度的避免人为的错误，其实我之前也对计算机与人的操作的认知有些不全面，后来跟赫爷一起去泰国的时候聊过这个问题，就是飞机的飞控与人哪个更能防止操作失误，后来我也意识到了，这些失误不就是人弄出来的吗，只要我们在写飞控的时候考虑全面，的确比人更能减少失误。</p>
-<p>其实政府的政务也是如此，填表填表填表……填表本身没有问题，这就是个信息的简单集中处理，但是这个过程重复性替代性太高了，而且人为失误也比较多。明明可以出一个办公系统，自动过滤填写内容，后台系统自动计数统计。这都会比人为处理要更快更准确，其中的可操作性也就更低了。</p>
-<p>说的有些杂七杂八的，主要还是心乱了，随便写点东西让心静一静吧。</p>
-<blockquote>
-<p><em>二十一世纪是<s>生物</s>信息的世纪！！</em></p>
-</blockquote>
-]]></content>
-      <tags>
-        <tag>杂记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>06-11杂记</title>
-    <url>/2020/06/11/06-11%E6%9D%82%E8%AE%B0/</url>
-    <content><![CDATA[<h1 id="6月11日–随便说点啥"><a href="#6月11日–随便说点啥" class="headerlink" title="6月11日–随便说点啥"></a>6月11日–随便说点啥</h1><p>今天又是颓废的一天，下午才打算做点什么，可能是前两天太累了，疯狂写东西。<br>然后就是把算法和算法题分开，把算法单独写一章，例如归并排序，二分算法等，<br>leetcode或者剑指上面一般都是算法的变种，在一些算法的细节上添加元素。</p>
-<p>然后就是顺阳大佬说的评论问题，我看了看好像也没啥，再研究一下吧。</p>
-<p>今天得把皮尔森算法搞完，毕竟推荐系统得靠这个…………</p>
-<p>刷题，9101，django……</p>
-<p>如果有时间，就先建个user的数据模型吧，算是9900的第一步吧。</p>
-<blockquote>
-<p><em>长风破浪会有时，直挂云帆济沧海</em></p>
-</blockquote>
+    <title>06-08</title>
+    <url>/2020/06/08/06-08/</url>
+    <content><![CDATA[<h1 id="随随便便"><a href="#随随便便" class="headerlink" title="随随便便"></a>随随便便</h1><h3 id="comp9101-assignrmnt1"><a href="#comp9101-assignrmnt1" class="headerlink" title="comp9101-assignrmnt1"></a>comp9101-assignrmnt1</h3><p>&emsp; 又颓废了两天，今天正好也是周一，恢复正常吧<br>comp9101的assignemtn1有点小难啊，还有给了hints，再结合网上查阅的资料，总算完成了大部分。自我感觉算法这一块需要好好补一补缺漏了。这个assignemnt用到了多次排序算法的分析，还有分治的思路。最蛋疼的还是数学吧，求导换底之类的都忘的差不多了，不过本身水平也不咋地…………<br>&emsp; 然后就是latex，不得不说自从上学期多次使用之后已经爱上了这个东西，word，算个捷豹！latex写公式和伪代码是真的舒服，看起来也很舒爽。不过写blog用的是markdown，有时候容易记混了，导致自己觉得写出来了，但是渲染不出来…………</p>
+<h3 id="comp9900"><a href="#comp9900" class="headerlink" title="comp9900"></a>comp9900</h3><p>&emsp; 这周就得把proposal的核心内容搞出来，像system flow之类的，下周再扣扣细节就交了。之后就是代码实现了，希望自己的表现不要太糟糕。</p>
+<h3 id="leetcode"><a href="#leetcode" class="headerlink" title="leetcode"></a>leetcode</h3><p>&emsp; 以后关于算法题的内容我应该都会叫leetcode吧，简单直接。其实周末还是默默增增的看了俩题的，不过都是简单的题，接下来就得好好对待一下了，认真分析题目，尝试 free-bug…………就当在想peach吧，分析题目这个真的很重要，每次看待讨论区的大神们真的惊呼卧槽！尤其是上次那道贪心算法的题，大神分析过后就感觉简单的一匹！</p>
+<p><strong>着眼当下，踏实前进！</strong></p>
 ]]></content>
       <categories>
         <category>发骚</category>
@@ -99,6 +63,42 @@
       </tags>
   </entry>
   <entry>
+    <title>06-11杂记</title>
+    <url>/2020/06/11/06-11%E6%9D%82%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="6月11日–随便说点啥"><a href="#6月11日–随便说点啥" class="headerlink" title="6月11日–随便说点啥"></a>6月11日–随便说点啥</h1><p>今天又是颓废的一天，下午才打算做点什么，可能是前两天太累了，疯狂写东西。<br>然后就是把算法和算法题分开，把算法单独写一章，例如归并排序，二分算法等，<br>leetcode或者剑指上面一般都是算法的变种，在一些算法的细节上添加元素。</p>
+<p>然后就是顺阳大佬说的评论问题，我看了看好像也没啥，再研究一下吧。</p>
+<p>今天得把皮尔森算法搞完，毕竟推荐系统得靠这个…………</p>
+<p>刷题，9101，django……</p>
+<p>如果有时间，就先建个user的数据模型吧，算是9900的第一步吧。</p>
+<blockquote>
+<p><em>长风破浪会有时，直挂云帆济沧海</em></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>发骚</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>06-13</title>
+    <url>/2020/06/13/06-13/</url>
+    <content><![CDATA[<h1 id="6月13日-宁做太平犬，不做乱世人"><a href="#6月13日-宁做太平犬，不做乱世人" class="headerlink" title="6月13日-宁做太平犬，不做乱世人"></a>6月13日-宁做太平犬，不做乱世人</h1><p>本来就颓废了周四一日，结果周五一觉起来，头疼的厉害，不得不又划了一天，不过还是把proposal的任务分配完了。顺便也看了看相似度算法的大概，不看不知道，一看吓一跳，里面的门道确实颇多啊。</p>
+<p>本来今日打算好好啃一啃相似算法，再把9101彻底弄完交了，结果早上醒来，新发地突发疫情，搞的自己是心神不宁，毕竟父母与好友都在北京，父母年岁也越发的大了，倘若真的染上了，也不知扛得住扛不住。人啊，毕竟还是自私的动物，尤其是涉及到自己家庭的时候。</p>
+<p>当然了，这个时候还是要听从组织指挥，这个不是嘲讽，而是事实，个体在巨大灾祸面前风险的承担能力几乎为0，但是群体就不一样了。希望赶紧追本溯源，找到源头，控制住。</p>
+<p>不得不说，在这次疫情当中，大数据与物联网发挥了极大的作用，定位与追查，这也是未来的趋势。有些方面的实施交给计算机来做，可以一定程度的避免人为的错误，其实我之前也对计算机与人的操作的认知有些不全面，后来跟赫爷一起去泰国的时候聊过这个问题，就是飞机的飞控与人哪个更能防止操作失误，后来我也意识到了，这些失误不就是人弄出来的吗，只要我们在写飞控的时候考虑全面，的确比人更能减少失误。</p>
+<p>其实政府的政务也是如此，填表填表填表……填表本身没有问题，这就是个信息的简单集中处理，但是这个过程重复性替代性太高了，而且人为失误也比较多。明明可以出一个办公系统，自动过滤填写内容，后台系统自动计数统计。这都会比人为处理要更快更准确，其中的可操作性也就更低了。</p>
+<p>说的有些杂七杂八的，主要还是心乱了，随便写点东西让心静一静吧。</p>
+<blockquote>
+<p><em>二十一世纪是<s>生物</s>信息的世纪！！</em></p>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>杂记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>06-18 凌晨的反思</title>
     <url>/2020/06/18/06-18-%E5%87%8C%E6%99%A8%E7%9A%84%E5%8F%8D%E6%80%9D/</url>
     <content><![CDATA[<h1 id="深夜的确适合思考"><a href="#深夜的确适合思考" class="headerlink" title="深夜的确适合思考"></a>深夜的确适合思考</h1><blockquote>
@@ -112,19 +112,31 @@
       </tags>
   </entry>
   <entry>
-    <title>6月25日-清风拂山岗</title>
-    <url>/2020/06/25/6%E6%9C%8825%E6%97%A5-%E6%B8%85%E9%A3%8E%E6%8B%82%E5%B1%B1%E5%B2%97/</url>
-    <content><![CDATA[<h1 id="6月25日-困乏中还是要记录一下！"><a href="#6月25日-困乏中还是要记录一下！" class="headerlink" title="6月25日-困乏中还是要记录一下！"></a>6月25日-困乏中还是要记录一下！</h1><blockquote>
-<p>他强任他强，清风拂山岗</p>
-</blockquote>
-<h2 id="django-重写auth-model"><a href="#django-重写auth-model" class="headerlink" title="django-重写auth model"></a>django-重写auth model</h2><p>原本是有django原生的user model做的login和register，但是register昨晚没有好好测试，今天测了之后发现问题很大，extend比较麻烦，还不如自己重写一个结构。<br>于是乎，谷歌加上官方文档，不得不说官方文档还是蛮详细的，这一点flask就做的不是很好。<br>具体细节就不多表述了，官网文档有完整的example。<br>但就是比照着写，自己还是有很多疏漏，少些个s真是个大问题，已经犯过很多次这样的错误了……。<br>为力防止对接出问题，又额外多写了一些属性。然后就是用postman测试，还好。<br>还有个关键点是注册成功后也是要按照登录成功一样，返回用户的token，因为之前写了自动生成token的代码，所以可以直接根据注册用户查到。这里会用到一个代码：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">token, created &#x3D; Token.objects.create_or_get(user&#x3D;user)</span><br></pre></td></tr></table></figure>
-<p>这里要注意后面的user，这里的user其实是个object，就是我们定义的auth.usermodel。<br>我就用来比较笨的方法，save()之后，根据之前的username，找到object带入就可以了。</p>
-<h2 id="axios-跨域以及异步"><a href="#axios-跨域以及异步" class="headerlink" title="axios-跨域以及异步"></a>axios-跨域以及异步</h2><p>整完了登录注册，就打算先把使用google book api的搜索页面用vue重构一下。<br>这就涉及到了另外一个问题，我是封装的axios，并且制定了baseURL，所以我之前封装好的axios就没法用了，于是从网上找了个简单的办法，重新封装了一个。其实有挺高明的办法，但是目前理解不能……<br>之后就是使用了，很简单的就成功获取了返回数据，但是是一个promise结构，这就很蛋疼了，看了看，我这就一个input，也不好写异步函数，也就只能用then了，还好没什么大问题。<br>再然后就是把结果展示在页面下方，原版的是用html拼接的，我原本也是打算这样写的，后来才意识到，我是在用vue啊。于是乎，在data()建了个空list用来存储获取的book info object。然后在template里面使用v-if和v-for。这里其实就跟flask和Django的模版渲染很像了，之前写了很多，也稍微熟练一点。顺理成章的，图片title都成功出现在了下方。基本上重构完成了大部分工作，接下来就是好好排版了。明天搞吧，困死了……</p>
-<h2 id="what’s-next"><a href="#what’s-next" class="headerlink" title="what’s next?"></a>what’s next?</h2><p>明天估计就是把book和collection的model弄好，如果可以的话。还有就是9101，就写了一道题，赶紧把剩下的写完，这次基本都是大数算法的部分，得好好看看。</p>
+    <title>Django之初见</title>
+    <url>/2020/06/09/Django%E4%B9%8B%E5%88%9D%E8%A7%81/</url>
+    <content><![CDATA[<h1 id="Django"><a href="#Django" class="headerlink" title="Django"></a>Django</h1><p>花了一天半把django官网的实例做了一遍，不得不说有些地方的确比flask舒服，如果真的是萌新，尤其是对任务框架不熟悉的却想做一个完整的web server，很推荐Django。flask的灵活也是相对的，有时候萌新真的无处下手，官网的教程跟Django的比起来差的太远了。但是熟悉了开发流程并有了一些经验后，不喜欢Django束缚的人，flask真的是非常好的框架了。<br>总之，各有千秋吧。</p>
 <blockquote>
-<p>正因为之前已经浪费了许多，之后便不能再浪费了，更加不可因为之前的颓废而丧失希望，往前走才能有机会。</p>
+<p><strong>君子性非异也，善假于物也！</strong></p>
 </blockquote>
+]]></content>
+      <categories>
+        <category>framework</category>
+      </categories>
+      <tags>
+        <tag>Django</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>07-01 一步一步往前爬</title>
+    <url>/2020/07/01/07-01-%E4%B8%80%E6%AD%A5%E4%B8%80%E6%AD%A5%E5%BE%80%E5%89%8D%E7%88%AC/</url>
+    <content><![CDATA[<h1 id="南半球的冬天，阳光明媚"><a href="#南半球的冬天，阳光明媚" class="headerlink" title="南半球的冬天，阳光明媚"></a>南半球的冬天，阳光明媚</h1><blockquote>
+<p>又是一日好天气，不过马上就又要变了，这世间哪有一成不变的东西。</p>
+</blockquote>
+<p>今天把 9900 的书库的增删查写完了，改忘了……，毕竟不如前几个。还把外建的序列化初步完成了，不得不说，自己还是看清了 Django，毕竟是个成熟的开发框架了，怎么可能轻易被人吃透。</p>
+<p>下一步计划就是进一步完善 model，吧 book 和 review 写完，这样就只剩下推荐系统了。不过再次之前还得挑选一些数据填充数据库，这可是个体力活……</p>
+<p>基本上快把剑指的二叉树部分刷完了，下面估计不是 dfs/bfs,就是贪心，或者动态规划，这些都是硬骨头啊，二叉树，链表比起这几个，感觉就像小玩闹。</p>
+<p>昨天跟博为聊天，感觉就像两个巨婴在抱团取暖一样，哎……</p>
+<p>这场世纪的大变局依然逐渐波及到个人了，不要有任何的侥幸心里，这是你死我亡的斗争，民族自当为明日一搏，渺小的个人也当一搏！</p>
 ]]></content>
       <tags>
         <tag>发骚</tag>
@@ -158,6 +170,38 @@
 ]]></content>
       <tags>
         <tag>发骚</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>6月25日-清风拂山岗</title>
+    <url>/2020/06/25/6%E6%9C%8825%E6%97%A5-%E6%B8%85%E9%A3%8E%E6%8B%82%E5%B1%B1%E5%B2%97/</url>
+    <content><![CDATA[<h1 id="6月25日-困乏中还是要记录一下！"><a href="#6月25日-困乏中还是要记录一下！" class="headerlink" title="6月25日-困乏中还是要记录一下！"></a>6月25日-困乏中还是要记录一下！</h1><blockquote>
+<p>他强任他强，清风拂山岗</p>
+</blockquote>
+<h2 id="django-重写auth-model"><a href="#django-重写auth-model" class="headerlink" title="django-重写auth model"></a>django-重写auth model</h2><p>原本是有django原生的user model做的login和register，但是register昨晚没有好好测试，今天测了之后发现问题很大，extend比较麻烦，还不如自己重写一个结构。<br>于是乎，谷歌加上官方文档，不得不说官方文档还是蛮详细的，这一点flask就做的不是很好。<br>具体细节就不多表述了，官网文档有完整的example。<br>但就是比照着写，自己还是有很多疏漏，少些个s真是个大问题，已经犯过很多次这样的错误了……。<br>为力防止对接出问题，又额外多写了一些属性。然后就是用postman测试，还好。<br>还有个关键点是注册成功后也是要按照登录成功一样，返回用户的token，因为之前写了自动生成token的代码，所以可以直接根据注册用户查到。这里会用到一个代码：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">token, created &#x3D; Token.objects.create_or_get(user&#x3D;user)</span><br></pre></td></tr></table></figure>
+<p>这里要注意后面的user，这里的user其实是个object，就是我们定义的auth.usermodel。<br>我就用来比较笨的方法，save()之后，根据之前的username，找到object带入就可以了。</p>
+<h2 id="axios-跨域以及异步"><a href="#axios-跨域以及异步" class="headerlink" title="axios-跨域以及异步"></a>axios-跨域以及异步</h2><p>整完了登录注册，就打算先把使用google book api的搜索页面用vue重构一下。<br>这就涉及到了另外一个问题，我是封装的axios，并且制定了baseURL，所以我之前封装好的axios就没法用了，于是从网上找了个简单的办法，重新封装了一个。其实有挺高明的办法，但是目前理解不能……<br>之后就是使用了，很简单的就成功获取了返回数据，但是是一个promise结构，这就很蛋疼了，看了看，我这就一个input，也不好写异步函数，也就只能用then了，还好没什么大问题。<br>再然后就是把结果展示在页面下方，原版的是用html拼接的，我原本也是打算这样写的，后来才意识到，我是在用vue啊。于是乎，在data()建了个空list用来存储获取的book info object。然后在template里面使用v-if和v-for。这里其实就跟flask和Django的模版渲染很像了，之前写了很多，也稍微熟练一点。顺理成章的，图片title都成功出现在了下方。基本上重构完成了大部分工作，接下来就是好好排版了。明天搞吧，困死了……</p>
+<h2 id="what’s-next"><a href="#what’s-next" class="headerlink" title="what’s next?"></a>what’s next?</h2><p>明天估计就是把book和collection的model弄好，如果可以的话。还有就是9101，就写了一道题，赶紧把剩下的写完，这次基本都是大数算法的部分，得好好看看。</p>
+<blockquote>
+<p>正因为之前已经浪费了许多，之后便不能再浪费了，更加不可因为之前的颓废而丧失希望，往前走才能有机会。</p>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>发骚</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hello-hexo</title>
+    <url>/2020/06/05/hello-hexo/</url>
+    <content><![CDATA[<h2 id="新的开始"><a href="#新的开始" class="headerlink" title="新的开始"></a>新的开始</h2><p>&emsp;重新用hexo搭建了一个个人blog，感觉就清爽很多!</p>
+<h3 id="by-the-way："><a href="#by-the-way：" class="headerlink" title="by the way："></a>by the way：</h3><p>把老的blog删掉的时候忘了备份了…………还好没写几天，后面把内容再补上吧</p>
+]]></content>
+      <categories>
+        <category>初始</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
       </tags>
   </entry>
   <entry>
@@ -206,19 +250,35 @@
       </tags>
   </entry>
   <entry>
-    <title>Django之初见</title>
-    <url>/2020/06/09/Django%E4%B9%8B%E5%88%9D%E8%A7%81/</url>
-    <content><![CDATA[<h1 id="Django"><a href="#Django" class="headerlink" title="Django"></a>Django</h1><p>花了一天半把django官网的实例做了一遍，不得不说有些地方的确比flask舒服，如果真的是萌新，尤其是对任务框架不熟悉的却想做一个完整的web server，很推荐Django。flask的灵活也是相对的，有时候萌新真的无处下手，官网的教程跟Django的比起来差的太远了。但是熟悉了开发流程并有了一些经验后，不喜欢Django束缚的人，flask真的是非常好的框架了。<br>总之，各有千秋吧。</p>
-<blockquote>
-<p><strong>君子性非异也，善假于物也！</strong></p>
+    <title>Python虚拟环境与环境依赖</title>
+    <url>/2020/06/29/Python%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83%E4%B8%8E%E7%8E%AF%E5%A2%83%E4%BE%9D%E8%B5%96/</url>
+    <content><![CDATA[<h1 id="随迟但到，简单的python虚拟环境已经依赖包打包"><a href="#随迟但到，简单的python虚拟环境已经依赖包打包" class="headerlink" title="随迟但到，简单的python虚拟环境已经依赖包打包"></a>随迟但到，简单的python虚拟环境已经依赖包打包</h1><blockquote>
+<p>其实这个东西应该一开始就写下来，但是一直觉得没啥用，知道昨天队友跟我要后端文件进行测试，结果有个module就是安装不了，一直报错，我就推荐队友安装虚拟环境，并且直接安装我的requirement.txt.</p>
 </blockquote>
+<p>1.安装虚拟环境：<br>强烈推荐直接按装python3，如果有特殊需求再安装python2</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudp python3 install virtualenv</span><br></pre></td></tr></table></figure>
+
+<p>2.创见虚拟环境：<br>这个具体位置见仁见智，一般会和你的工程在一个目录下</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">virtualenv venv</span><br></pre></td></tr></table></figure>
+<p>venv是虚拟环境的名字，你可以自己定义。运行之后，会在你的当前目录创建一个名为venv的文件夹</p>
+<p>3.启动虚拟环境</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">source venv&#x2F;bin&#x2F;activate</span><br></pre></td></tr></table></figure>
+<p>启动之后，你的终端命令行前面会有个“(venv)”</p>
+<p>4.关闭虚拟环境</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">venv deactivate</span><br></pre></td></tr></table></figure>
+
+<p>打包依赖：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">pip freeze &gt; requirements.txt</span><br></pre></td></tr></table></figure>
+<p>之后会生成当前python环境左右的依赖包。</p>
+<p>安装依赖环境</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">pip install -r requirements.txt</span><br></pre></td></tr></table></figure>
+
+<p>还有一个结构树，我们一般会看见readme里会有整个工程的主要结构：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">brew install tree</span><br><span class="line">$tree -L 1</span><br></pre></td></tr></table></figure>
+<p>-L 1只显示以及目录，具体可以用</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">tree help</span><br></pre></td></tr></table></figure>
+
 ]]></content>
-      <categories>
-        <category>framework</category>
-      </categories>
-      <tags>
-        <tag>Django</tag>
-      </tags>
   </entry>
   <entry>
     <title>Hello World</title>
@@ -237,6 +297,46 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>session,cache or cookie?</title>
+    <url>/2020/06/16/session-cache-or-cookie/</url>
+    <content><![CDATA[<h1 id="用户登录的浅显初识"><a href="#用户登录的浅显初识" class="headerlink" title="用户登录的浅显初识"></a>用户登录的浅显初识</h1><blockquote>
+<p>题目已经点破了今天的主题，在于用户登录信息的存储。我们在登录一些网站的时候，会遇见这样的情况，明明已经关闭了，一会儿再打开的以后发现已经不需要登录了，自动显示你之前的登录信息。这就是今天要说的情况。</p>
+</blockquote>
+<p>让用户频繁的登录不是一个让人舒服的设定，尤其是用户关掉browser之后突然想起还有件事忘了，再打开却发现登录失效了，这是一个非常没有必要的事情，尤其是一些购物网站，用户会频繁的登录，那么记录登录用户的信息，使得输入用户名密码这件事情大大的减少会提高浏览的流畅度，避免浪费时间在登录上。</p>
+<p>9900的项目要做一个读书的推荐交流平台，那么这种保持用户登录状态的设定是必不可少的。由于本人也没啥开发经验，也就之前学习计算机网络的时候接触了一些cookie，但是还被老师警告⚠️cookie并不安全……所以google大法好……</p>
+<p>好了，经过一段时间的google已经查阅Django官方文档，发现目前也就三种方法来实现用户持续登录。session，cache and cookie。</p>
+<h2 id="cache"><a href="#cache" class="headerlink" title="cache"></a>cache</h2><p>先来聊聊cache吧，缓存，其实都不陌生，保存在本地的缓存中，这个应该是三种中最快的了。其实在大多数的I/O操作中，缓存都是必不可少的，而且速度都非常的可观。用户发送请求后，服务器将返回请求的信息，同时也将开辟一个缓存空间，将已经返回的信息存储在缓存中，如果有相同的请求操作，那么将直接从缓存中读取数据，而不再从服务器中请求数据，节省了从服务器返回的时间。cahce的周期一般等同于该程序的周期，程序结束进程，那么缓存将被清除，程序重新建立，那么缓存也将重新建立实体。</p>
+<p>cache会占用大量的内存，缓存嘛……如果空间存满了，新的信息是无法进入的。所以要提前预估好信息的大小。</p>
+<h2 id="cookie"><a href="#cookie" class="headerlink" title="cookie"></a>cookie</h2><p>这个词应该算是这仨中比较有名的了，你的浏览器的历史信息之类的都跟cookie有关系，而一些游客，未登录的访客信息等都是通过cookie在存储的。一般你第一次访问一些网站，例如amazon，它会自动给你生成一个cookie，你下次再访问的时候就会使用这个cookie_id。cookie中一般存储一些不太敏感的信息，声=生命周期也是可以修改的，一般是浏览器关闭，cookie结束。cookie会以明文的形式存储在客户端。</p>
+<h2 id="session"><a href="#session" class="headerlink" title="session"></a>session</h2><p>session，会话。虽然我觉得这个翻译怪怪的，不是很信达雅，非常暴力的直接翻译。就当作专业名词吧。session被使用的频率应该是最高的了，session的信息会被存储在服务器的内存中，与整个会话周期有关，嗯，就理解为访问过程吧。信息不会被主动丢弃，哪怕存储空间超过了设定，也不会主动丢弃数据。也不会被序列化。</p>
+<p>先说到这吧，后续会补充的……</p>
+<h2 id="token"><a href="#token" class="headerlink" title="token"></a>token</h2><p>6.24的补充–<br>其实早就该写了，拖到现在……<br>token这个东西现在用的非常多，主要就是这个玩意不怎么占地方，就是一串字符，每次后端接受信息的时候，就会作出验证，又没这个字符串，是不是这个用户的，有那就返回想要的数据。token的存在时间理论上也是一个会话的时间，会话结束就自动销毁，再加上一般把token放在header里，也挺安全的。那么长的无序字符串，数字加字母的组合还是停靠谱的。token的大力推行还是离不开移动端的大力发展。目前也就这么多了解了，以后再补上吧。</p>
+]]></content>
+      <categories>
+        <category>web</category>
+      </categories>
+      <tags>
+        <tag>web</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo menu配置的天坑</title>
+    <url>/2020/06/11/hexo-menu%E9%85%8D%E7%BD%AE%E7%9A%84%E5%A4%A9%E5%9D%91/</url>
+    <content><![CDATA[<h1 id="hexo-next的天坑"><a href="#hexo-next的天坑" class="headerlink" title="hexo next的天坑"></a>hexo next的天坑</h1><p>成功搭建了blog，其实很多细节并没有完善，想到一出就改一出，正好今天添加了一个 live2d小姐姐～～<br>然后我就试了试其他功能，突然发现主页、分类、标签之类的返回一个空白页。<br>这就很蛋疼了，之前因为文章少，也就没在意，这下问题可就得必须解决了。<br>先在本地试了试，运行hexo server之后，点击主页，会返回一个白页，并有一行文字</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Cannot GET &#x2F;archives&#x2F;%20&#x2F;</span><br></pre></td></tr></table></figure>
+<p>主页有，分类有，标签也有，menn栏所有的按钮点完之后都会这样。<br>遇事不决就google，谷歌之后发现似乎有很多答案啊，一个一个看进去，却卵用没有。<br>都是让人 hexo new page 的。但是现在hexo得搭建攻略这么完善，谁会忘记这个？<br>还有人说修改主题 _config.yml 里面menu的注释符号的…………全TM是复制粘贴的混子，卵用没有。<br>还好英文搜索总算有点用，下面就说一下这个问题。</p>
+<p>报错信息中的 /%20/ 是指的空格的意思，具体就是menu配置中“||”与前一个变量之间不能有空格，删掉就行了</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!-- 解决前 --&gt;</span><br><span class="line">menu:</span><br><span class="line">  home: &#x2F; || home</span><br><span class="line">  about: &#x2F;about&#x2F; || user</span><br><span class="line">  tags: &#x2F;tags&#x2F; || tags</span><br><span class="line">  categories: &#x2F;categories&#x2F; || th</span><br><span class="line"></span><br><span class="line">&lt;!-- 解决后 --&gt;</span><br><span class="line">menu:</span><br><span class="line">  home: &#x2F;|| home</span><br><span class="line">  about: &#x2F;about&#x2F;|| user</span><br><span class="line">  tags: &#x2F;tags&#x2F;|| tags</span><br><span class="line">  categories: &#x2F;categories&#x2F;|| th</span><br></pre></td></tr></table></figure>
+<p>就是删掉空格就行，中文搜索一堆废物垃圾结果…………</p>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>吐槽</tag>
+      </tags>
   </entry>
   <entry>
     <title>user_based推荐系统</title>
@@ -261,61 +361,27 @@
       </tags>
   </entry>
   <entry>
-    <title>hello-hexo</title>
-    <url>/2020/06/05/hello-hexo/</url>
-    <content><![CDATA[<h2 id="新的开始"><a href="#新的开始" class="headerlink" title="新的开始"></a>新的开始</h2><p>&emsp;重新用hexo搭建了一个个人blog，感觉就清爽很多!</p>
-<h3 id="by-the-way："><a href="#by-the-way：" class="headerlink" title="by the way："></a>by the way：</h3><p>把老的blog删掉的时候忘了备份了…………还好没写几天，后面把内容再补上吧</p>
-]]></content>
-      <categories>
-        <category>初始</category>
-      </categories>
-      <tags>
-        <tag>杂记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo menu配置的天坑</title>
-    <url>/2020/06/11/hexo-menu%E9%85%8D%E7%BD%AE%E7%9A%84%E5%A4%A9%E5%9D%91/</url>
-    <content><![CDATA[<h1 id="hexo-next的天坑"><a href="#hexo-next的天坑" class="headerlink" title="hexo next的天坑"></a>hexo next的天坑</h1><p>成功搭建了blog，其实很多细节并没有完善，想到一出就改一出，正好今天添加了一个 live2d小姐姐～～<br>然后我就试了试其他功能，突然发现主页、分类、标签之类的返回一个空白页。<br>这就很蛋疼了，之前因为文章少，也就没在意，这下问题可就得必须解决了。<br>先在本地试了试，运行hexo server之后，点击主页，会返回一个白页，并有一行文字</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Cannot GET &#x2F;archives&#x2F;%20&#x2F;</span><br></pre></td></tr></table></figure>
-<p>主页有，分类有，标签也有，menn栏所有的按钮点完之后都会这样。<br>遇事不决就google，谷歌之后发现似乎有很多答案啊，一个一个看进去，却卵用没有。<br>都是让人 hexo new page 的。但是现在hexo得搭建攻略这么完善，谁会忘记这个？<br>还有人说修改主题 _config.yml 里面menu的注释符号的…………全TM是复制粘贴的混子，卵用没有。<br>还好英文搜索总算有点用，下面就说一下这个问题。</p>
-<p>报错信息中的 /%20/ 是指的空格的意思，具体就是menu配置中“||”与前一个变量之间不能有空格，删掉就行了</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!-- 解决前 --&gt;</span><br><span class="line">menu:</span><br><span class="line">  home: &#x2F; || home</span><br><span class="line">  about: &#x2F;about&#x2F; || user</span><br><span class="line">  tags: &#x2F;tags&#x2F; || tags</span><br><span class="line">  categories: &#x2F;categories&#x2F; || th</span><br><span class="line"></span><br><span class="line">&lt;!-- 解决后 --&gt;</span><br><span class="line">menu:</span><br><span class="line">  home: &#x2F;|| home</span><br><span class="line">  about: &#x2F;about&#x2F;|| user</span><br><span class="line">  tags: &#x2F;tags&#x2F;|| tags</span><br><span class="line">  categories: &#x2F;categories&#x2F;|| th</span><br></pre></td></tr></table></figure>
-<p>就是删掉空格就行，中文搜索一堆废物垃圾结果…………</p>
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>吐槽</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>算法合集</title>
-    <url>/2020/06/11/%E7%AE%97%E6%B3%95%E5%90%88%E9%9B%86/</url>
-    <content><![CDATA[<h1 id="算法归纳"><a href="#算法归纳" class="headerlink" title="算法归纳"></a>算法归纳</h1><blockquote>
-<p>刷题的时候除了一些字符串或者智力题，大部分都是算法的变种，打算把原生算法和算法题分开，在这单独写一章。</p>
+    <title>相似度算法</title>
+    <url>/2020/06/13/%E7%9B%B8%E4%BC%BC%E5%BA%A6%E7%AE%97%E6%B3%95/</url>
+    <content><![CDATA[<h1 id="相似度算法（similarity-algorithm）"><a href="#相似度算法（similarity-algorithm）" class="headerlink" title="相似度算法（similarity algorithm）"></a>相似度算法（similarity algorithm）</h1><blockquote>
+<p>前言：前两日为了9900特意搜了搜推荐系统，着重看的是user-base-cf，当时不是很理解，就随便了看了，什么余弦，什么皮尔森。后来又仔细看了看，因为想选个简单的，当时以为，余弦和皮尔森是不同的两种相似度方法，当然了，这话也没错，只不过现在看来不太准确。</p>
 </blockquote>
-<h2 id="归并排序-分治"><a href="#归并排序-分治" class="headerlink" title="归并排序-分治"></a>归并排序-分治</h2><p><em>前言</em>:<br>最近一直在接触归并排序的分治算法，于是抽时间好好看了看，顺便总结一下，分治归并的题也非常的多，一举两得啦。</p>
-<p><em>代码</em>:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">piblic class Merge-sort-algorithm&#123;</span><br><span class="line">	public static void Merge(int [] arr,int p,int q,int r)&#123;</span><br><span class="line">		&#x2F;&#x2F;声明一个临时数组，排序好的会装进去，最后再重写原数组</span><br><span class="line">		int [] copy&#x3D;new int[r-p+1];</span><br><span class="line">		int i&#x3D;p;</span><br><span class="line">		int j&#x3D;q+1;</span><br><span class="line">		int k&#x3D;0;</span><br><span class="line">		while(i&lt;&#x3D;q &amp;&amp; j&lt;&#x3D;r)&#123;</span><br><span class="line">			if(arr[i]&lt;&#x3D;arr[j])&#123;</span><br><span class="line">				&#x2F;&#x2F;大小比较，小的先放进去</span><br><span class="line">				copy[k++]&#x3D;arr[i++]</span><br><span class="line">			&#125;else&#123;</span><br><span class="line">				copy[k++]&#x3D;arr[j++]</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">		&#x2F;&#x2F;左边剩余的数全都放进去</span><br><span class="line">		while(i&lt;&#x3D;q)&#123;</span><br><span class="line">			copy[k++]&#x3D;arr[i++]</span><br><span class="line">		&#125;</span><br><span class="line">		&#x2F;&#x2F;右边剩余的数全都放进去</span><br><span class="line">		while(j&lt;&#x3D;r)&#123;</span><br><span class="line">			copy[k++]&#x3D;arr[j++]</span><br><span class="line">		&#125;</span><br><span class="line">		&#x2F;&#x2F;把原数组重写，注意覆盖原数组的坐标位置是根据起始位置开始的</span><br><span class="line">		for(int e&#x3D;0;e&lt;copy.length;e++)&#123;</span><br><span class="line">			arr[p+e]&#x3D;copy[e]</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line">	public static void Merge-sort(int [] arr, int p,int r)&#123;</span><br><span class="line">		int q&#x3D;(p+r)&#x2F;2;</span><br><span class="line">		if(p&lt;r)&#123;</span><br><span class="line">			&#x2F;&#x2F;递归调用</span><br><span class="line">			Merge-sort(arr,p,q);</span><br><span class="line">			Merge-sort(arr,q+1,r);</span><br><span class="line">			&#x2F;&#x2F;归并排序元素</span><br><span class="line">			Merge(arr,p,q,r);</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line">	public static void main(args[]String)&#123;</span><br><span class="line">		int [] arr&#x3D;&#123;5,2,4,7,1,3,2,6&#125;;</span><br><span class="line">		Merge-sort(arr,0,arr.length-1);</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="二分搜索算法"><a href="#二分搜索算法" class="headerlink" title="二分搜索算法"></a>二分搜索算法</h2><p><em>思路</em>:</p>
-<blockquote>
-<p>二分搜索是一种高效的搜索匹配算法，尤其是针对有序数组，时间复杂度为$O(logn)$。算法的局限性也很明显，需要有序的数组。二分法在算法中是非常常见的，整个过程也都很固定。先根据数组长度，找到mid，然后用目标与mid比较大小，如果比mid大，那么将会搜索mid-array.length这部分的元素。反之，则搜索array[0]-mid的部分。之后重复上述步骤，进行递归。</p>
-</blockquote>
-<p><em>代码</em>:非递归</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public class algorithm&#123;</span><br><span class="line">	public static int Binary-search(int[] arr,int key)&#123;</span><br><span class="line">		int start&#x3D;0;</span><br><span class="line">		int end&#x3D;arr.length;</span><br><span class="line">		int mid;</span><br><span class="line">		while(start&lt;&#x3D;end)&#123;</span><br><span class="line">			mid&#x3D;(start+end)&#x2F;2</span><br><span class="line">			if(key&gt;mid)&#123;</span><br><span class="line">				start&#x3D;mid+1;</span><br><span class="line">			&#125;elif(key&lt;mid)&#123;</span><br><span class="line">				end&#x3D;mid-1;</span><br><span class="line">			&#125;else&#123;</span><br><span class="line">				return mid;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		return -1;</span><br><span class="line">	&#125;</span><br><span class="line">	public stactic void main(args [] String)&#123;</span><br><span class="line">		int [] arr&#x3D;&#123;1,2,3,4,5,6,7,8&#125;;</span><br><span class="line">		int key &#x3D; 7;</span><br><span class="line">		Binary_search(arr,key);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p><em>代码</em>:递归</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public class algorithm&#123;</span><br><span class="line">	public static int Binary-search(int[] arr,int key,int start,int end)&#123;</span><br><span class="line">		int mid &#x3D; (start+end)&#x2F;2;</span><br><span class="line">		if(mid&#x3D;&#x3D;key)&#123;</span><br><span class="line">			return mid;</span><br><span class="line">		&#125;</span><br><span class="line">		if(start&gt;&#x3D;end)&#123;</span><br><span class="line">			return -1;</span><br><span class="line">		&#125;elif(mid&gt;key)&#123;</span><br><span class="line">			Binary-search(arr,key,mid+1,end);</span><br><span class="line">		&#125;elif(mid&lt;mid)&#123;</span><br><span class="line">			Binary-search(arr,key,start,mid-1);</span><br><span class="line">		&#125;</span><br><span class="line">		return -1;</span><br><span class="line">	&#125;</span><br><span class="line">	public stactic void main(args [] String)&#123;</span><br><span class="line">		int [] arr&#x3D;&#123;1,2,3,4,5,6,7,8&#125;;</span><br><span class="line">		int key &#x3D; 7;</span><br><span class="line">		int strat&#x3D;0;</span><br><span class="line">		int end&#x3D;arr.length;</span><br><span class="line">		Binary_search(arr,key,start,end);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><em>感悟</em>:这个算法分为递归和非递归的，非递归的看起来清楚明晰一些吧。然后就是题目了，剑指offer里面就有很多的变种题。就例如找到一个有序数列中的重复的数字。</p>
+<h2 id="余弦算法"><a href="#余弦算法" class="headerlink" title="余弦算法"></a>余弦算法</h2><p>cosine，这玩意从初中开始就伴随着我们，鉴于当时的理解，也就是非常片面的理解为一个夹角而已，高中好像根据cosine教了些别的，不过都忘了……</p>
+<p>余弦算法，其实理解起来也很简单。就是直观上的看两个向量的余弦夹角来判断他们的相似性。</p>
+<p><img src="/images/consine_p.jpg" alt="alt"></p>
+<p>公式如下：<br><img src="/images/consine_formula.jpg" alt="alt"></p>
+<p>但是问题来就来了，两个向量或许consine夹角比较小，他们的向量长度却差的很多，余弦相似度却无法判断这种情况。例如，有两个用户，A与B，有两本书，A与B对两本书的评分分别是（1，2），（4，5）。可以看出，他俩都对两本书有过评分，但是评分的差距却很大，这种情况下，余弦相似度是无法将这种信息准确的表达出来的。而且，余弦相似无法在维度缺失的情况下进行计算，必须要求两个向量维度相同，如果A(1,2,4,B(4,5,NULL), 这种情况下余弦是没有办法进行计算的。</p>
+<h2 id="皮尔森相关系数（Pearson-Correlation-Coefficient）"><a href="#皮尔森相关系数（Pearson-Correlation-Coefficient）" class="headerlink" title="皮尔森相关系数（Pearson Correlation Coefficient）"></a>皮尔森相关系数（Pearson Correlation Coefficient）</h2><p>皮尔森相关系数就是余弦相似度在维度缺失的情况下的一种改进。</p>
+<p>公式在推荐系统那张。</p>
+<p>简而言之，皮尔森系数会在计算前进行中心化计算。就是在计算前，把null都填充成0，然后让所有其他的维度减去这个向量各维度的平均值。但是也没有摆脱计算余弦夹角的范畴。</p>
+<p>今天就先扯到这吧，其实理解上还是有些偏差的，等后面理解深了再来做修正补充吧。</p>
 ]]></content>
       <categories>
         <category>算法</category>
+        <category>推荐系统</category>
       </categories>
       <tags>
-        <tag>算法</tag>
+        <tag>相似度</tag>
       </tags>
   </entry>
   <entry>
@@ -386,26 +452,61 @@
       </tags>
   </entry>
   <entry>
-    <title>session,cache or cookie?</title>
-    <url>/2020/06/16/session-cache-or-cookie/</url>
-    <content><![CDATA[<h1 id="用户登录的浅显初识"><a href="#用户登录的浅显初识" class="headerlink" title="用户登录的浅显初识"></a>用户登录的浅显初识</h1><blockquote>
-<p>题目已经点破了今天的主题，在于用户登录信息的存储。我们在登录一些网站的时候，会遇见这样的情况，明明已经关闭了，一会儿再打开的以后发现已经不需要登录了，自动显示你之前的登录信息。这就是今天要说的情况。</p>
+    <title>算法合集</title>
+    <url>/2020/06/11/%E7%AE%97%E6%B3%95%E5%90%88%E9%9B%86/</url>
+    <content><![CDATA[<h1 id="算法归纳"><a href="#算法归纳" class="headerlink" title="算法归纳"></a>算法归纳</h1><blockquote>
+<p>刷题的时候除了一些字符串或者智力题，大部分都是算法的变种，打算把原生算法和算法题分开，在这单独写一章。</p>
 </blockquote>
-<p>让用户频繁的登录不是一个让人舒服的设定，尤其是用户关掉browser之后突然想起还有件事忘了，再打开却发现登录失效了，这是一个非常没有必要的事情，尤其是一些购物网站，用户会频繁的登录，那么记录登录用户的信息，使得输入用户名密码这件事情大大的减少会提高浏览的流畅度，避免浪费时间在登录上。</p>
-<p>9900的项目要做一个读书的推荐交流平台，那么这种保持用户登录状态的设定是必不可少的。由于本人也没啥开发经验，也就之前学习计算机网络的时候接触了一些cookie，但是还被老师警告⚠️cookie并不安全……所以google大法好……</p>
-<p>好了，经过一段时间的google已经查阅Django官方文档，发现目前也就三种方法来实现用户持续登录。session，cache and cookie。</p>
-<h2 id="cache"><a href="#cache" class="headerlink" title="cache"></a>cache</h2><p>先来聊聊cache吧，缓存，其实都不陌生，保存在本地的缓存中，这个应该是三种中最快的了。其实在大多数的I/O操作中，缓存都是必不可少的，而且速度都非常的可观。用户发送请求后，服务器将返回请求的信息，同时也将开辟一个缓存空间，将已经返回的信息存储在缓存中，如果有相同的请求操作，那么将直接从缓存中读取数据，而不再从服务器中请求数据，节省了从服务器返回的时间。cahce的周期一般等同于该程序的周期，程序结束进程，那么缓存将被清除，程序重新建立，那么缓存也将重新建立实体。</p>
-<p>cache会占用大量的内存，缓存嘛……如果空间存满了，新的信息是无法进入的。所以要提前预估好信息的大小。</p>
-<h2 id="cookie"><a href="#cookie" class="headerlink" title="cookie"></a>cookie</h2><p>这个词应该算是这仨中比较有名的了，你的浏览器的历史信息之类的都跟cookie有关系，而一些游客，未登录的访客信息等都是通过cookie在存储的。一般你第一次访问一些网站，例如amazon，它会自动给你生成一个cookie，你下次再访问的时候就会使用这个cookie_id。cookie中一般存储一些不太敏感的信息，声=生命周期也是可以修改的，一般是浏览器关闭，cookie结束。cookie会以明文的形式存储在客户端。</p>
-<h2 id="session"><a href="#session" class="headerlink" title="session"></a>session</h2><p>session，会话。虽然我觉得这个翻译怪怪的，不是很信达雅，非常暴力的直接翻译。就当作专业名词吧。session被使用的频率应该是最高的了，session的信息会被存储在服务器的内存中，与整个会话周期有关，嗯，就理解为访问过程吧。信息不会被主动丢弃，哪怕存储空间超过了设定，也不会主动丢弃数据。也不会被序列化。</p>
-<p>先说到这吧，后续会补充的……</p>
-<h2 id="token"><a href="#token" class="headerlink" title="token"></a>token</h2><p>6.24的补充–<br>其实早就该写了，拖到现在……<br>token这个东西现在用的非常多，主要就是这个玩意不怎么占地方，就是一串字符，每次后端接受信息的时候，就会作出验证，又没这个字符串，是不是这个用户的，有那就返回想要的数据。token的存在时间理论上也是一个会话的时间，会话结束就自动销毁，再加上一般把token放在header里，也挺安全的。那么长的无序字符串，数字加字母的组合还是停靠谱的。token的大力推行还是离不开移动端的大力发展。目前也就这么多了解了，以后再补上吧。</p>
+<h2 id="归并排序-分治"><a href="#归并排序-分治" class="headerlink" title="归并排序-分治"></a>归并排序-分治</h2><p><em>前言</em>:<br>最近一直在接触归并排序的分治算法，于是抽时间好好看了看，顺便总结一下，分治归并的题也非常的多，一举两得啦。</p>
+<p><em>代码</em>:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">piblic class Merge-sort-algorithm&#123;</span><br><span class="line">	public static void Merge(int [] arr,int p,int q,int r)&#123;</span><br><span class="line">		&#x2F;&#x2F;声明一个临时数组，排序好的会装进去，最后再重写原数组</span><br><span class="line">		int [] copy&#x3D;new int[r-p+1];</span><br><span class="line">		int i&#x3D;p;</span><br><span class="line">		int j&#x3D;q+1;</span><br><span class="line">		int k&#x3D;0;</span><br><span class="line">		while(i&lt;&#x3D;q &amp;&amp; j&lt;&#x3D;r)&#123;</span><br><span class="line">			if(arr[i]&lt;&#x3D;arr[j])&#123;</span><br><span class="line">				&#x2F;&#x2F;大小比较，小的先放进去</span><br><span class="line">				copy[k++]&#x3D;arr[i++]</span><br><span class="line">			&#125;else&#123;</span><br><span class="line">				copy[k++]&#x3D;arr[j++]</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">		&#x2F;&#x2F;左边剩余的数全都放进去</span><br><span class="line">		while(i&lt;&#x3D;q)&#123;</span><br><span class="line">			copy[k++]&#x3D;arr[i++]</span><br><span class="line">		&#125;</span><br><span class="line">		&#x2F;&#x2F;右边剩余的数全都放进去</span><br><span class="line">		while(j&lt;&#x3D;r)&#123;</span><br><span class="line">			copy[k++]&#x3D;arr[j++]</span><br><span class="line">		&#125;</span><br><span class="line">		&#x2F;&#x2F;把原数组重写，注意覆盖原数组的坐标位置是根据起始位置开始的</span><br><span class="line">		for(int e&#x3D;0;e&lt;copy.length;e++)&#123;</span><br><span class="line">			arr[p+e]&#x3D;copy[e]</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line">	public static void Merge-sort(int [] arr, int p,int r)&#123;</span><br><span class="line">		int q&#x3D;(p+r)&#x2F;2;</span><br><span class="line">		if(p&lt;r)&#123;</span><br><span class="line">			&#x2F;&#x2F;递归调用</span><br><span class="line">			Merge-sort(arr,p,q);</span><br><span class="line">			Merge-sort(arr,q+1,r);</span><br><span class="line">			&#x2F;&#x2F;归并排序元素</span><br><span class="line">			Merge(arr,p,q,r);</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line">	public static void main(args[]String)&#123;</span><br><span class="line">		int [] arr&#x3D;&#123;5,2,4,7,1,3,2,6&#125;;</span><br><span class="line">		Merge-sort(arr,0,arr.length-1);</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="二分搜索算法"><a href="#二分搜索算法" class="headerlink" title="二分搜索算法"></a>二分搜索算法</h2><p><em>思路</em>:</p>
+<blockquote>
+<p>二分搜索是一种高效的搜索匹配算法，尤其是针对有序数组，时间复杂度为$O(logn)$。算法的局限性也很明显，需要有序的数组。二分法在算法中是非常常见的，整个过程也都很固定。先根据数组长度，找到mid，然后用目标与mid比较大小，如果比mid大，那么将会搜索mid-array.length这部分的元素。反之，则搜索array[0]-mid的部分。之后重复上述步骤，进行递归。</p>
+</blockquote>
+<p><em>代码</em>:非递归</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public class algorithm&#123;</span><br><span class="line">	public static int Binary-search(int[] arr,int key)&#123;</span><br><span class="line">		int start&#x3D;0;</span><br><span class="line">		int end&#x3D;arr.length;</span><br><span class="line">		int mid;</span><br><span class="line">		while(start&lt;&#x3D;end)&#123;</span><br><span class="line">			mid&#x3D;(start+end)&#x2F;2</span><br><span class="line">			if(key&gt;mid)&#123;</span><br><span class="line">				start&#x3D;mid+1;</span><br><span class="line">			&#125;elif(key&lt;mid)&#123;</span><br><span class="line">				end&#x3D;mid-1;</span><br><span class="line">			&#125;else&#123;</span><br><span class="line">				return mid;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		return -1;</span><br><span class="line">	&#125;</span><br><span class="line">	public stactic void main(args [] String)&#123;</span><br><span class="line">		int [] arr&#x3D;&#123;1,2,3,4,5,6,7,8&#125;;</span><br><span class="line">		int key &#x3D; 7;</span><br><span class="line">		Binary_search(arr,key);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><em>代码</em>:递归</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public class algorithm&#123;</span><br><span class="line">	public static int Binary-search(int[] arr,int key,int start,int end)&#123;</span><br><span class="line">		int mid &#x3D; (start+end)&#x2F;2;</span><br><span class="line">		if(mid&#x3D;&#x3D;key)&#123;</span><br><span class="line">			return mid;</span><br><span class="line">		&#125;</span><br><span class="line">		if(start&gt;&#x3D;end)&#123;</span><br><span class="line">			return -1;</span><br><span class="line">		&#125;elif(mid&gt;key)&#123;</span><br><span class="line">			Binary-search(arr,key,mid+1,end);</span><br><span class="line">		&#125;elif(mid&lt;mid)&#123;</span><br><span class="line">			Binary-search(arr,key,start,mid-1);</span><br><span class="line">		&#125;</span><br><span class="line">		return -1;</span><br><span class="line">	&#125;</span><br><span class="line">	public stactic void main(args [] String)&#123;</span><br><span class="line">		int [] arr&#x3D;&#123;1,2,3,4,5,6,7,8&#125;;</span><br><span class="line">		int key &#x3D; 7;</span><br><span class="line">		int strat&#x3D;0;</span><br><span class="line">		int end&#x3D;arr.length;</span><br><span class="line">		Binary_search(arr,key,start,end);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><em>感悟</em>:这个算法分为递归和非递归的，非递归的看起来清楚明晰一些吧。然后就是题目了，剑指offer里面就有很多的变种题。就例如找到一个有序数列中的重复的数字。</p>
 ]]></content>
       <categories>
-        <category>web</category>
+        <category>算法</category>
       </categories>
       <tags>
-        <tag>web</tag>
+        <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>浅淡Django外键</title>
+    <url>/2020/07/05/%E6%B5%85%E6%B7%A1Django%E5%A4%96%E9%94%AE/</url>
+    <content><![CDATA[<h1 id="聊一聊-Django-里面的外键"><a href="#聊一聊-Django-里面的外键" class="headerlink" title="聊一聊 Django 里面的外键"></a>聊一聊 Django 里面的外键</h1><blockquote>
+<p>最近在用 Django 做一个后端 api，整个数据库呢不是很大，但是个别表的关系让我头大，尤其是 OneToMany 和 MangToMany，今天就先来聊聊 OneToMany。Django 里面上述关系都在子表中声明。</p>
+</blockquote>
+<p>一对多的关系我们一般用外键来解释关系，在 Django 里的，就是在子表里面添加 foreign-key，主表不做修改。<br>比如我现在要写一个出版社和书的 model，一个出版社可以出版很多书，一本书一般只能有一个出版社，那么作者与文章就是 OneToMany 的关系。<br>例如：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">from django.db import models</span><br><span class="line"></span><br><span class="line">class Publish(models.Model):</span><br><span class="line">    name &#x3D; models.CharField(max_length&#x3D;128)</span><br><span class="line">    age &#x3D; models.IntegerField()</span><br><span class="line"></span><br><span class="line">    def __str__(self):</span><br><span class="line">        return self.name</span><br><span class="line"></span><br><span class="line">class Book(models.Model):</span><br><span class="line">    title &#x3D; models.CharField(max_length&#x3D;128)</span><br><span class="line">    publish_date &#x3D; models.DateTimeField(auto_add&#x3D;True)</span><br><span class="line">    publish &#x3D; models.ForeignKey(Publish,on_delete&#x3D;models.CASCADE)</span><br></pre></td></tr></table></figure>
+
+<p>上述两个表呢，出版社是主表，书在这个关系下是子表，子表外键至主表。</p>
+<blockquote>
+<p>tips: django 的 model 在你不指定主键的时候，会自动生成唯一 ID 作为主键。</p>
+</blockquote>
+<p>我们通过子表查询信息：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">book &#x3D; Book.objects.get(id&#x3D;1)</span><br><span class="line">&lt;!-- 查询出版社 --&gt;</span><br><span class="line">publish &#x3D; book.publish</span><br></pre></td></tr></table></figure>
+
+<p>我们通过主表查询信息，也就是反向查询：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Jack &#x3D; Publish.objects.get(id&#x3D;1)</span><br><span class="line">&lt;!-- 我们想查询这个出版社出版过多少书 --&gt;</span><br><span class="line">&lt;!-- 1.不设置relate_name --&gt;</span><br><span class="line">Jack.book_set.all()</span><br><span class="line">&lt;!-- 返回是一个queryset，需要遍历访问 --&gt;</span><br><span class="line">&lt;!-- 如果设置了related_name,例如，related_name&#x3D;&#39;publish_book&#39; --&gt;</span><br><span class="line">Jack.publish_book.all()</span><br><span class="line">&lt;!-- 返回的也是一个queryset，可以简单理解为一个list --&gt;</span><br></pre></td></tr></table></figure>
+
+<p>这就是设置 related_name 的作用，方便主表反向查询，对于子表本身，没什么过多的用处。<br>还有一种就是利用装饰器，但是目前自己对这个方面不太熟悉，就不过多阐述了。</p>
+<p>做一个简单的总结： 1.所有的关系，OneToOneField，ForeignKey，ManyToManyField，这些都在子表中声明，主表不动。 2.为了方便主表反向查询，我们一般会在声明关系时，添加 related_name，方便反向查询。 3.反向查询的结果是一个 queryset，可以简单理解为一个 list，需要遍历访问。有时候我们需要判断存不存在，那么就用 exists()，函数就行，如果 queryset 为空，那么就是 false。</p>
+<blockquote>
+<p>这个只是目前的简单总结，一般都是从简书，CSDN 上东拼西凑的，主要是自己的一个总结，目前来说还是有些不严谨，等后面理解更全面，更深入再来修改吧。也通过这种总结让自己对于 django model 有些更加全面的认识吧。</p>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>Django</tag>
+        <tag>SQL</tag>
       </tags>
   </entry>
   <entry>
@@ -418,61 +519,6 @@
 <p>下面就是for循环。我们面对一个object时，经常要一次取出一些数据，这就需要for循环了。vue在2.2之后要求必须绑定一个唯一的值作为key。以我目前的理解，一般就绑定index就行，而且index也可以作为数据被单独取出。v-for=’(item,index in items)’，这里index方便我们后续的操作。一般情况下我们就取个数据就完事了，但是有时候我们需要根据数据的数量进行排版，这种情况下index就很关键了，比如我一次循环取两个元素，例如：</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;div v-for&#x3D;&#39;(item,index in items)&#39; :key&#x3D;&#39;index&#39;&gt;</span><br><span class="line">  &lt;div v-if&#x3D;&#39; index % 2 &#x3D;&#x3D; 0 &#39;&gt;</span><br><span class="line">    &lt;span&gt;&#123;&#123;items[index]&#125;&#125;&lt;&#x2F;span&gt;</span><br><span class="line">    &lt;span&gt;&#123;&#123;items[index+1]&#125;&#125;&lt;&#x2F;span&gt;</span><br><span class="line">  &lt;&#x2F;div&gt;</span><br><span class="line">&lt;&#x2F;div&gt;</span><br></pre></td></tr></table></figure>
 <p>这样就可以一次获取两个元素了，方便排版。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>相似度算法</title>
-    <url>/2020/06/13/%E7%9B%B8%E4%BC%BC%E5%BA%A6%E7%AE%97%E6%B3%95/</url>
-    <content><![CDATA[<h1 id="相似度算法（similarity-algorithm）"><a href="#相似度算法（similarity-algorithm）" class="headerlink" title="相似度算法（similarity algorithm）"></a>相似度算法（similarity algorithm）</h1><blockquote>
-<p>前言：前两日为了9900特意搜了搜推荐系统，着重看的是user-base-cf，当时不是很理解，就随便了看了，什么余弦，什么皮尔森。后来又仔细看了看，因为想选个简单的，当时以为，余弦和皮尔森是不同的两种相似度方法，当然了，这话也没错，只不过现在看来不太准确。</p>
-</blockquote>
-<h2 id="余弦算法"><a href="#余弦算法" class="headerlink" title="余弦算法"></a>余弦算法</h2><p>cosine，这玩意从初中开始就伴随着我们，鉴于当时的理解，也就是非常片面的理解为一个夹角而已，高中好像根据cosine教了些别的，不过都忘了……</p>
-<p>余弦算法，其实理解起来也很简单。就是直观上的看两个向量的余弦夹角来判断他们的相似性。</p>
-<p><img src="/images/consine_p.jpg" alt="alt"></p>
-<p>公式如下：<br><img src="/images/consine_formula.jpg" alt="alt"></p>
-<p>但是问题来就来了，两个向量或许consine夹角比较小，他们的向量长度却差的很多，余弦相似度却无法判断这种情况。例如，有两个用户，A与B，有两本书，A与B对两本书的评分分别是（1，2），（4，5）。可以看出，他俩都对两本书有过评分，但是评分的差距却很大，这种情况下，余弦相似度是无法将这种信息准确的表达出来的。而且，余弦相似无法在维度缺失的情况下进行计算，必须要求两个向量维度相同，如果A(1,2,4,B(4,5,NULL), 这种情况下余弦是没有办法进行计算的。</p>
-<h2 id="皮尔森相关系数（Pearson-Correlation-Coefficient）"><a href="#皮尔森相关系数（Pearson-Correlation-Coefficient）" class="headerlink" title="皮尔森相关系数（Pearson Correlation Coefficient）"></a>皮尔森相关系数（Pearson Correlation Coefficient）</h2><p>皮尔森相关系数就是余弦相似度在维度缺失的情况下的一种改进。</p>
-<p>公式在推荐系统那张。</p>
-<p>简而言之，皮尔森系数会在计算前进行中心化计算。就是在计算前，把null都填充成0，然后让所有其他的维度减去这个向量各维度的平均值。但是也没有摆脱计算余弦夹角的范畴。</p>
-<p>今天就先扯到这吧，其实理解上还是有些偏差的，等后面理解深了再来做修正补充吧。</p>
-]]></content>
-      <categories>
-        <category>算法</category>
-        <category>推荐系统</category>
-      </categories>
-      <tags>
-        <tag>相似度</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Python虚拟环境与环境依赖</title>
-    <url>/2020/06/29/Python%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83%E4%B8%8E%E7%8E%AF%E5%A2%83%E4%BE%9D%E8%B5%96/</url>
-    <content><![CDATA[<h1 id="随迟但到，简单的python虚拟环境已经依赖包打包"><a href="#随迟但到，简单的python虚拟环境已经依赖包打包" class="headerlink" title="随迟但到，简单的python虚拟环境已经依赖包打包"></a>随迟但到，简单的python虚拟环境已经依赖包打包</h1><blockquote>
-<p>其实这个东西应该一开始就写下来，但是一直觉得没啥用，知道昨天队友跟我要后端文件进行测试，结果有个module就是安装不了，一直报错，我就推荐队友安装虚拟环境，并且直接安装我的requirement.txt.</p>
-</blockquote>
-<p>1.安装虚拟环境：<br>强烈推荐直接按装python3，如果有特殊需求再安装python2</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudp python3 install virtualenv</span><br></pre></td></tr></table></figure>
-
-<p>2.创见虚拟环境：<br>这个具体位置见仁见智，一般会和你的工程在一个目录下</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">virtualenv venv</span><br></pre></td></tr></table></figure>
-<p>venv是虚拟环境的名字，你可以自己定义。运行之后，会在你的当前目录创建一个名为venv的文件夹</p>
-<p>3.启动虚拟环境</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">source venv&#x2F;bin&#x2F;activate</span><br></pre></td></tr></table></figure>
-<p>启动之后，你的终端命令行前面会有个“(venv)”</p>
-<p>4.关闭虚拟环境</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">venv deactivate</span><br></pre></td></tr></table></figure>
-
-<p>打包依赖：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">pip freeze &gt; requirements.txt</span><br></pre></td></tr></table></figure>
-<p>之后会生成当前python环境左右的依赖包。</p>
-<p>安装依赖环境</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">pip install -r requirements.txt</span><br></pre></td></tr></table></figure>
-
-<p>还有一个结构树，我们一般会看见readme里会有整个工程的主要结构：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">brew install tree</span><br><span class="line">$tree -L 1</span><br></pre></td></tr></table></figure>
-<p>-L 1只显示以及目录，具体可以用</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">tree help</span><br></pre></td></tr></table></figure>
-
 ]]></content>
   </entry>
 </search>
